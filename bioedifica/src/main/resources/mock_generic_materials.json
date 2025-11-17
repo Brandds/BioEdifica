@@ -1,0 +1,2639 @@
+{
+  "TotalMaterials": 23425,
+  "countMaterialsOnPage": 50,
+  "current_page": 1,
+  "material_range": [
+    1,
+    50
+  ],
+  "next": "https://app.2050-materials.com/developer/api/get_generic_materials?page=2&page_size=50",
+  "previous": null,
+  "results": [
+    {
+      "id": 319,
+      "source_uuid": "066e8bba-7cca-409e-a40c-32896173d18c",
+      "material_name": "Steel, Plate (per kg)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "Structural accessories",
+      "product_type_family": [
+        "Structural components"
+      ],
+      "uniclass_systems": [
+        "(Ss_20_80) Structure accessory systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_93_85) Structural units"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_52_83) Steel"
+      ],
+      "material_type": "Steel",
+      "material_type_family": "Metals",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfFjefUNgcxz-GLXmdOSo1xGy6ZqqZRQ0siA&s",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "kg",
+      "total_co2e_kg_mf": 2.46,
+      "carbon_a1a3": 2.46,
+      "density": 7850,
+      "density_estimated": false,
+      "mass_per_piece": 5.942888888888888,
+      "mass_per_piece_estimated": true,
+      "mass_per_declared_unit": 1,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:39.718674Z",
+      "updated": "2024-08-21T20:15:51.909989Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=319"
+    },
+    {
+      "id": 320,
+      "source_uuid": "6db285f8-2ce3-4414-93b0-4bbd893bef76",
+      "material_name": "Steel, Section (per kg)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "2.5 - External walls",
+        "2.7 - Internal walls and partitions",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "Framing profiles (Cladding/stud frame)",
+      "product_type_family": [
+        "Framing profiles"
+      ],
+      "uniclass_systems": [
+        "(Ss_25_20) Wall cladding systems",
+        "(Ss_25_10) Framed wall systems"
+      ],
+      "uniclass_products": [
+        "(Pr_25_71_51_88) Steel plate, sheet and strip"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_52_83) Steel"
+      ],
+      "material_type": "Steel",
+      "material_type_family": "Metals",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfFjefUNgcxz-GLXmdOSo1xGy6ZqqZRQ0siA&s",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "kg",
+      "total_co2e_kg_mf": 1.55,
+      "carbon_a1a3": 1.55,
+      "density": 7850,
+      "density_estimated": false,
+      "mass_per_declared_unit": 1,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:39.754693Z",
+      "updated": "2024-08-21T20:15:39.059557Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=320"
+    },
+    {
+      "id": 321,
+      "source_uuid": "fa718df1-717d-4125-adce-6c9360d948a5",
+      "material_name": "Steel, Tinplate (per kg)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "2.6 - Windows and external doors",
+        "2.8 - Internal doors",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "Push plates",
+      "product_type_family": [
+        "Accessories"
+      ],
+      "uniclass_systems": [
+        "(Ss_25_30) Door and window systems",
+        "(Ss_25_38_20) Door and window hardware systems"
+      ],
+      "uniclass_products": [
+        "(Pr_30_36_33_68) Push plates"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_52_83) Steel"
+      ],
+      "material_type": "Steel",
+      "material_type_family": "Metals",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfFjefUNgcxz-GLXmdOSo1xGy6ZqqZRQ0siA&s",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "kg",
+      "total_co2e_kg_mf": 2.85,
+      "carbon_a1a3": 2.85,
+      "density": 7850,
+      "density_estimated": false,
+      "mass_per_declared_unit": 1,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:39.784684Z",
+      "updated": "2024-08-21T20:15:58.549113Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=321"
+    },
+    {
+      "id": 322,
+      "source_uuid": "48d3263f-c8c7-4cb0-a6fd-a0f260546663",
+      "material_name": "Roof or skylight, inc frame (per m2)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "6 - Prefabricated buildings and building units"
+      ],
+      "elements_nrm_1": [
+        "2.3 - Roof",
+        "2.6 - Windows and external doors",
+        "6.1 - Prefabricated buildings and building units"
+      ],
+      "product_type": "Glazing (Windows)",
+      "product_type_family": [
+        "Windows"
+      ],
+      "uniclass_systems": [
+        "(Ss_25_60_35) Glazing systems"
+      ],
+      "uniclass_products": [
+        "(Pr_25_71_33_35) Glass panels"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_35) Glass"
+      ],
+      "material_type": "Glass",
+      "material_type_family": "Glass",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmbRhDg6UdpVdreIZaOJ9jrd1T5w8Z4ClrTQ&s",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m2",
+      "total_co2e_kg_mf": 268,
+      "carbon_a1a3": 268,
+      "density": 2500,
+      "density_estimated": false,
+      "grammage": 86,
+      "grammage_estimated": false,
+      "thickness": 0.0344,
+      "thickness_estimated": false,
+      "mass_per_declared_unit": 86,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:39.813872Z",
+      "updated": "2024-08-21T20:16:42.920849Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=322"
+    },
+    {
+      "id": 323,
+      "source_uuid": "8207d167-0d67-497a-bd0a-6ee66a959482",
+      "material_name": "Concrete GEN 2 with 25% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 191.822,
+      "carbon_a1a3": 191.632,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2360,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2360,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:39.841637Z",
+      "updated": "2025-01-09T06:42:17.564494Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=323"
+    },
+    {
+      "id": 324,
+      "source_uuid": "2e68b7a7-4e1e-41c9-8b89-f3a3a58d8e80",
+      "material_name": "Concrete GEN 2 with 70% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 110.17,
+      "carbon_a1a3": 109.98,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2350,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2350,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:39.870021Z",
+      "updated": "2025-01-09T06:42:22.048687Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=324"
+    },
+    {
+      "id": 325,
+      "source_uuid": "9b0e5e7a-c8b5-4756-9e1b-a37b4fe42a5b",
+      "material_name": "Concrete GEN 2 with average UK additions cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 229.346,
+      "carbon_a1a3": 229.156,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2360,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2360,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:39.898795Z",
+      "updated": "2025-01-09T06:42:23.254149Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=325"
+    },
+    {
+      "id": 326,
+      "source_uuid": "55a81ca7-d0d9-49a6-b947-c6db3f990a5f",
+      "material_name": "Concrete GEN 3 with 25% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 205.51,
+      "carbon_a1a3": 205.32,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2360,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2360,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:39.930201Z",
+      "updated": "2025-01-09T06:42:24.662645Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=326"
+    },
+    {
+      "id": 327,
+      "source_uuid": "39ddcf19-55dd-4502-a4ad-da3e7770fa73",
+      "material_name": "Concrete GEN 3 with 70% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 116.985,
+      "carbon_a1a3": 116.795,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2350,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2350,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:39.958745Z",
+      "updated": "2025-01-09T06:42:24.792704Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=327"
+    },
+    {
+      "id": 328,
+      "source_uuid": "de20db9c-730a-4b92-ad08-0fb476f5b0d5",
+      "material_name": "Concrete GEN 3 with average UK additions cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 246.102,
+      "carbon_a1a3": 245.912,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2360,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2360,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:39.995827Z",
+      "updated": "2025-01-09T06:42:25.277148Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=328"
+    },
+    {
+      "id": 329,
+      "source_uuid": "3adac904-8931-4cbe-815a-152c427743da",
+      "material_name": "Concrete GEN0 with average UK additions cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 154.861,
+      "carbon_a1a3": 154.671,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2365,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2365,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.087365Z",
+      "updated": "2025-01-09T06:42:26.665679Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=329"
+    },
+    {
+      "id": 330,
+      "source_uuid": "a3291faf-bf2a-48f5-9613-6c71be608c6e",
+      "material_name": "Concrete GEN1 with 25% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 243.549,
+      "carbon_a1a3": 243.359,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2365,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2365,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.122456Z",
+      "updated": "2025-01-09T06:42:26.684696Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=330"
+    },
+    {
+      "id": 331,
+      "source_uuid": "c4b56a54-c9c2-463c-8689-c5f3d4e6aa70",
+      "material_name": "Concrete GEN1 with 50% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 216.838,
+      "carbon_a1a3": 216.648,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2360,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2360,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.157169Z",
+      "updated": "2025-01-09T06:42:26.698201Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=331"
+    },
+    {
+      "id": 332,
+      "source_uuid": "da45f3a3-b499-443a-b634-693a9c1b5313",
+      "material_name": "Concrete GEN1 with 70% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 103.322,
+      "carbon_a1a3": 103.132,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2360,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2360,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.189795Z",
+      "updated": "2025-01-09T06:42:26.712080Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=332"
+    },
+    {
+      "id": 333,
+      "source_uuid": "5bd940fa-e317-4297-8e34-e8c7d0e44c13",
+      "material_name": "Concrete GEN1 with average UK additions cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 212.804,
+      "carbon_a1a3": 212.614,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2365,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2365,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.220870Z",
+      "updated": "2025-01-09T06:42:26.725280Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=333"
+    },
+    {
+      "id": 334,
+      "source_uuid": "0a20af51-ba0e-405c-a8f0-f178a5cc49cf",
+      "material_name": "Concrete PAV1 with 25% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 257.892,
+      "carbon_a1a3": 257.702,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2395,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2395,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.254501Z",
+      "updated": "2025-01-09T06:42:26.738135Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=334"
+    },
+    {
+      "id": 335,
+      "source_uuid": "6b27b0e1-4a16-4040-b8c6-5f7ad2da09ee",
+      "material_name": "Concrete PAV1 with 50% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 187.088,
+      "carbon_a1a3": 186.898,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2390,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2390,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.284196Z",
+      "updated": "2025-01-09T06:42:26.752130Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=335"
+    },
+    {
+      "id": 336,
+      "source_uuid": "0a3149bd-a742-44f0-9eb9-2826bcafb896",
+      "material_name": "Concrete PAV1 with 70% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 139.766,
+      "carbon_a1a3": 139.576,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2390,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2390,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.312799Z",
+      "updated": "2025-01-09T06:42:26.766131Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=336"
+    },
+    {
+      "id": 337,
+      "source_uuid": "32417be6-49ab-46ac-bfd1-86a159ef6095",
+      "material_name": "Concrete PAV1 with average UK additions cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 300.7,
+      "carbon_a1a3": 300.51,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2385,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2385,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.344025Z",
+      "updated": "2025-01-09T06:42:26.780495Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=337"
+    },
+    {
+      "id": 338,
+      "source_uuid": "c49ab074-5cca-4f2c-aacd-158b4b7cbcb0",
+      "material_name": "Concrete PAV2 with 25% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 288.548,
+      "carbon_a1a3": 288.358,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2395,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2395,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.372910Z",
+      "updated": "2025-01-09T06:42:27.168749Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=338"
+    },
+    {
+      "id": 339,
+      "source_uuid": "0aba7254-f32b-430b-ab51-8f48005535df",
+      "material_name": "Concrete PAV2 with average UK additions cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 329.797,
+      "carbon_a1a3": 329.607,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2385,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2385,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.403723Z",
+      "updated": "2025-01-09T06:42:28.133335Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=339"
+    },
+    {
+      "id": 340,
+      "source_uuid": "6bd8fc0c-9733-4dcd-91e0-ce5eb528ecf3",
+      "material_name": "Concrete RC20/25 with 25% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 225.799,
+      "carbon_a1a3": 225.609,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2395,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2395,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.431915Z",
+      "updated": "2025-01-09T06:42:28.239224Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=340"
+    },
+    {
+      "id": 341,
+      "source_uuid": "53c7cc2c-1f9a-491c-be9d-10fb5e3daee6",
+      "material_name": "Concrete RC20/25 with 50% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 162.471,
+      "carbon_a1a3": 162.281,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2390,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2390,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.460076Z",
+      "updated": "2025-01-09T06:42:29.166333Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=341"
+    },
+    {
+      "id": 342,
+      "source_uuid": "9bb4112f-72ec-4837-bd30-ebb1bade9827",
+      "material_name": "Concrete RC20/25 with 70% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 126.143,
+      "carbon_a1a3": 125.953,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2390,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2390,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.487719Z",
+      "updated": "2025-01-09T06:42:29.193511Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=342"
+    },
+    {
+      "id": 343,
+      "source_uuid": "146cd451-43cf-45d1-818b-8bf1cf9dd41a",
+      "material_name": "Concrete RC20/25 with average UK additions cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 267.31,
+      "carbon_a1a3": 267.12,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2385,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2385,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.517362Z",
+      "updated": "2025-01-09T06:42:29.522632Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=343"
+    },
+    {
+      "id": 344,
+      "source_uuid": "cc08491b-5c0b-4f14-bd28-4b653508322c",
+      "material_name": "Concrete RC25/30 with 25% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 239.93,
+      "carbon_a1a3": 239.74,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2395,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2395,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.544937Z",
+      "updated": "2025-01-09T06:42:32.069874Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=344"
+    },
+    {
+      "id": 345,
+      "source_uuid": "cdce592e-e917-45ca-9c17-d181628f36ab",
+      "material_name": "Concrete RC25/30 with 50% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 172.27,
+      "carbon_a1a3": 172.08,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2390,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2390,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.573564Z",
+      "updated": "2025-01-09T06:42:32.390506Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=345"
+    },
+    {
+      "id": 346,
+      "source_uuid": "9628c01a-8076-4471-8ade-f8b508e7af6a",
+      "material_name": "Concrete RC25/30 with 70% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 133.074,
+      "carbon_a1a3": 132.884,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2390,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2390,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.603893Z",
+      "updated": "2025-01-09T06:42:32.407429Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=346"
+    },
+    {
+      "id": 347,
+      "source_uuid": "0c8cd7f1-01a1-43f4-a6ee-1533859297db",
+      "material_name": "Concrete RC25/30 with average UK additions cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 284.005,
+      "carbon_a1a3": 283.815,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2385,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2385,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.634291Z",
+      "updated": "2025-01-09T06:42:32.476432Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=347"
+    },
+    {
+      "id": 348,
+      "source_uuid": "a663fdfc-88da-43d8-8ccf-ce132c44e5ba",
+      "material_name": "Concrete RC28/35 with 50% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 186.371,
+      "carbon_a1a3": 186.181,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2390,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2390,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.667258Z",
+      "updated": "2025-01-09T06:42:32.490366Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=348"
+    },
+    {
+      "id": 349,
+      "source_uuid": "598d7cf0-7eb3-418b-9cbb-ae6d9e0e0492",
+      "material_name": "Concrete RC28/35 with average UK additions cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 300.7,
+      "carbon_a1a3": 300.51,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2385,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2385,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.697547Z",
+      "updated": "2025-01-09T06:42:32.806576Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=349"
+    },
+    {
+      "id": 350,
+      "source_uuid": "aaa8e9fc-5732-48dc-b757-bd3303fb7392",
+      "material_name": "Concrete PAV2 with 50% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 212.422,
+      "carbon_a1a3": 212.232,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2390,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2390,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.729122Z",
+      "updated": "2025-01-09T06:42:32.820322Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=350"
+    },
+    {
+      "id": 351,
+      "source_uuid": "27bd48ca-ac17-4281-8fe1-5da86f4e8fec",
+      "material_name": "Concrete RC32/40 with 25% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 288.548,
+      "carbon_a1a3": 288.358,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2395,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2395,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.759592Z",
+      "updated": "2025-01-09T06:42:33.595928Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=351"
+    },
+    {
+      "id": 352,
+      "source_uuid": "279dd3b7-a443-404e-9309-6fc5ca27d7f4",
+      "material_name": "Concrete RC32/40 with 50% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 212.422,
+      "carbon_a1a3": 212.232,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2390,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2390,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.788263Z",
+      "updated": "2025-01-09T06:42:33.763761Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=352"
+    },
+    {
+      "id": 353,
+      "source_uuid": "f0d4bbac-a2e2-4138-af35-cbd3ae4ae54b",
+      "material_name": "Concrete RC32/40 with 70% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 151.716,
+      "carbon_a1a3": 151.526,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2390,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2390,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.820871Z",
+      "updated": "2025-01-09T06:42:36.197577Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=353"
+    },
+    {
+      "id": 354,
+      "source_uuid": "8c86cd4d-2a12-4d75-a3aa-7e3069d9b0d3",
+      "material_name": "Concrete RC32/40 with average UK additions cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 329.797,
+      "carbon_a1a3": 329.607,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2385,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2385,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.849677Z",
+      "updated": "2025-01-09T06:42:36.211320Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=354"
+    },
+    {
+      "id": 355,
+      "source_uuid": "ecd9fa63-8081-40ed-911a-1b15043831b2",
+      "material_name": "Concrete RC35/45 with 25% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 310.103,
+      "carbon_a1a3": 309.913,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2395,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2395,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.877884Z",
+      "updated": "2025-01-09T06:42:37.152531Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=355"
+    },
+    {
+      "id": 356,
+      "source_uuid": "97756df7-6bbb-492f-add2-0434f91099bf",
+      "material_name": "Concrete RC35/45 with 50% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 227.718,
+      "carbon_a1a3": 227.528,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2390,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2390,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.906934Z",
+      "updated": "2025-01-09T06:42:37.423713Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=356"
+    },
+    {
+      "id": 357,
+      "source_uuid": "ffd3cb1a-c594-40c2-8264-a08097147e15",
+      "material_name": "Concrete RC35/45 with 70% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 161.993,
+      "carbon_a1a3": 161.803,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2390,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2390,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.935268Z",
+      "updated": "2025-01-09T06:42:38.688403Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=357"
+    },
+    {
+      "id": 358,
+      "source_uuid": "4fab0a24-4d11-4b62-b542-b57e1a69dba1",
+      "material_name": "Concrete RC35/45 with average UK additions cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 354.84,
+      "carbon_a1a3": 354.65,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2385,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2385,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.963195Z",
+      "updated": "2025-01-09T06:42:39.036485Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=358"
+    },
+    {
+      "id": 359,
+      "source_uuid": "2f422083-21ff-40b0-9015-7eca0f631328",
+      "material_name": "Concrete RC40/50 with 70% GGBS cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 172.031,
+      "carbon_a1a3": 171.841,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2390,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2390,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:40.992218Z",
+      "updated": "2025-01-09T06:42:40.613846Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=359"
+    },
+    {
+      "id": 360,
+      "source_uuid": "9b997728-8005-4a1f-a738-03663749a7f6",
+      "material_name": "Concrete RC40/50 with average UK additions cement (per m3)",
+      "group_elements_nrm_1": [
+        "2 - Superstructure",
+        "1 - Substructure",
+        "8 - External works",
+        "X - Infrastructure"
+      ],
+      "elements_nrm_1": [
+        "1.1 - Substructure",
+        "2.1 - Frame",
+        "2.2 - Upper floors",
+        "2.4 - Stairs and ramps",
+        "8.X - External works",
+        "X.X - Infrastructure"
+      ],
+      "product_type": "In situ",
+      "product_type_family": [
+        "In situ products"
+      ],
+      "uniclass_systems": [
+        "(Ss_15_10) Groundworks and earthworks systems",
+        "(Ss_25_11) Monolithic wall structure systems",
+        "(Ss_20_05) Substructure systems",
+        "(Ss_30_14) Paving systems"
+      ],
+      "uniclass_products": [
+        "(Pr_20_31_16_22) Designed concrete"
+      ],
+      "uniclass_materials": [
+        "(Ma_40_19) Concrete"
+      ],
+      "material_type": "Concrete",
+      "material_type_family": "Concrete, Cement & Asphalt",
+      "data_source": "ICE DB V3.0",
+      "data_source_url": "https://alfablock.com.br/img/WhatsApp%20Image%202023-07-13%20at%2015.14.48.jpeg",
+      "data_source_year": 2019,
+      "data_source_country": "UK",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m3",
+      "total_co2e_kg_mf": 379.644,
+      "carbon_a1a3": 379.454,
+      "carbon_a5": 0.19,
+      "carbon_b1b5": 0,
+      "carbon_c1c4": 0,
+      "freshwater_use_a1a3": 0,
+      "density": 2385,
+      "density_estimated": false,
+      "mass_per_declared_unit": 2385,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2022-11-10T21:47:41.020513Z",
+      "updated": "2025-01-09T06:42:42.166980Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=360"
+    },
+    {
+      "id": 364,
+      "material_name": "FF&E, Kitchen, (Piece), 1000mm kitchen wall unit (per piece)",
+      "group_elements_nrm_1": [
+        "4 - Fittings, furnishings and equipment"
+      ],
+      "elements_nrm_1": [
+        "4.1 - Fittings, furnishings and equipment"
+      ],
+      "product_type": "FF&E (Other)",
+      "product_type_family": [
+        "FF&E"
+      ],
+      "uniclass_systems": [
+        "(Ss_40_15_58_50) Meeting booth systems",
+        "(Ss_40_15_58) Office equipment systems",
+        "(Ss_40_15_35_80) Shelving, storage and enclosures systems",
+        "(Ss_40_15) General fittings, furnishings and equipment (FF&E) systems"
+      ],
+      "uniclass_products": [
+        "(Pr_40_50) Furnishings"
+      ],
+      "material_type": "Multiple",
+      "material_type_family": "Multiple",
+      "data_source": "FIRA 2021",
+      "data_source_url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+      "data_source_year": 2021,
+      "data_source_country": "Global",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "piece",
+      "total_co2e_kg_mf": 25,
+      "carbon_a1a3": 25,
+      "density": 2572.014251,
+      "density_estimated": false,
+      "created": "2023-01-19T08:07:51.839242Z",
+      "updated": "2024-08-21T20:16:41.994870Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=364"
+    },
+    {
+      "id": 365,
+      "material_name": "FF&E, Kitchen, (Piece), 500mm kitchen wall unit (per piece)",
+      "group_elements_nrm_1": [
+        "4 - Fittings, furnishings and equipment"
+      ],
+      "elements_nrm_1": [
+        "4.1 - Fittings, furnishings and equipment"
+      ],
+      "product_type": "FF&E (Other)",
+      "product_type_family": [
+        "FF&E"
+      ],
+      "uniclass_systems": [
+        "(Ss_40_15_58_50) Meeting booth systems",
+        "(Ss_40_15_58) Office equipment systems",
+        "(Ss_40_15_35_80) Shelving, storage and enclosures systems",
+        "(Ss_40_15) General fittings, furnishings and equipment (FF&E) systems"
+      ],
+      "uniclass_products": [
+        "(Pr_40_50) Furnishings"
+      ],
+      "material_type": "Multiple",
+      "material_type_family": "Multiple",
+      "data_source": "FIRA 2021",
+      "data_source_url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+      "data_source_year": 2021,
+      "data_source_country": "Global",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "piece",
+      "total_co2e_kg_mf": 18,
+      "carbon_a1a3": 18,
+      "density": 2572.014251,
+      "density_estimated": false,
+      "created": "2023-01-19T08:15:04.596492Z",
+      "updated": "2024-08-21T20:16:36.510210Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=365"
+    },
+    {
+      "id": 366,
+      "material_name": "FF&E, Kitchen, (Piece), 1000mm drawer line unit (per piece)",
+      "group_elements_nrm_1": [
+        "4 - Fittings, furnishings and equipment"
+      ],
+      "elements_nrm_1": [
+        "4.1 - Fittings, furnishings and equipment"
+      ],
+      "product_type": "Loose FF&E (Other)",
+      "product_type_family": [
+        "Loose FF&E"
+      ],
+      "uniclass_systems": [
+        "(Ss_40_45) Living space FF&E systems",
+        "(Ss_40_15_58) Office equipment systems",
+        "(Ss_40_15) General fittings, furnishings and equipment (FF&E) systems"
+      ],
+      "uniclass_products": [
+        "(Pr_40_50) Furnishings"
+      ],
+      "material_type": "Multiple",
+      "material_type_family": "Multiple",
+      "data_source": "FIRA 2021",
+      "data_source_url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+      "data_source_year": 2021,
+      "data_source_country": "Global",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "piece",
+      "total_co2e_kg_mf": 40,
+      "carbon_a1a3": 40,
+      "density": 2572.014251,
+      "density_estimated": false,
+      "created": "2023-01-19T08:16:21.447128Z",
+      "updated": "2024-08-21T20:15:44.916974Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=366"
+    },
+    {
+      "id": 367,
+      "material_name": "FF&E, Kitchen, (Piece), 500mm drawer line unit (per piece)",
+      "group_elements_nrm_1": [
+        "4 - Fittings, furnishings and equipment"
+      ],
+      "elements_nrm_1": [
+        "4.1 - Fittings, furnishings and equipment"
+      ],
+      "product_type": "FF&E (Other)",
+      "product_type_family": [
+        "FF&E"
+      ],
+      "uniclass_systems": [
+        "(Ss_40_15_58_50) Meeting booth systems",
+        "(Ss_40_15_58) Office equipment systems",
+        "(Ss_40_15_35_80) Shelving, storage and enclosures systems",
+        "(Ss_40_15) General fittings, furnishings and equipment (FF&E) systems"
+      ],
+      "uniclass_products": [
+        "(Pr_40_50) Furnishings"
+      ],
+      "material_type": "Multiple",
+      "material_type_family": "Multiple",
+      "data_source": "FIRA 2021",
+      "data_source_url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+      "data_source_year": 2021,
+      "data_source_country": "Global",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "piece",
+      "total_co2e_kg_mf": 29,
+      "carbon_a1a3": 29,
+      "density": 2572.014251,
+      "density_estimated": false,
+      "created": "2023-01-19T08:18:12.810506Z",
+      "updated": "2024-08-21T20:15:44.664492Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=367"
+    },
+    {
+      "id": 368,
+      "material_name": "FF&E, Kitchen, (Piece), Full height base unit (per piece)",
+      "group_elements_nrm_1": [
+        "4 - Fittings, furnishings and equipment"
+      ],
+      "elements_nrm_1": [
+        "4.1 - Fittings, furnishings and equipment"
+      ],
+      "product_type": "FF&E (Other)",
+      "product_type_family": [
+        "FF&E"
+      ],
+      "uniclass_systems": [
+        "(Ss_40_15_58_50) Meeting booth systems",
+        "(Ss_40_15_58) Office equipment systems",
+        "(Ss_40_15_35_80) Shelving, storage and enclosures systems",
+        "(Ss_40_15) General fittings, furnishings and equipment (FF&E) systems"
+      ],
+      "uniclass_products": [
+        "(Pr_40_50) Furnishings"
+      ],
+      "material_type": "Multiple",
+      "material_type_family": "Multiple",
+      "data_source": "FIRA 2021",
+      "data_source_url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+      "data_source_year": 2021,
+      "data_source_country": "Global",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "piece",
+      "total_co2e_kg_mf": 17,
+      "carbon_a1a3": 17,
+      "density": 2572.014251,
+      "density_estimated": false,
+      "created": "2023-01-19T08:18:55.846343Z",
+      "updated": "2024-08-21T20:16:41.630297Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=368"
+    },
+    {
+      "id": 369,
+      "material_name": "FF&E, Kitchen, (Piece), 1000mm storage unit (per piece)",
+      "group_elements_nrm_1": [
+        "4 - Fittings, furnishings and equipment"
+      ],
+      "elements_nrm_1": [
+        "4.1 - Fittings, furnishings and equipment"
+      ],
+      "product_type": "Loose FF&E (Other)",
+      "product_type_family": [
+        "Loose FF&E"
+      ],
+      "uniclass_systems": [
+        "(Ss_40_45) Living space FF&E systems",
+        "(Ss_40_15_58) Office equipment systems",
+        "(Ss_40_15) General fittings, furnishings and equipment (FF&E) systems"
+      ],
+      "uniclass_products": [
+        "(Pr_40_50) Furnishings"
+      ],
+      "material_type": "Multiple",
+      "material_type_family": "Multiple",
+      "data_source": "FIRA 2021",
+      "data_source_url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+      "data_source_year": 2021,
+      "data_source_country": "Global",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "piece",
+      "total_co2e_kg_mf": 42,
+      "carbon_a1a3": 42,
+      "density": 2572.014251,
+      "density_estimated": false,
+      "created": "2023-01-19T08:19:34.589579Z",
+      "updated": "2024-08-21T20:15:44.686884Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=369"
+    },
+    {
+      "id": 370,
+      "material_name": "FF&E, Kitchen, (Piece), 500mm storage unit (per piece)",
+      "group_elements_nrm_1": [
+        "4 - Fittings, furnishings and equipment"
+      ],
+      "elements_nrm_1": [
+        "4.1 - Fittings, furnishings and equipment"
+      ],
+      "product_type": "Loose FF&E (Other)",
+      "product_type_family": [
+        "Loose FF&E"
+      ],
+      "uniclass_systems": [
+        "(Ss_40_45) Living space FF&E systems",
+        "(Ss_40_15_58) Office equipment systems",
+        "(Ss_40_15) General fittings, furnishings and equipment (FF&E) systems"
+      ],
+      "uniclass_products": [
+        "(Pr_40_50) Furnishings"
+      ],
+      "material_type": "Multiple",
+      "material_type_family": "Multiple",
+      "data_source": "FIRA 2021",
+      "data_source_url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+      "data_source_year": 2021,
+      "data_source_country": "Global",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "piece",
+      "total_co2e_kg_mf": 40,
+      "carbon_a1a3": 40,
+      "density": 2572.014251,
+      "density_estimated": false,
+      "created": "2023-01-19T08:20:35.670502Z",
+      "updated": "2024-08-21T20:15:46.774044Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=370"
+    },
+    {
+      "id": 371,
+      "material_name": "FF&E, Kitchen, (Piece), Worktops (per piece)",
+      "group_elements_nrm_1": [
+        "4 - Fittings, furnishings and equipment"
+      ],
+      "elements_nrm_1": [
+        "4.1 - Fittings, furnishings and equipment"
+      ],
+      "product_type": "FF&E (Other)",
+      "product_type_family": [
+        "FF&E"
+      ],
+      "uniclass_systems": [
+        "(Ss_40_15_58_50) Meeting booth systems",
+        "(Ss_40_15_58) Office equipment systems",
+        "(Ss_40_15_35_80) Shelving, storage and enclosures systems",
+        "(Ss_40_15) General fittings, furnishings and equipment (FF&E) systems"
+      ],
+      "uniclass_products": [
+        "(Pr_40_50) Furnishings"
+      ],
+      "material_type": "Multiple",
+      "material_type_family": "Multiple",
+      "data_source": "FIRA 2021",
+      "data_source_url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+      "data_source_year": 2021,
+      "data_source_country": "Global",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "piece",
+      "total_co2e_kg_mf": 26,
+      "carbon_a1a3": 26,
+      "density": 2572.014251,
+      "density_estimated": false,
+      "created": "2023-01-19T08:21:06.604295Z",
+      "updated": "2024-08-21T20:15:46.767184Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=371"
+    }
+  ]
+}
