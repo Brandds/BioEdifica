@@ -27,6 +27,9 @@ public class Projeto {
     @ManyToOne
     private Usuario usuario;
 
+    @ManyToOne
+    private Cidade cidade;
+
     @OneToMany(mappedBy = "projeto")
     private List<MaterialProjeto> materiais;
 
@@ -40,6 +43,13 @@ public class Projeto {
         this.nome = nome;
         this.descricao = descricao;
         this.usuario = usuario;
+    }
+
+    public Projeto(String nome, String descricao, Usuario usuario, Cidade cidade) {
+        this.nome = nome;
+        this.descricao = descricao;
+        this.usuario = usuario;
+        this.cidade = cidade;
     }
 
     public Projeto (Long id, String nome, String descricao, Usuario usuario) {

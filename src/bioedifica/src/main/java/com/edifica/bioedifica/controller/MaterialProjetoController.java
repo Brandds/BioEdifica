@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.edifica.bioedifica.dto.AdicionarMaterialSimplificadoDTO;
 import com.edifica.bioedifica.dto.MaterialProjetoDTO;
+import com.edifica.bioedifica.dto.material.MaterialVisualizacaoDTO;
 import com.edifica.bioedifica.service.IMaterialProjetoService;
 
 import io.swagger.v3.oas.annotations.Operation;
@@ -42,11 +43,11 @@ public class MaterialProjetoController {
       description = "Retorna todos os materiais associados a um projeto específico com suas propriedades térmicas"
   )
   @GetMapping("/propriedades-termicas/projeto/{projetoId}")
-  public ResponseEntity<List<MaterialProjetoDTO>> buscarMateriaisComPropriedadesTermicas(
+  public ResponseEntity<List<MaterialVisualizacaoDTO>> buscarMateriaisComPropriedadesTermicas(
           @Parameter(description = "ID do projeto", required = true)
           @PathVariable Long projetoId) {
       try {
-          List<MaterialProjetoDTO> materiais = materialProjetoService.buscarMateriaisPorProjeto(projetoId);
+          List<MaterialVisualizacaoDTO> materiais = materialProjetoService.buscarMateriaisPorProjeto(projetoId);
           return ResponseEntity.ok(materiais);
       } catch (Exception e) {
           return ResponseEntity.badRequest().build();

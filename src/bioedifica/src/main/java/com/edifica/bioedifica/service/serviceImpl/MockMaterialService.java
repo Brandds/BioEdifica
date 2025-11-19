@@ -256,6 +256,19 @@ public class MockMaterialService implements IMockMaterialService {
         return getMaterialById(id) != null;
     }
 
+    public String getDataSourceUrl(Long id) {
+        MaterialDTO material = getMaterialById(id);
+        return material != null ? material.dataSourceUrl() : null;
+    }
+
+    public String getMaterialTypeFamily(Long id) {
+        MaterialDTO material = getMaterialById(id);
+        if (material != null && material.groupElementsNrm1() != null && !material.groupElementsNrm1().isEmpty()) {
+            return material.groupElementsNrm1().get(0);
+        }
+        return "Desconhecido";
+    }
+
     @Override
     public List<MaterialVisualizacaoDTO> getMaterialsByCategory(String category) {
         var allMaterials = getAllMaterials();

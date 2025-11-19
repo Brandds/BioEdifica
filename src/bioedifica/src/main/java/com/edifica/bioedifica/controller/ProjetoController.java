@@ -60,7 +60,7 @@ public class ProjetoController {
 
   @Operation(summary = "Atualizar projeto", description = "Atualiza somente os detalhes de um projeto existente.(não atualiza os materiais associados)")
   @PutMapping("/atualizarProjeto/{idUsuario}")
-  public ResponseEntity<ProjetoDetalhadoDTO> atualizarProjeto(@PathVariable Long idUsuario, @RequestBody ProjetoDetalhadoDTO projetoDTO) {
+  public ResponseEntity<ProjetoDetalhadoDTO> atualizarProjeto(@PathVariable Long idUsuario, @RequestBody ProjetoDTO projetoDTO) {
     var projetoAtualizado = projetoService.atualizarProjeto(projetoDTO, idUsuario);
     return ResponseEntity.ok(projetoAtualizado);
   }

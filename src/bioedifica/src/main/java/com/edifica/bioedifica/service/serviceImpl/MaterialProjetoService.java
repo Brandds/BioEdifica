@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 import org.springframework.stereotype.Service;
 
 import com.edifica.bioedifica.dto.MaterialProjetoDTO;
+import com.edifica.bioedifica.dto.material.MaterialVisualizacaoDTO;
 import com.edifica.bioedifica.model.MaterialProjeto;
 import com.edifica.bioedifica.model.Projeto;
 import com.edifica.bioedifica.repository.MaterialProjetoRepository;
@@ -23,10 +24,10 @@ public class MaterialProjetoService implements IMaterialProjetoService {
     private final MockMaterialService mockMaterialService;
 
     @Override
-    public List<MaterialProjetoDTO> buscarMateriaisPorProjeto(Long projetoId) {
+    public List<MaterialVisualizacaoDTO> buscarMateriaisPorProjeto(Long projetoId) {
         List<MaterialProjeto> materiais = materialProjetoRepository.findByProjetoId(projetoId);
         return materiais.stream()
-            .map(this::convertToDTO)
+            .map(this::convertToVisualizacaoDTO)
             .collect(Collectors.toList());
     }
     
@@ -124,6 +125,28 @@ public class MaterialProjetoService implements IMaterialProjetoService {
             material.getCalorEspecifico(),
             material.getCondutividadeTermica(),
             material.getEspessura()
+        );
+    }
+
+    private MaterialVisualizacaoDTO convertToVisualizacaoDTO(MaterialProjeto material) {
+        // Buscar informações completas do material no mock usando o idMaterialExterno
+        String materialType = material.getIdMaterialExterno() != null 
+            ? mockMaterialService.getMaterialType(material.getIdMaterialExterno()) 
+            : null;
+        String dataSourceUrl = material.getIdMaterialExterno() != null 
+            ? mockMaterialService.getDataSourceUrl(material.getIdMaterialExterno()) 
+            : null;
+        String materialTypeFamily = material.getIdMaterialExterno() != null 
+            ? mockMaterialService.getMaterialTypeFamily(material.getIdMaterialExterno()) 
+            : null;
+
+        return new MaterialVisualizacaoDTO(
+            material.getId(),
+            material.getNomeMaterial(),
+            materialType,
+            dataSourceUrl,
+            material.getDensidade(),
+            materialTypeFamily
         );
     }
 }

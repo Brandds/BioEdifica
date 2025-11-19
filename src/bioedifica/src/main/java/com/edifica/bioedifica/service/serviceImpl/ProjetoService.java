@@ -11,6 +11,7 @@ import com.edifica.bioedifica.dto.projeto.ProjetoDetalhadoDTO;
 import com.edifica.bioedifica.mapper.ProjetoMapper;
 import com.edifica.bioedifica.model.Projeto;
 import com.edifica.bioedifica.model.Usuario;
+import com.edifica.bioedifica.repository.CidadeRepository;
 import com.edifica.bioedifica.repository.ProjetoRepository;
 import com.edifica.bioedifica.service.IProjetoService;
 
@@ -19,6 +20,9 @@ public class ProjetoService implements IProjetoService {
 
   @Autowired
   private MockMaterialService mockMaterialService;
+
+  @Autowired
+  private CidadeRepository cidadeRepository;
 
   
   public ProjetoService(ProjetoRepository projetoRepository) {
@@ -32,9 +36,19 @@ public class ProjetoService implements IProjetoService {
     usuario.setId(projetoDTO.usuarioId());
 
     var projeto = new Projeto(projetoDTO.nome(), projetoDTO.descricao(), usuario);
+    
+    if(projetoDTO.cidadeId() != null) {
+      var cidade = cidadeRepository.findById(projetoDTO.cidadeId())
+        .orElseThrow(() -> new org.springframework.web.server.ResponseStatusException(
+          org.springframework.http.HttpStatus.NOT_FOUND, 
+          "Cidade não encontrada"
+        ));
+      projeto.setCidade(cidade);
+    }
+    
     projetoRepository.save(projeto);
 
-    return new ProjetoDetalhadoDTO(projeto.getId(), projeto.getNome(), projeto.getDescricao(), List.of());
+    return ProjetoMapper.toDetalhadoDTO(projeto);
   }
 
   @Override
@@ -50,7 +64,14 @@ public class ProjetoService implements IProjetoService {
       
       var materiaisDoProjeto = mockMaterialService.getMaterialByProjeto(idsMateriais);
 
-      return new ProjetoDetalhadoDTO(projeto.get().getId(), projeto.get().getNome(), projeto.get().getDescricao(), materiaisDoProjeto);
+      var projetoDTO = ProjetoMapper.toDetalhadoDTO(projeto.get());
+      return new ProjetoDetalhadoDTO(
+        projetoDTO.id(),
+        projetoDTO.nome(),
+        projetoDTO.descricao(),
+        materiaisDoProjeto,
+        projetoDTO.cidade()
+      );
     }
     throw new org.springframework.web.server.ResponseStatusException(org.springframework.http.HttpStatus.NOT_FOUND, "Projeto não encontrado");
   }
@@ -60,18 +81,44 @@ public class ProjetoService implements IProjetoService {
     var projetos = projetoRepository.findByUsuarioIdAndAtivo(idUsuario, true);
     if (!projetos.isEmpty()) {
       return projetos.stream()
-        .map(projeto -> new ProjetoDTO(projeto.getId(), projeto.getNome(), projeto.getDescricao(), projeto.getUsuario().getId()))
+        .map(projeto -> new ProjetoDTO(
+          projeto.getId(), 
+          projeto.getNome(), 
+          projeto.getDescricao(), 
+          projeto.getUsuario().getId(),
+          projeto.getCidade() != null ? projeto.getCidade().getId() : null
+        ))
         .collect(Collectors.toList());
     }
     return List.of();
   }
 
   @Override
-  public ProjetoDetalhadoDTO atualizarProjeto(ProjetoDetalhadoDTO projetoDTO, Long idUsuario) {
-    var projeto = ProjetoMapper.toEntity(projetoDTO, new Usuario(idUsuario));
+  public ProjetoDetalhadoDTO atualizarProjeto(ProjetoDTO projetoDTO, Long idUsuario) {
+    var projetoExistente = projetoRepository.findById(projetoDTO.id())
+      .orElseThrow(() -> new org.springframework.web.server.ResponseStatusException(
+        org.springframework.http.HttpStatus.NOT_FOUND, 
+        "Projeto não encontrado"
+      ));
 
-    projetoRepository.save(projeto);
-    return ProjetoMapper.toDetalhadoDTO(projeto); 
+    // Atualizar campos
+    projetoExistente.setNome(projetoDTO.nome());
+    projetoExistente.setDescricao(projetoDTO.descricao());
+
+    // Atualizar cidade
+    if(projetoDTO.cidadeId() != null) {
+      var cidade = cidadeRepository.findById(projetoDTO.cidadeId())
+        .orElseThrow(() -> new org.springframework.web.server.ResponseStatusException(
+          org.springframework.http.HttpStatus.NOT_FOUND, 
+          "Cidade não encontrada"
+        ));
+      projetoExistente.setCidade(cidade);
+    } else {
+      projetoExistente.setCidade(null);
+    }
+
+    projetoRepository.save(projetoExistente);
+    return ProjetoMapper.toDetalhadoDTO(projetoExistente); 
   }
 
   @Override

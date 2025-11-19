@@ -40,7 +40,7 @@ public class UsuarioMapper {
     public static UsuarioPerfilDTO exibirUsuarioPerfil(Usuario usuario) {
         if (usuario == null) return null;
         var projetosDTO = usuario.getProjetos() == null ? null : usuario.getProjetos().stream()
-            .map(projeto -> new ProjetoDTO(projeto.getId(), projeto.getNome(), projeto.getDescricao(), usuario.getId()))
+            .map(projeto -> new ProjetoDTO(projeto.getId(), projeto.getNome(), projeto.getDescricao(), usuario.getId(), null))
             .collect(Collectors.toList());
         return new UsuarioPerfilDTO(
             usuario.getNome(),

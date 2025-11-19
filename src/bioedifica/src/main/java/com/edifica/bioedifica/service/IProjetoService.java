@@ -9,6 +9,6 @@ public interface IProjetoService {
   ProjetoDetalhadoDTO criarProjeto(ProjetoDTO projetoDTO);
   ProjetoDetalhadoDTO getProjetoById(Long id);
   List<ProjetoDTO> getProjetoByUsuario(Long idUsuario);
-  ProjetoDetalhadoDTO atualizarProjeto(ProjetoDetalhadoDTO projetoDTO, Long idUsuario);
+  ProjetoDetalhadoDTO atualizarProjeto(ProjetoDTO projetoDTO, Long idUsuario);
   void deletarProjeto(Long idProjeto, Long idUsuario);
 }

@@ -4,5 +4,6 @@ public record ProjetoDTO(
     Long id,
     String nome,
     String descricao,
-    Long usuarioId
+    Long usuarioId,
+    Long cidadeId
 ) {}
