@@ -146,7 +146,8 @@ public class MaterialProjetoService implements IMaterialProjetoService {
             materialType,
             dataSourceUrl,
             material.getDensidade(),
-            materialTypeFamily
+            materialTypeFamily,
+            material.getIdMaterialExterno()
         );
     }
 }

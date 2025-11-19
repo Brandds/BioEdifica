@@ -29,7 +29,8 @@ public class MaterialMapper {
             materialDTO.materialType(),
             materialDTO.dataSourceUrl(),
             materialDTO.density(),
-            materialDTO.materialTypeFamily()
+            materialDTO.materialTypeFamily(),
+            null
         );
     }
 

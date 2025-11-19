@@ -6,5 +6,6 @@ public record MaterialVisualizacaoDTO(
     String materialType,
     String dataSourceUrl,
     Double density,
-    String materialTypeFamily
+    String materialTypeFamily,
+    Long idMaterialExterno
 ) {}
