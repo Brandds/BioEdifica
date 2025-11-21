@@ -9,7 +9,7 @@ import com.edifica.bioedifica.dto.cidade.CidadeUsuarioDTO;
 public interface ICidadeService {
     CidadeDTO salvar(CidadeDTO cidadeDTO);
     List<CidadeDTO> listarTodos();
-    List<CidadeDTO> listarPorTipo(com.edifica.bioedifica.enums.cidade.TipoCidade tipo);
+    List<CidadeDTO> listarPorTipo(com.edifica.bioedifica.enums.cidade.TipoCidade tipo, Long usuarioId);
     Optional<CidadeDTO> buscarPorId(Long id);
     List<CidadeDTO> buscarPorUf(String uf);
     List<CidadeDTO> buscarPorUfETipo(String uf, com.edifica.bioedifica.enums.cidade.TipoCidade tipo);

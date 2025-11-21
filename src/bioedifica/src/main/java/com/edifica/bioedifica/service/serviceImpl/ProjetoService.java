@@ -36,6 +36,7 @@ public class ProjetoService implements IProjetoService {
     usuario.setId(projetoDTO.usuarioId());
 
     var projeto = new Projeto(projetoDTO.nome(), projetoDTO.descricao(), usuario);
+    projeto.setAreaTotalConstruida(projetoDTO.areaTotalConstruida());
     
     if(projetoDTO.cidadeId() != null) {
       var cidade = cidadeRepository.findById(projetoDTO.cidadeId())
@@ -70,7 +71,8 @@ public class ProjetoService implements IProjetoService {
         projetoDTO.nome(),
         projetoDTO.descricao(),
         materiaisDoProjeto,
-        projetoDTO.cidade()
+        projetoDTO.cidade(),
+        projetoDTO.areaTotalConstruida()
       );
     }
     throw new org.springframework.web.server.ResponseStatusException(org.springframework.http.HttpStatus.NOT_FOUND, "Projeto não encontrado");
@@ -86,7 +88,8 @@ public class ProjetoService implements IProjetoService {
           projeto.getNome(), 
           projeto.getDescricao(), 
           projeto.getUsuario().getId(),
-          projeto.getCidade() != null ? projeto.getCidade().getId() : null
+          projeto.getCidade() != null ? projeto.getCidade().getId() : null,
+          projeto.getAreaTotalConstruida()
         ))
         .collect(Collectors.toList());
     }
@@ -104,6 +107,7 @@ public class ProjetoService implements IProjetoService {
     // Atualizar campos
     projetoExistente.setNome(projetoDTO.nome());
     projetoExistente.setDescricao(projetoDTO.descricao());
+    projetoExistente.setAreaTotalConstruida(projetoDTO.areaTotalConstruida());
 
     // Atualizar cidade
     if(projetoDTO.cidadeId() != null) {

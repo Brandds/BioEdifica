@@ -107,13 +107,15 @@ public class CidadeController {
     }
 
     @GetMapping
-    @Operation(summary = "Listar todas as cidades", description = "Retorna todas as cidades cadastradas, filtrando por tipo (padr\u00e3o: OFICIAL)")
+    @Operation(summary = "Listar todas as cidades", description = "Retorna todas as cidades cadastradas, filtrando por tipo (padrão: OFICIAL) e opcionalmente incluindo cidades do usuário")
     @ApiResponse(responseCode = "200", description = "Lista de cidades retornada com sucesso")
     public ResponseEntity<List<CidadeDTO>> listarTodos(
             @RequestParam(required = false, defaultValue = "OFICIAL") 
-            @Parameter(description = "Tipo de cidade (OFICIAL ou USUARIO)") String tipo) {
+            @Parameter(description = "Tipo de cidade (OFICIAL ou USUARIO)") String tipo,
+            @RequestParam(required = false)
+            @Parameter(description = "ID do usuário para incluir suas cidades personalizadas") Long usuarioId) {
         var tipoCidade = com.edifica.bioedifica.enums.cidade.TipoCidade.valueOf(tipo.toUpperCase());
-        var cidades = cidadeService.listarPorTipo(tipoCidade);
+        var cidades = cidadeService.listarPorTipo(tipoCidade, usuarioId);
         return ResponseEntity.ok(cidades);
     }
 

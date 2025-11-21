@@ -23,6 +23,7 @@ public class Projeto {
 
     private String nome;
     private String descricao;
+    private Double areaTotalConstruida; // em metros quadrados
 
     @ManyToOne
     private Usuario usuario;
@@ -43,6 +44,7 @@ public class Projeto {
         this.nome = nome;
         this.descricao = descricao;
         this.usuario = usuario;
+        this.areaTotalConstruida = null;
     }
 
     public Projeto(String nome, String descricao, Usuario usuario, Cidade cidade) {
@@ -50,6 +52,7 @@ public class Projeto {
         this.descricao = descricao;
         this.usuario = usuario;
         this.cidade = cidade;
+        this.areaTotalConstruida = null;
     }
 
     public Projeto (Long id, String nome, String descricao, Usuario usuario) {
@@ -57,6 +60,7 @@ public class Projeto {
         this.nome = nome;
         this.descricao = descricao;
         this.usuario = usuario;
+        this.areaTotalConstruida = null;
     }
 
     

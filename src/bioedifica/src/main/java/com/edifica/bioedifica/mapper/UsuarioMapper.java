@@ -17,7 +17,8 @@ public class UsuarioMapper {
             usuario.getId(),
             usuario.getNome(),
             usuario.getEmail(),
-            usuario.getPerfil()
+            usuario.getPerfil(),
+            usuario.getSenha()
         );
     }
 
@@ -25,6 +26,9 @@ public class UsuarioMapper {
         if (usuario == null || dto == null) return;
         usuario.setNome(dto.nome());
         usuario.setEmail(dto.email());
+        if (dto.senha() != null && !dto.senha().trim().isEmpty()) {
+            usuario.setSenha(dto.senha());
+        }
     }
 
     public static Usuario toEntity(UsuarioDTO dto) {
@@ -34,13 +38,16 @@ public class UsuarioMapper {
         usuario.setNome(dto.nome());
         usuario.setEmail(dto.email());
         usuario.setPerfil(dto.perfil());
+        if (dto.senha() != null && !dto.senha().trim().isEmpty()) {
+            usuario.setSenha(dto.senha());
+        }
         return usuario;
     }
 
     public static UsuarioPerfilDTO exibirUsuarioPerfil(Usuario usuario) {
         if (usuario == null) return null;
         var projetosDTO = usuario.getProjetos() == null ? null : usuario.getProjetos().stream()
-            .map(projeto -> new ProjetoDTO(projeto.getId(), projeto.getNome(), projeto.getDescricao(), usuario.getId(), null))
+            .map(projeto -> new ProjetoDTO(projeto.getId(), projeto.getNome(), projeto.getDescricao(), usuario.getId(), null, null))
             .collect(Collectors.toList());
         return new UsuarioPerfilDTO(
             usuario.getNome(),

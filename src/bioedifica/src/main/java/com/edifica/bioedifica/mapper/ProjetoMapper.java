@@ -64,7 +64,8 @@ public class ProjetoMapper {
       projeto.getNome(), 
       projeto.getDescricao(), 
       null,
-      cidadeDTO
+      cidadeDTO,
+      projeto.getAreaTotalConstruida()
     );
   }
 }

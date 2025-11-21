@@ -10,5 +10,6 @@ public record ProjetoDetalhadoDTO(
   String nome,
   String descricao,
   List<MaterialDTO> materiais,
-  CidadeDetalhadaDTO cidade
+  CidadeDetalhadaDTO cidade,
+  Double areaTotalConstruida
 ){}

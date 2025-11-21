@@ -6,5 +6,6 @@ public record UsuarioDTO(
     Long id,
     String nome,
     String email,
-    RoleUsuario perfil
+    RoleUsuario perfil,
+    String senha
 ) {}

@@ -34,4 +34,7 @@ public interface CidadeRepository extends JpaRepository<Cidade, Long> {
     boolean existsByNomeAndEstadoUf(String nome, String uf);
     
     List<Cidade> findByUsuarioCriadorId(Long usuarioCriadorId);
+    
+    @Query("SELECT c FROM Cidade c WHERE c.tipo = :tipoOficial OR c.usuarioCriador.id = :usuarioId")
+    List<Cidade> findByTipoOrUsuarioCriador(@Param("tipoOficial") TipoCidade tipoOficial, @Param("usuarioId") Long usuarioId);
 }

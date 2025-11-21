@@ -52,7 +52,14 @@ public class CidadeService implements ICidadeService {
     }
 
     @Override
-    public List<CidadeDTO> listarPorTipo(TipoCidade tipo) {
+    public List<CidadeDTO> listarPorTipo(TipoCidade tipo, Long usuarioId) {
+        if (usuarioId != null) {
+            // Retorna cidades oficiais + cidades criadas pelo usuário
+            return cidadeRepository.findByTipoOrUsuarioCriador(TipoCidade.OFICIAL, usuarioId).stream()
+                .map(CidadeMapper::toDTO)
+                .toList();
+        }
+        // Se não informar usuarioId, retorna apenas por tipo
         return cidadeRepository.findByTipo(tipo).stream()
             .map(CidadeMapper::toDTO)
             .toList();

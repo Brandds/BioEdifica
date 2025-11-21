@@ -5,5 +5,6 @@ public record ProjetoDTO(
     String nome,
     String descricao,
     Long usuarioId,
-    Long cidadeId
+    Long cidadeId,
+    Double areaTotalConstruida
 ) {}
