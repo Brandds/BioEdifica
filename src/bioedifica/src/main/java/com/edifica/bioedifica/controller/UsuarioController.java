@@ -18,9 +18,7 @@ import com.edifica.bioedifica.config.JwtUtil;
 import com.edifica.bioedifica.dto.UsuarioDTO;
 import com.edifica.bioedifica.dto.usuario.LoginResponse;
 import com.edifica.bioedifica.dto.usuario.UsuarioCadastroDTO;
-import com.edifica.bioedifica.dto.usuario.UsuarioLoginResponse;
 import com.edifica.bioedifica.mapper.UsuarioMapper;
-import com.edifica.bioedifica.model.Usuario;
 import com.edifica.bioedifica.service.IUsuarioService;
 
 import io.swagger.v3.oas.annotations.Operation;

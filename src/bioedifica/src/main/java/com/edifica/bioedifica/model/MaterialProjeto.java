@@ -19,6 +19,9 @@ public class MaterialProjeto {
   @ManyToOne
   private Projeto projeto;
 
+  @ManyToOne
+  private Camada camada;
+
   // Propriedades térmicas do material para cálculos
 
   private Double densidade; // kg/m³

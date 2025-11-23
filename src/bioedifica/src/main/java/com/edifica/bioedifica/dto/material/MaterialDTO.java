@@ -2,21 +2,35 @@ package com.edifica.bioedifica.dto.material;
 
 import java.util.List;
 
+import com.edifica.bioedifica.util.FlexibleListDeserializer;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public record MaterialDTO(
     @JsonProperty("id") Long id,
     @JsonProperty("source_uuid") String sourceUuid,
     @JsonProperty("material_name") String materialName,
-    @JsonProperty("group_elements_nrm_1") List<String> groupElementsNrm1,
-    @JsonProperty("elements_nrm_1") List<String> elementsNrm1,
+    @JsonProperty("group_elements_nrm_1") 
+    @JsonDeserialize(using = FlexibleListDeserializer.class)
+    List<String> groupElementsNrm1,
+    @JsonProperty("elements_nrm_1") 
+    @JsonDeserialize(using = FlexibleListDeserializer.class)
+    List<String> elementsNrm1,
     @JsonProperty("product_type") String productType,
-    @JsonProperty("product_type_family") List<String> productTypeFamily,
-    @JsonProperty("uniclass_systems") List<String> uniclassSystems,
-    @JsonProperty("uniclass_products") List<String> uniclassProducts,
-    @JsonProperty("uniclass_materials") List<String> uniclassMaterials,
+    @JsonProperty("product_type_family") 
+    @JsonDeserialize(using = FlexibleListDeserializer.class)
+    List<String> productTypeFamily,
+    @JsonProperty("uniclass_systems") 
+    @JsonDeserialize(using = FlexibleListDeserializer.class)
+    List<String> uniclassSystems,
+    @JsonProperty("uniclass_products") 
+    @JsonDeserialize(using = FlexibleListDeserializer.class)
+    List<String> uniclassProducts,
+    @JsonProperty("uniclass_materials") 
+    @JsonDeserialize(using = FlexibleListDeserializer.class)
+    List<String> uniclassMaterials,
     @JsonProperty("material_type") String materialType,
     @JsonProperty("material_type_family") String materialTypeFamily,
     @JsonProperty("data_source") String dataSource,
@@ -35,5 +49,7 @@ public record MaterialDTO(
     @JsonProperty("mass_per_declared_unit_estimated") Boolean massPerDeclaredUnitEstimated,
     @JsonProperty("created") String created,
     @JsonProperty("updated") String updated,
-    @JsonProperty("generic_api_url") String genericApiUrl
+    @JsonProperty("generic_api_url") String genericApiUrl,
+    @JsonProperty("calor_especifico") Double calorEspecifico,
+    @JsonProperty("condutividade_termica") Double condutividadeTermica
 ) {}
