@@ -106,4 +106,10 @@ public class MockMaterialController {
     public List<MaterialVisualizacaoDTO> getMaterialsBytipoProduto(@Parameter(description = "Tipo de produto do material", example = "In situ") @PathVariable String tipoProduto) {
         return mockMaterialService.getMaterialsBytipoProduto(tipoProduto);
     }
+
+    @Operation(summary = "Obter materiais por tipo família", description = "Retorna uma lista simplificada de materiais pertencentes a um tipo de família específica, contendo apenas informações essenciais para visualização.")
+    @GetMapping("/getMaterialsByTipoFamilia/{tipoFamilia}")
+    public List<MaterialVisualizacaoDTO> getMaterialsByTipoFamilia(@Parameter(description = "Tipo família do material", example = "Metais") @PathVariable String tipoFamilia) {
+        return mockMaterialService.getMaterialsByTipoFamilia(tipoFamilia);
+    }
 }

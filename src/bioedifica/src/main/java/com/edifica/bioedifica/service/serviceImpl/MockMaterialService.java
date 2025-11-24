@@ -61,9 +61,7 @@ public class MockMaterialService implements IMockMaterialService {
                 List<MaterialDTO> lista = entry.getValue();
                 String dataSourceUrl = lista.get(0).dataSourceUrl();
                 int count = lista.size();
-                String tipoFamiliaMaterial = lista.get(0).groupElementsNrm1() != null && !lista.get(0).groupElementsNrm1().isEmpty()
-                    ? lista.get(0).groupElementsNrm1().get(0)
-                    : "Desconhecido";
+                String tipoFamiliaMaterial = lista.get(0).materialTypeFamily() != null ? lista.get(0).materialTypeFamily() : "Desconhecido";
                 String tipoProduto = lista.get(0).productType() != null ? lista.get(0).productType() : "Desconhecido";
                 return new MaterialCategoriaDTO(tipo, dataSourceUrl, count, tipoFamiliaMaterial, tipoProduto);
             })
@@ -284,6 +282,16 @@ public class MockMaterialService implements IMockMaterialService {
         var allMaterials = getAllMaterials();
         var filteredMaterials = allMaterials.stream()
             .filter(m -> m.productType() != null && m.productType().equalsIgnoreCase(tipoProduto))
+            .toList();
+        
+        return materialMapper.toVisualizacaoDTOList(filteredMaterials);
+    }
+
+    @Override
+    public List<MaterialVisualizacaoDTO> getMaterialsByTipoFamilia(String tipoFamilia) {
+        var allMaterials = getAllMaterials();
+        var filteredMaterials = allMaterials.stream()
+            .filter(m -> m.materialTypeFamily() != null && m.materialTypeFamily().equalsIgnoreCase(tipoFamilia))
             .toList();
         
         return materialMapper.toVisualizacaoDTOList(filteredMaterials);

@@ -14,4 +14,5 @@ public interface IMockMaterialService {
     MaterialDTO getMaterialById(Long id);
     List<MaterialVisualizacaoDTO> getMaterialsByCategory(String category);
     List<MaterialVisualizacaoDTO> getMaterialsBytipoProduto(String tipoProduto);
+    List<MaterialVisualizacaoDTO> getMaterialsByTipoFamilia(String tipoFamilia);
 }
