@@ -5,7 +5,10 @@ import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 
+import com.edifica.bioedifica.dto.AdicionarMaterialSimplificadoDTO;
+import com.edifica.bioedifica.dto.MaterialCalculoDTO;
 import com.edifica.bioedifica.dto.MaterialProjetoDTO;
+import com.edifica.bioedifica.dto.material.MaterialDTO;
 import com.edifica.bioedifica.dto.material.MaterialVisualizacaoDTO;
 import com.edifica.bioedifica.model.MaterialProjeto;
 import com.edifica.bioedifica.model.Projeto;
@@ -52,42 +55,38 @@ public class MaterialProjetoService implements IMaterialProjetoService {
     }
 
     @Override
-    public MaterialProjetoDTO adicionarMaterialDoMock(Long projetoId, Long idMaterialExterno, Double espessura) {
+    public List<MaterialProjetoDTO> adicionarMaterialDoMock(Long projetoId, AdicionarMaterialSimplificadoDTO materiais) {
         Projeto projeto = projetoRepository.findById(projetoId)
             .orElseThrow(() -> new RuntimeException("Projeto não encontrado"));
-
-        // Verificar se o material existe no mock
-        if (!mockMaterialService.materialExists(idMaterialExterno)) {
-            throw new RuntimeException("Material não encontrado no catálogo");
+        
+        List<MaterialProjeto> novosMateriais = materiais.getMateriais().stream()
+            .map(material -> criarMaterialProjeto(projeto, material, materiais.getTipoCamada()))
+            .collect(Collectors.toList());
+        
+        List<MaterialProjeto> materiaisSalvos = materialProjetoRepository.saveAll(novosMateriais);
+        
+        return materiaisSalvos.stream()
+            .map(this::convertToDTO)
+            .collect(Collectors.toList());
+    }
+    
+    private MaterialProjeto criarMaterialProjeto(Projeto projeto, MaterialCalculoDTO materialCalculo, String tipoCamada) {
+        MaterialDTO materialDTO = mockMaterialService.getMaterialById(materialCalculo.getIdMaterialMock());
+        
+        if (materialDTO == null) {
+            throw new RuntimeException("Material não encontrado: " + materialCalculo.getIdMaterialMock());
         }
-
-        // Obter dados do material do mock
-        String nomeMaterial = mockMaterialService.getMaterialName(idMaterialExterno);
-        Double densidade = mockMaterialService.getMaterialDensity(idMaterialExterno);
-        String materialType = mockMaterialService.getMaterialType(idMaterialExterno);
         
-        // Determinar tipo de aplicação baseado no material_type
-        String tipoAplicacao = mockMaterialService.determineTipoAplicacao(materialType);
-        
-        // Obter propriedades térmicas baseadas no material_type e tipo de aplicação
-        Double condutividadeTermica = mockMaterialService.getCondutividadeTermica(materialType, tipoAplicacao);
-        Double calorEspecifico = mockMaterialService.getCalorEspecifico(materialType, tipoAplicacao);
-        // Obter densidade também da tabela ABNT
-        densidade = mockMaterialService.getDensidade(materialType, tipoAplicacao);
-
-        MaterialProjeto material = new MaterialProjeto(
+        return new MaterialProjeto(
             projeto,
-            idMaterialExterno,
-            densidade,
-            calorEspecifico,
-            condutividadeTermica,
-            espessura,
-            nomeMaterial,
-            tipoAplicacao
+            materialCalculo.getIdMaterialMock(),
+            materialDTO.density(),
+            materialDTO.calorEspecifico(),
+            materialDTO.condutividadeTermica(),
+            materialCalculo.getEspessura(),
+            materialDTO.materialName(),
+            tipoCamada
         );
-
-        MaterialProjeto materialSalvo = materialProjetoRepository.save(material);
-        return convertToDTO(materialSalvo);
     }
     
     @Override

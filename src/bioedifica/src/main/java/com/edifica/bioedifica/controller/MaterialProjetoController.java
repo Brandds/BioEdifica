@@ -34,10 +34,6 @@ public class MaterialProjetoController {
   private IMaterialProjetoService materialProjetoService;
 
 
-  // ==========================================
-  // ENDPOINTS PARA PROPRIEDADES TÉRMICAS
-  // ==========================================
-
   @Operation(
       summary = "Buscar materiais de um projeto com propriedades térmicas", 
       description = "Retorna todos os materiais associados a um projeto específico com suas propriedades térmicas"
@@ -59,15 +55,14 @@ public class MaterialProjetoController {
       description = "Adiciona um material do catálogo ao projeto usando apenas ID e espessura. Propriedades térmicas e tipo são obtidos automaticamente do catálogo baseado no material_type."
   )
   @PostMapping("/propriedades-termicas/do-catalogo/{projetoId}")
-  public ResponseEntity<MaterialProjetoDTO> adicionarMaterialDoCatalogo(
+  public ResponseEntity<List<MaterialProjetoDTO>> adicionarMaterialDoCatalogo(
           @Parameter(description = "ID do projeto", required = true)
           @PathVariable Long projetoId,
-          @RequestBody AdicionarMaterialSimplificadoDTO materialDTO) {
+          @RequestBody AdicionarMaterialSimplificadoDTO materiais) {
       try {
-          MaterialProjetoDTO materialSalvo = materialProjetoService.adicionarMaterialDoMock(
+          List<MaterialProjetoDTO> materialSalvo = materialProjetoService.adicionarMaterialDoMock(
               projetoId, 
-              materialDTO.getIdMaterialExterno(), 
-              materialDTO.getEspessura()
+              materiais
           );
           return ResponseEntity.status(HttpStatus.CREATED).body(materialSalvo);
       } catch (Exception e) {

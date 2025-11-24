@@ -8,8 +8,15 @@ import org.springframework.stereotype.Service;
 
 import com.edifica.bioedifica.dto.CalculoTermicoRequestDTO;
 import com.edifica.bioedifica.dto.CalculoTermicoResponseDTO;
+import com.edifica.bioedifica.dto.CarbonoIncorporadoResponseDTO;
+import com.edifica.bioedifica.dto.CarbonoMaterialDTO;
 import com.edifica.bioedifica.dto.MaterialCalculoDTO;
 import com.edifica.bioedifica.dto.MaterialDetalhadoDTO;
+import com.edifica.bioedifica.dto.material.MaterialDTO;
+import com.edifica.bioedifica.model.MaterialProjeto;
+import com.edifica.bioedifica.model.Projeto;
+import com.edifica.bioedifica.repository.MaterialProjetoRepository;
+import com.edifica.bioedifica.repository.ProjetoRepository;
 import com.edifica.bioedifica.service.ICalculoTermicoService;
 
 import lombok.RequiredArgsConstructor;
@@ -19,6 +26,8 @@ import lombok.RequiredArgsConstructor;
 public class CalculoTermicoService implements ICalculoTermicoService {
 
     private final MockMaterialService mockMaterialService;
+    private final ProjetoRepository projetoRepository;
+    private final MaterialProjetoRepository materialProjetoRepository;
 
     @Override
     public CalculoTermicoResponseDTO calcularPropriedadesTermicas(CalculoTermicoRequestDTO request) {
@@ -164,5 +173,98 @@ public class CalculoTermicoService implements ICalculoTermicoService {
         }
         
         return 0.0; // [horas]
+    }
+    
+    @Override
+    public CarbonoIncorporadoResponseDTO calcularCarbonoIncorporado(Long projetoId) {
+        // 1. Buscar o projeto no banco de dados
+        Projeto projeto = projetoRepository.findById(projetoId)
+                .orElseThrow(() -> new RuntimeException("Projeto com ID " + projetoId + " não encontrado"));
+        
+        // 2. Validar se o projeto possui área definida
+        if (projeto.getAreaTotalConstruida() == null || projeto.getAreaTotalConstruida() <= 0) {
+            throw new RuntimeException("Projeto não possui área total construída definida");
+        }
+        
+        Double areaTotalProjeto = projeto.getAreaTotalConstruida();
+        
+        // 3. Buscar todos os materiais do projeto
+        List<MaterialProjeto> materiaisDoProjeto = materialProjetoRepository.findByProjetoId(projetoId);
+        
+        if (materiaisDoProjeto.isEmpty()) {
+            throw new RuntimeException("Projeto não possui materiais cadastrados");
+        }
+        
+        // 4. Calcular carbono de cada material
+        List<CarbonoMaterialDTO> materiaisDetalhados = new ArrayList<>();
+        double carbonoTotalAbsoluto = 0.0;
+        
+        for (MaterialProjeto materialProjeto : materiaisDoProjeto) {
+            Long idMaterialMock = materialProjeto.getIdMaterialExterno();
+            
+            // Buscar dados do material no mock
+            MaterialDTO materialMock = mockMaterialService.getMaterialById(idMaterialMock);
+            
+            if (materialMock == null) {
+                System.err.println("Material com ID " + idMaterialMock + " não encontrado no mock. Ignorando...");
+                continue;
+            }
+            
+            // Obter valores de carbono do mock
+            Double co2PorKg = materialMock.totalCo2eKgMf(); // total_co2e_kg_mf
+            Double carbonoA1A3 = materialMock.carbonA1a3(); // carbon_a1a3
+            Double carbonoC1C4 = materialMock.carbonC1c4(); // carbon_c1c4
+            Double carbonoBiogenico = materialMock.totalBiogenicCo2e(); // total_biogenic_co2e
+            
+            // Obter densidade e espessura do MaterialProjeto
+            Double densidade = materialProjeto.getDensidade();
+            Double espessura = materialProjeto.getEspessura();
+            
+            // Validar dados necessários
+            if (densidade == null || espessura == null || co2PorKg == null) {
+                System.err.println("Material " + materialMock.materialName() + " não possui densidade, espessura ou CO2. Ignorando...");
+                continue;
+            }
+            
+            // Calcular massa por unidade de área [kg/m²]
+            // massa_por_m² = densidade [kg/m³] × espessura [m]
+            Double massaPorUnidade = densidade * espessura;
+            
+            // Calcular carbono total do material [kgCO₂eq]
+            // carbono_total = massa_por_m² [kg/m²] × área_total [m²] × co2_por_kg [kgCO₂eq/kg]
+            Double carbonoTotalMaterial = massaPorUnidade * areaTotalProjeto * co2PorKg;
+            
+            carbonoTotalAbsoluto += carbonoTotalMaterial;
+            
+            // Criar DTO com detalhamento
+            CarbonoMaterialDTO materialDetalhado = new CarbonoMaterialDTO(
+                    idMaterialMock,
+                    materialMock.materialName(),
+                    materialMock.materialType(),
+                    espessura,
+                    densidade,
+                    massaPorUnidade,
+                    co2PorKg,
+                    carbonoA1A3,
+                    carbonoC1C4,
+                    carbonoBiogenico,
+                    carbonoTotalMaterial
+            );
+            
+            materiaisDetalhados.add(materialDetalhado);
+        }
+        
+        // 5. Calcular carbono por área [kgCO₂eq/m²]
+        Double carbonoTotalPorArea = carbonoTotalAbsoluto / areaTotalProjeto;
+        
+        // 6. Retornar resposta
+        return new CarbonoIncorporadoResponseDTO(
+                carbonoTotalPorArea,
+                carbonoTotalAbsoluto,
+                areaTotalProjeto,
+                projeto.getNome(),
+                materiaisDetalhados.size(),
+                materiaisDetalhados
+        );
     }
 }

@@ -1,5 +1,7 @@
 package com.edifica.bioedifica.dto;
 
+import java.util.List;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,6 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AdicionarMaterialSimplificadoDTO {
-    private Long idMaterialExterno;
-    private Double espessura;
+    private String tipoCamada; // PAREDE, COBERTURA, PISO
+    private List<MaterialCalculoDTO> materiais;
+    private Long projetoId;
 }
