@@ -99,7 +99,7 @@ public class UsuarioController {
         @Parameter(description = "E-mail do usuário", example = "admin@bioedifica.com") @RequestParam String username,
         @Parameter(description = "Senha do usuário", example = "123456") @RequestParam String senha) {
         Optional<UsuarioDTO> usuarioOpt = usuarioService.buscarPorUsername(username);
-        if (usuarioOpt.isPresent()) {
+        if (usuarioOpt.isPresent() && usuarioOpt.get().senha().equals(senha)) {
             // Aqui, para autenticação, você pode buscar a senha do model se necessário
             String token = jwtUtil.gerarToken(username, usuarioOpt.get().perfil().name());
             return ResponseEntity.ok(UsuarioMapper.toLoginResponse(usuarioOpt.get(), token));
