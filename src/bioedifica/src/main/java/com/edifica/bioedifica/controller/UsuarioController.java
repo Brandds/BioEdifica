@@ -2,6 +2,8 @@ package com.edifica.bioedifica.controller;
 
 import java.util.Optional;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -29,6 +31,8 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 @RestController
 @RequestMapping("/api/usuarios")
 public class UsuarioController {
+    private static final Logger logger = LoggerFactory.getLogger(UsuarioController.class);
+    
     private final IUsuarioService usuarioService;
     private final JwtUtil jwtUtil;
 
@@ -45,8 +49,30 @@ public class UsuarioController {
     })
     @PostMapping("/criaUsuario")
     public ResponseEntity<UsuarioDTO> criarUsuario(@RequestBody UsuarioCadastroDTO usuarioDTO) {
-        UsuarioDTO salvo = usuarioService.salvar(usuarioDTO);
-        return ResponseEntity.ok(salvo);
+        try {
+            logger.info("========== INÍCIO CRIAÇÃO DE USUÁRIO ==========");
+            logger.info("Endpoint acessado: POST /api/usuarios/criaUsuario");
+            logger.info("Dados recebidos: email={}, nome={}", 
+                usuarioDTO != null ? usuarioDTO.email() : "null", 
+                usuarioDTO != null ? usuarioDTO.nome() : "null");
+            
+            if (usuarioDTO == null) {
+                logger.error("ERRO: UsuarioCadastroDTO é null");
+                return ResponseEntity.badRequest().build();
+            }
+            
+            UsuarioDTO salvo = usuarioService.salvar(usuarioDTO);
+            logger.info("Usuário criado com sucesso: id={}, email={}", salvo.id(), salvo.email());
+            logger.info("========== FIM CRIAÇÃO DE USUÁRIO ==========");
+            return ResponseEntity.ok(salvo);
+            
+        } catch (Exception e) {
+            logger.error("========== ERRO NA CRIAÇÃO DE USUÁRIO ==========");
+            logger.error("Tipo de erro: {}", e.getClass().getName());
+            logger.error("Mensagem: {}", e.getMessage());
+            logger.error("Stack trace completo:", e);
+            throw e;
+        }
     }
 
     @Operation(summary = "Buscar usuário por ID", description = "Retorna os dados de um usuário pelo ID.")

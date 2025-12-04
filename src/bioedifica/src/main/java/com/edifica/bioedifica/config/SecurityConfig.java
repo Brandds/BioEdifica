@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 import javax.crypto.spec.SecretKeySpec;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -26,6 +28,8 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
+    private static final Logger logger = LoggerFactory.getLogger(SecurityConfig.class);
+    
     @Value("${spring.security.oauth2.resourceserver.jwt.secret}")
     private String jwtSecret;
     
@@ -34,6 +38,9 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+            logger.info("========== CONFIGURAÇÃO DE SEGURANÇA ==========");
+            logger.info("CORS permitido para: {}", Arrays.toString(allowedOrigins));
+            
             JwtAuthenticationConverter jwtAuthenticationConverter = new JwtAuthenticationConverter();
             JwtGrantedAuthoritiesConverter grantedAuthoritiesConverter = new JwtGrantedAuthoritiesConverter();
             grantedAuthoritiesConverter.setAuthorityPrefix(""); // Não adiciona 'ROLE_'
@@ -61,6 +68,12 @@ public class SecurityConfig {
                 .oauth2ResourceServer(oauth2 -> oauth2
                     .jwt(jwt -> jwt.jwtAuthenticationConverter(jwtAuthenticationConverter))
                 );
+            
+            logger.info("Endpoints públicos configurados:");
+            logger.info("  - POST /api/usuarios/criaUsuario");
+            logger.info("  - POST /api/usuarios/login");
+            logger.info("========== CONFIGURAÇÃO DE SEGURANÇA COMPLETA ==========");
+            
             return http.build();
     }
 
