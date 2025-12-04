@@ -29,7 +29,7 @@ public class SecurityConfig {
     @Value("${spring.security.oauth2.resourceserver.jwt.secret}")
     private String jwtSecret;
     
-    @Value("${cors.allowed-origins:http://localhost:5174,http://localhost:3000}")
+    @Value("${cors.allowed-origins:http://localhost:5174,http://localhost:3000,https://bioedifica.vercel.app,https://bioedifica.onrender.com}")
     private String[] allowedOrigins;
 
     @Bean
@@ -53,8 +53,8 @@ public class SecurityConfig {
                     // Permitir OPTIONS para CORS preflight
                     .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
                     // Endpoints de autenticação - permitir criação de usuário e login
-                    .requestMatchers(HttpMethod.POST, "/api/usuarios/**").permitAll()
-                    .requestMatchers(HttpMethod.POST, "/api/usuarios/login/**").permitAll()
+                    .requestMatchers(HttpMethod.POST, "/api/usuarios/criaUsuario").permitAll()
+                    .requestMatchers(HttpMethod.POST, "/api/usuarios/login").permitAll()
                     // Todos os outros endpoints precisam de autenticação
                     .anyRequest().authenticated()
                 )

@@ -43,7 +43,7 @@ public class UsuarioController {
         @ApiResponse(responseCode = "200", description = "Usuário criado com sucesso."),
         @ApiResponse(responseCode = "400", description = "Dados inválidos.")
     })
-    @PostMapping
+    @PostMapping("/criaUsuario")
     public ResponseEntity<UsuarioDTO> criarUsuario(@RequestBody UsuarioCadastroDTO usuarioDTO) {
         UsuarioDTO salvo = usuarioService.salvar(usuarioDTO);
         return ResponseEntity.ok(salvo);
