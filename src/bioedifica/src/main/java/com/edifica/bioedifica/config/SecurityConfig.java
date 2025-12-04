@@ -52,10 +52,9 @@ public class SecurityConfig {
                     .requestMatchers("/h2-console/**").permitAll()
                     // Permitir OPTIONS para CORS preflight
                     .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
-                    // Endpoints de autenticação
-                    .requestMatchers(HttpMethod.POST, "/api/usuarios").permitAll()
-                    .requestMatchers(HttpMethod.POST, "/api/usuarios/").permitAll()
-                    .requestMatchers(HttpMethod.POST, "/api/usuarios/login").permitAll()
+                    // Endpoints de autenticação - permitir criação de usuário e login
+                    .requestMatchers(HttpMethod.POST, "/api/usuarios/**").permitAll()
+                    .requestMatchers(HttpMethod.POST, "/api/usuarios/login/**").permitAll()
                     // Todos os outros endpoints precisam de autenticação
                     .anyRequest().authenticated()
                 )
