@@ -56,5 +56,6 @@ public record MaterialDTO(
     @JsonProperty("updated") String updated,
     @JsonProperty("generic_api_url") String genericApiUrl,
     @JsonProperty("calor_especifico") Double calorEspecifico,
-    @JsonProperty("condutividade_termica") Double condutividadeTermica
+    @JsonProperty("condutividade_termica") Double condutividadeTermica,
+    @JsonProperty("espessura") Double espessura
 ) {}
