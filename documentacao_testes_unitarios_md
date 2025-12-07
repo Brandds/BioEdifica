@@ -1,0 +1,476 @@
+# 📚 Guia de Testes Unitários com JUnit - BioEdifica
+
+## 🎯 Visão Geral
+
+Este documento descreve os testes unitários implementados para o backend do BioEdifica utilizando **JUnit 5** e **Mockito**. Os testes focam na camada de **Service** (lógica de negócio) para garantir a qualidade e confiabilidade do código.
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Versão | Finalidade |
+|------------|--------|------------|
+| **JUnit 5** | 5.9.x | Framework de testes unitários |
+| **Mockito** | 5.x | Framework para criação de mocks |
+| **AssertJ** | 3.x | Biblioteca para assertions mais fluentes |
+| **Spring Boot Test** | 3.2.5 | Suporte a testes no Spring Boot |
+| **Lombok** | - | Geração automática de código (Builder, etc) |
+
+
+## 🧪 Estrutura dos Testes
+
+### Localização dos Arquivos
+
+```
+src/test/java/com/edifica/bioedifica/service/
+├── EstadoServiceTest.java        # Testes do service de Estados (7 testes)
+├── CidadeServiceTest.java        # Testes do service de Cidades (5 testes)
+├── ProjetoServiceTest.java       # Testes do service de Projetos (5 testes)
+├── UsuarioServiceTest.java       # Testes do service de Usuários (12 testes)
+├── CalculoTermicoServiceTest.java # Testes de cálculos térmicos NBR 15220-2 (12 testes)
+├── MockMaterialServiceTest.java  # Testes de leitura e filtro de materiais (21 testes)
+└── [Outros testes de services]
+```
+
+### Anatomia de um Teste
+
+```java
+@ExtendWith(MockitoExtension.class)  // 1. Habilita Mockito
+class NomeServiceTest {
+
+    @Mock                              // 2. Cria mock de dependência
+    private IRepository repository;
+
+    @InjectMocks                       // 3. Injeta mocks no service
+    private NomeService service;
+
+    @BeforeEach                        // 4. Configuração antes de cada teste
+    void setUp() {
+        // Preparar dados de teste
+    }
+
+    @Test                              // 5. Marca método como teste
+    @DisplayName("Descrição do teste") // 6. Nome legível do teste
+    void testMetodo() {
+        // Arrange (preparar)
+        when(repository.findById(1L)).thenReturn(Optional.of(entidade));
+
+        // Act (executar)
+        ResultadoDTO resultado = service.buscarPorId(1L);
+
+        // Assert (verificar)
+        assertNotNull(resultado);
+        assertEquals("esperado", resultado.getCampo());
+        verify(repository, times(1)).findById(1L);
+    }
+}
+```
+
+## 📋 Conceitos Fundamentais
+
+### 1. Anotações Principais
+
+| Anotação | Função | Exemplo |
+|----------|--------|---------|
+| `@ExtendWith(MockitoExtension.class)` | Integra JUnit 5 com Mockito | Nível de classe |
+| `@Mock` | Cria um mock (objeto simulado) | Dependências |
+| `@InjectMocks` | Injeta mocks na classe testada | Classe sob teste |
+| `@BeforeEach` | Executa antes de cada teste | Método `setUp()` |
+| `@Test` | Define um método de teste | Métodos de teste |
+| `@DisplayName` | Nome legível para o teste | Documentação |
+
+### 2. Padrão AAA (Arrange-Act-Assert)
+
+Todos os testes seguem este padrão:
+
+```java
+@Test
+void testExemplo() {
+    // ARRANGE (Preparar): Configurar mocks e dados
+    when(repository.save(any())).thenReturn(entidade);
+    
+    // ACT (Executar): Chamar o método a ser testado
+    ResultadoDTO resultado = service.salvar(dto);
+    
+    // ASSERT (Verificar): Validar o resultado
+    assertNotNull(resultado);
+    assertEquals("esperado", resultado.getCampo());
+    verify(repository).save(any());
+}
+```
+
+### 3. Mockito - Comandos Básicos
+
+#### Configurar Comportamento do Mock
+
+```java
+// Retornar valor quando método é chamado
+when(repository.findById(1L)).thenReturn(Optional.of(entidade));
+
+// Retornar lista
+when(repository.findAll()).thenReturn(Arrays.asList(entidade1, entidade2));
+
+// Lançar exceção
+when(repository.save(any())).thenThrow(new RuntimeException("Erro"));
+
+// Fazer nada (void methods)
+doNothing().when(repository).deleteById(1L);
+```
+
+#### Verificar Chamadas
+
+```java
+// Verificar se método foi chamado
+verify(repository).save(any());
+
+// Verificar número de chamadas
+verify(repository, times(1)).findById(1L);
+verify(repository, never()).deleteById(anyLong());
+
+// Verificar com argumentos específicos
+verify(repository).save(argThat(e -> e.getNome().equals("Teste")));
+```
+
+### 4. Assertions do JUnit 5
+
+```java
+// Validações básicas
+assertNotNull(resultado);                    // Não é nulo
+assertNull(resultado);                       // É nulo
+assertTrue(condicao);                        // É verdadeiro
+assertFalse(condicao);                       // É falso
+
+// Comparações
+assertEquals(esperado, atual);               // Igualdade
+assertNotEquals(naoEsperado, atual);        // Diferença
+assertSame(objeto1, objeto2);               // Mesma instância
+
+// Coleções
+assertEquals(2, lista.size());               // Tamanho
+assertTrue(lista.contains(elemento));        // Contém elemento
+
+// Exceções
+assertThrows(Exception.class, () -> {        // Lança exceção
+    service.metodoQueLancaExcecao();
+});
+
+assertDoesNotThrow(() -> {                   // Não lança exceção
+    service.metodoSeguro();
+});
+```
+
+## 📝 Exemplos Práticos
+
+### Teste 1: Salvar Entidade
+
+```java
+@Test
+@DisplayName("Deve salvar estado com sucesso")
+void testSalvarEstado() {
+    // Arrange
+    EstadoDTO estadoDTO = EstadoDTO.builder()
+        .uf("MG")
+        .nome("Minas Gerais")
+        .build();
+    
+    Estado estado = new Estado();
+    estado.setId(1L);
+    estado.setUf("MG");
+    estado.setNome("Minas Gerais");
+    
+    when(estadoRepository.save(any(Estado.class))).thenReturn(estado);
+
+    // Act
+    EstadoDTO resultado = estadoService.salvar(estadoDTO);
+
+    // Assert
+    assertNotNull(resultado);
+    assertEquals("MG", resultado.getUf());
+    assertEquals("Minas Gerais", resultado.getNome());
+    verify(estadoRepository, times(1)).save(any(Estado.class));
+}
+```
+
+### Teste 2: Buscar por ID
+
+```java
+@Test
+@DisplayName("Deve buscar estado por ID")
+void testBuscarEstadoPorId() {
+    // Arrange
+    Estado estado = new Estado();
+    estado.setId(1L);
+    estado.setUf("MG");
+    
+    when(estadoRepository.findById(1L)).thenReturn(Optional.of(estado));
+
+    // Act
+    Optional<EstadoDTO> resultado = estadoService.buscarPorId(1L);
+
+    // Assert
+    assertTrue(resultado.isPresent());
+    assertEquals("MG", resultado.get().getUf());
+    verify(estadoRepository, times(1)).findById(1L);
+}
+```
+
+### Teste 3: Entidade Não Encontrada
+
+```java
+@Test
+@DisplayName("Deve retornar vazio quando estado não existe")
+void testBuscarEstadoInexistente() {
+    // Arrange
+    when(estadoRepository.findById(999L)).thenReturn(Optional.empty());
+
+    // Act
+    Optional<EstadoDTO> resultado = estadoService.buscarPorId(999L);
+
+    // Assert
+    assertFalse(resultado.isPresent());
+    verify(estadoRepository, times(1)).findById(999L);
+}
+```
+
+### Teste 4: Listar Entidades
+
+```java
+@Test
+@DisplayName("Deve listar todos os estados")
+void testListarTodosEstados() {
+    // Arrange
+    Estado estado1 = new Estado();
+    estado1.setUf("MG");
+    
+    Estado estado2 = new Estado();
+    estado2.setUf("SP");
+    
+    when(estadoRepository.findAll()).thenReturn(Arrays.asList(estado1, estado2));
+
+    // Act
+    List<EstadoDTO> resultado = estadoService.listarTodos();
+
+    // Assert
+    assertNotNull(resultado);
+    assertEquals(2, resultado.size());
+    assertEquals("MG", resultado.get(0).getUf());
+    assertEquals("SP", resultado.get(1).getUf());
+    verify(estadoRepository, times(1)).findAll();
+}
+```
+
+### Teste 5: Deletar Entidade
+
+```java
+@Test
+@DisplayName("Deve deletar estado")
+void testDeletarEstado() {
+    // Arrange
+    doNothing().when(estadoRepository).deleteById(1L);
+
+    // Act & Assert
+    assertDoesNotThrow(() -> estadoService.deletar(1L));
+    verify(estadoRepository, times(1)).deleteById(1L);
+}
+```
+
+### Teste 6: Validação de Regra de Negócio (Exceção)
+
+```java
+@Test
+@DisplayName("Deve lançar exceção ao salvar usuário com email duplicado")
+void testSalvarUsuarioEmailDuplicado() {
+    // Arrange
+    when(usuarioRepository.existsByEmail("joao@email.com")).thenReturn(true);
+
+    // Act & Assert
+    assertThrows(EmailJaCadastradoException.class, () -> {
+        usuarioService.salvar(usuarioCadastroDTO);
+    });
+
+    verify(usuarioRepository, times(1)).existsByEmail("joao@email.com");
+    verify(usuarioRepository, never()).save(any(Usuario.class));
+}
+```
+
+### Teste 7: Autenticação
+
+```java
+@Test
+@DisplayName("Deve autenticar usuário com credenciais válidas")
+void testAutenticarUsuarioValido() {
+    // Arrange
+    Usuario usuario = new Usuario();
+    usuario.setEmail("joao@email.com");
+    usuario.setSenha("senha123");
+    
+    when(usuarioRepository.findAll()).thenReturn(Arrays.asList(usuario));
+
+    // Act
+    boolean resultado = usuarioService.autenticar("joao@email.com", "senha123");
+
+    // Assert
+    assertTrue(resultado);
+    verify(usuarioRepository, times(1)).findAll();
+}
+```
+
+## 🚀 Executando os Testes
+
+### Linha de Comando
+
+```bash
+# Executar todos os testes
+./mvnw test
+
+# Windows
+mvnw.cmd test
+
+# Executar testes de uma classe específica
+./mvnw test -Dtest=EstadoServiceTest
+
+# Executar um teste específico
+./mvnw test -Dtest=EstadoServiceTest#testSalvarEstado
+
+# Gerar relatório de cobertura (se JaCoCo configurado)
+./mvnw clean test jacoco:report
+```
+
+### IDE (IntelliJ IDEA / Eclipse)
+
+1. **Executar todos os testes de uma classe:**
+   - Clique direito na classe de teste → "Run EstadoServiceTest"
+
+2. **Executar um teste específico:**
+   - Clique no ícone ▶️ ao lado do método `@Test`
+
+3. **Ver cobertura:**
+   - Clique direito → "Run with Coverage"
+
+## 📊 Cobertura de Testes Atual
+
+### Services Testados
+
+| Service | Testes | Cobertura |
+|---------|--------|--------|
+| **EstadoService** | 7 | Salvar, listar, buscar, deletar, verificar existência |
+| **CidadeService** | 5 | Salvar, listar, buscar, deletar |
+| **ProjetoService** | 5 | Criar, buscar, listar por usuário, deletar |
+| **UsuarioService** | 12 | Salvar, listar, buscar, atualizar, deletar, autenticar, buscar por username |
+| **CalculoTermicoService** | 12 | Cálculo de propriedades térmicas (U, CT, RT, φ), carbono incorporado, validações |
+| **MockMaterialService** | 21 | Carregar JSON, buscar por ID, filtrar, categorias, propriedades térmicas, densidade |
+
+### Tipos de Testes Implementados
+
+✅ **Testes de Sucesso**: Validam fluxo normal de execução  
+✅ **Testes de Erro**: Validam comportamento com dados inválidos  
+✅ **Testes de Vazio**: Validam retorno quando não há dados  
+✅ **Testes de Validação**: Verificam chamadas aos repositories  
+
+## 🎓 Boas Práticas
+
+### ✅ Fazer
+
+1. **Nomear testes claramente**
+   ```java
+   @DisplayName("Deve salvar estado com sucesso")
+   void testSalvarEstado()
+   ```
+
+2. **Testar um comportamento por teste**
+   - Cada teste deve validar apenas uma funcionalidade
+
+3. **Usar padrão AAA**
+   - Arrange → Act → Assert
+
+4. **Verificar chamadas aos mocks**
+   ```java
+   verify(repository, times(1)).save(any());
+   ```
+
+5. **Usar builders para DTOs**
+   ```java
+   EstadoDTO dto = EstadoDTO.builder()
+       .uf("MG")
+       .nome("Minas Gerais")
+       .build();
+   ```
+
+### ❌ Evitar
+
+1. **Testes muito longos**
+   - Divida em testes menores
+
+2. **Lógica complexa nos testes**
+   - Testes devem ser simples e diretos
+
+3. **Dependência entre testes**
+   - Cada teste deve ser independente
+
+4. **Ignorar verificações**
+   - Sempre use `verify()` para garantir chamadas
+
+5. **Dados hardcoded**
+   - Use o método `setUp()` para preparar dados
+
+## 🐛 Troubleshooting
+
+### Problema: NullPointerException no teste
+
+**Causa:** Mock não configurado  
+**Solução:** 
+```java
+@Mock
+private IRepository repository;  // ✅ Anotação @Mock
+
+// Configurar comportamento
+when(repository.findById(1L)).thenReturn(Optional.of(entidade));
+```
+
+### Problema: Teste passa mas não deveria
+
+**Causa:** Assertions faltando  
+**Solução:**
+```java
+// ❌ Errado
+service.salvar(dto);
+
+// ✅ Correto
+EstadoDTO resultado = service.salvar(dto);
+assertNotNull(resultado);
+assertEquals("MG", resultado.getUf());
+verify(repository).save(any());
+```
+
+### Problema: Erro "UnnecessaryStubbingException"
+
+**Causa:** Mock configurado mas não usado  
+**Solução:** Remova o `when()` não utilizado ou use-o no teste
+
+## 📚 Próximos Passos
+
+### Services a Testar
+
+- [x] UsuarioService ✅
+- [x] CalculoTermicoService ✅
+- [x] MockMaterialService ✅
+- [ ] MaterialProjetoService
+- [ ] ZoneamentoBioclimaticoService
+
+### Melhorias
+
+- [ ] Adicionar JaCoCo para relatório de cobertura
+- [ ] Criar testes de integração
+- [ ] Implementar testes parametrizados com `@ParameterizedTest`
+- [ ] Adicionar testes de performance
+
+## 🔗 Referências
+
+- [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/)
+- [Mockito Documentation](https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html)
+- [AssertJ Documentation](https://assertj.github.io/doc/)
+- [Spring Boot Testing](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.testing)
+
+---
+
+**Última atualização:** Novembro 2025  
+**Autor:** Equipe BioEdifica  
+**Total de Testes:** 62 testes unitários (6 services testados)
