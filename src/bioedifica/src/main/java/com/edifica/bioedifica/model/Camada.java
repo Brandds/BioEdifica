@@ -12,14 +12,8 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Entity
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class Camada {
     
     @Id
@@ -40,10 +34,39 @@ public class Camada {
     // Valores calculados (opcionais - salvos apenas se usuário solicitar)
     @Embedded
     private CalculoTermico calculoTermico;
+
+    public Camada() {}
     
     public Camada(String nome, TipoCamada tipoCamada, Projeto projeto) {
         this.nome = nome;
         this.tipoCamada = tipoCamada;
         this.projeto = projeto;
     }
+
+    public Camada(Long id, String nome, TipoCamada tipoCamada, Projeto projeto, List<Composicao> composicoes, CalculoTermico calculoTermico) {
+        this.id = id;
+        this.nome = nome;
+        this.tipoCamada = tipoCamada;
+        this.projeto = projeto;
+        this.composicoes = composicoes;
+        this.calculoTermico = calculoTermico;
+    }
+
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+
+    public String getNome() { return nome; }
+    public void setNome(String nome) { this.nome = nome; }
+
+    public TipoCamada getTipoCamada() { return tipoCamada; }
+    public void setTipoCamada(TipoCamada tipoCamada) { this.tipoCamada = tipoCamada; }
+
+    public Projeto getProjeto() { return projeto; }
+    public void setProjeto(Projeto projeto) { this.projeto = projeto; }
+
+    public List<Composicao> getComposicoes() { return composicoes; }
+    public void setComposicoes(List<Composicao> composicoes) { this.composicoes = composicoes; }
+
+    public CalculoTermico getCalculoTermico() { return calculoTermico; }
+    public void setCalculoTermico(CalculoTermico calculoTermico) { this.calculoTermico = calculoTermico; }
 }

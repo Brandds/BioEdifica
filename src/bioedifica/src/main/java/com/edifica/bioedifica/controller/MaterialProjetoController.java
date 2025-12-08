@@ -51,8 +51,10 @@ public class MaterialProjetoController {
   }
 
   @Operation(
-      summary = "Adicionar material do catálogo ao projeto", 
-      description = "Adiciona um material do catálogo ao projeto usando apenas ID e espessura. Propriedades térmicas e tipo são obtidos automaticamente do catálogo baseado no material_type."
+      summary = "Adicionar material do catálogo ao projeto com criação automática de camada", 
+      description = "Adiciona materiais do catálogo ao projeto, criando automaticamente uma nova camada. " +
+                    "Os materiais são associados à camada criada e suas composições são registradas na ordem fornecida. " +
+                    "Propriedades térmicas são obtidas automaticamente do catálogo baseado no material_type."
   )
   @PostMapping("/propriedades-termicas/do-catalogo/{projetoId}")
   public ResponseEntity<List<MaterialProjetoDTO>> adicionarMaterialDoCatalogo(
@@ -60,12 +62,29 @@ public class MaterialProjetoController {
           @PathVariable Long projetoId,
           @RequestBody AdicionarMaterialSimplificadoDTO materiais) {
       try {
+          System.out.println("=== Iniciando adição de materiais do catálogo ===");
+          System.out.println("ProjetoId: " + projetoId);
+          System.out.println("Dados recebidos: " + materiais);
+          System.out.println("Nome da camada: " + materiais.getNomeCamada());
+          System.out.println("Tipo da camada: " + materiais.getTipoCamada());
+          System.out.println("Quantidade de materiais: " + materiais.getMateriais().size());
+          
           List<MaterialProjetoDTO> materialSalvo = materialProjetoService.adicionarMaterialDoMock(
               projetoId, 
               materiais
           );
+          
+          System.out.println("=== Materiais adicionados com sucesso ===");
+          System.out.println("Total de materiais salvos: " + materialSalvo.size());
+          
           return ResponseEntity.status(HttpStatus.CREATED).body(materialSalvo);
       } catch (Exception e) {
+          System.err.println("=== ERRO ao adicionar materiais do catálogo ===");
+          System.err.println("ProjetoId: " + projetoId);
+          System.err.println("Tipo de erro: " + e.getClass().getName());
+          System.err.println("Mensagem: " + e.getMessage());
+          System.err.println("Stack trace:");
+          e.printStackTrace();
           return ResponseEntity.badRequest().build();
       }
   }

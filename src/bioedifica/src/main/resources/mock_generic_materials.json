@@ -1,6 +1,6 @@
 {
-  "TotalMaterials": 23968,
-  "countMaterialsOnPage": 200,
+  "TotalMaterials": 23977,
+  "countMaterialsOnPage": 609,
   "current_page": 1,
   "material_range": [
     1,
@@ -30410,6 +30410,438 @@
       "calor_especifico": 0.92,
       "condutividade_termica": 0.7,
       "espessura": 1
+    },
+    {
+      "id": 2073,
+      "source_uuid": "camara-ar-1-1765088628454",
+      "material_name": "Câmara de ar (>2 e ≤5)cm Fluxo Ascendente",
+      "group_elements_nrm_1": [
+        "3 - Fachada e paredes externas",
+        "5 - Coberturas"
+      ],
+      "elements_nrm_1": [
+        "3.1 - Paredes externas",
+        "5.1 - Estrutura de cobertura"
+      ],
+      "product_type": "Câmara de ar",
+      "product_type_family": "Isolamento térmico",
+      "uniclass_systems": [
+        "(Ss_25_10) Sistemas de isolamento térmico"
+      ],
+      "uniclass_products": [
+        "(Pr_65_52_56) Câmaras de ar"
+      ],
+      "uniclass_materials": [
+        "(Ma_85_10_10) Ar"
+      ],
+      "material_type": "Materiais Gasosos",
+      "material_type_family": "Gases e Câmaras de Ar",
+      "data_source": "NBR 15220-2 (ABNT)",
+      "data_source_url": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/7431cee662f728fc50d8770d6e340d1a.jpg",
+      "data_source_year": 2024,
+      "data_source_country": "Brasil",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m²",
+      "total_co2e_kg_mf": 0,
+      "carbon_a1a3": 0,
+      "density": 1.2,
+      "density_estimated": false,
+      "mass_per_piece": 0,
+      "mass_per_piece_estimated": true,
+      "mass_per_declared_unit": 0,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2025-12-07T06:23:48.454Z",
+      "updated": "2025-12-07T06:23:48.455Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=2073",
+      "calor_especifico": 1.005,
+      "condutividade_termica": 0.2188,
+      "espessura": 0.035,
+      "resistencia_termica": 0.16,
+      "fluxo_termico": "Ascendente"
+    },
+    {
+      "id": 2074,
+      "source_uuid": "camara-ar-2-1765088628456",
+      "material_name": "Câmara de ar (>2 e ≤5)cm Fluxo Descendente",
+      "group_elements_nrm_1": [
+        "3 - Fachada e paredes externas",
+        "5 - Coberturas"
+      ],
+      "elements_nrm_1": [
+        "3.1 - Paredes externas",
+        "5.1 - Estrutura de cobertura"
+      ],
+      "product_type": "Câmara de ar",
+      "product_type_family": "Isolamento térmico",
+      "uniclass_systems": [
+        "(Ss_25_10) Sistemas de isolamento térmico"
+      ],
+      "uniclass_products": [
+        "(Pr_65_52_56) Câmaras de ar"
+      ],
+      "uniclass_materials": [
+        "(Ma_85_10_10) Ar"
+      ],
+      "material_type": "Materiais Gasosos",
+      "material_type_family": "Gases e Câmaras de Ar",
+      "data_source": "NBR 15220-2 (ABNT)",
+      "data_source_url": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/7431cee662f728fc50d8770d6e340d1a.jpg",
+      "data_source_year": 2024,
+      "data_source_country": "Brasil",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m²",
+      "total_co2e_kg_mf": 0,
+      "carbon_a1a3": 0,
+      "density": 1.2,
+      "density_estimated": false,
+      "mass_per_piece": 0,
+      "mass_per_piece_estimated": true,
+      "mass_per_declared_unit": 0,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2025-12-07T06:23:48.456Z",
+      "updated": "2025-12-07T06:23:48.456Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=2074",
+      "calor_especifico": 1.005,
+      "condutividade_termica": 0.1667,
+      "espessura": 0.035,
+      "resistencia_termica": 0.21,
+      "fluxo_termico": "Descendente"
+    },
+    {
+      "id": 2075,
+      "source_uuid": "camara-ar-3-1765088628456",
+      "material_name": "Câmara de ar (>2 e ≤5)cm Fluxo Horizontal",
+      "group_elements_nrm_1": [
+        "3 - Fachada e paredes externas",
+        "5 - Coberturas"
+      ],
+      "elements_nrm_1": [
+        "3.1 - Paredes externas",
+        "5.1 - Estrutura de cobertura"
+      ],
+      "product_type": "Câmara de ar",
+      "product_type_family": "Isolamento térmico",
+      "uniclass_systems": [
+        "(Ss_25_10) Sistemas de isolamento térmico"
+      ],
+      "uniclass_products": [
+        "(Pr_65_52_56) Câmaras de ar"
+      ],
+      "uniclass_materials": [
+        "(Ma_85_10_10) Ar"
+      ],
+      "material_type": "Materiais Gasosos",
+      "material_type_family": "Gases e Câmaras de Ar",
+      "data_source": "NBR 15220-2 (ABNT)",
+      "data_source_url": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/7431cee662f728fc50d8770d6e340d1a.jpg",
+      "data_source_year": 2024,
+      "data_source_country": "Brasil",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m²",
+      "total_co2e_kg_mf": 0,
+      "carbon_a1a3": 0,
+      "density": 1.2,
+      "density_estimated": false,
+      "mass_per_piece": 0,
+      "mass_per_piece_estimated": true,
+      "mass_per_declared_unit": 0,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2025-12-07T06:23:48.456Z",
+      "updated": "2025-12-07T06:23:48.456Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=2075",
+      "calor_especifico": 1.005,
+      "condutividade_termica": 0.1944,
+      "espessura": 0.035,
+      "resistencia_termica": 0.18,
+      "fluxo_termico": "Horizontal"
+    },
+    {
+      "id": 2076,
+      "source_uuid": "camara-ar-4-1765088628456",
+      "material_name": "Câmara de ar (≥1 e ≤2)cm Fluxo Ascendente",
+      "group_elements_nrm_1": [
+        "3 - Fachada e paredes externas",
+        "5 - Coberturas"
+      ],
+      "elements_nrm_1": [
+        "3.1 - Paredes externas",
+        "5.1 - Estrutura de cobertura"
+      ],
+      "product_type": "Câmara de ar",
+      "product_type_family": "Isolamento térmico",
+      "uniclass_systems": [
+        "(Ss_25_10) Sistemas de isolamento térmico"
+      ],
+      "uniclass_products": [
+        "(Pr_65_52_56) Câmaras de ar"
+      ],
+      "uniclass_materials": [
+        "(Ma_85_10_10) Ar"
+      ],
+      "material_type": "Materiais Gasosos",
+      "material_type_family": "Gases e Câmaras de Ar",
+      "data_source": "NBR 15220-2 (ABNT)",
+      "data_source_url": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/7431cee662f728fc50d8770d6e340d1a.jpg",
+      "data_source_year": 2024,
+      "data_source_country": "Brasil",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m²",
+      "total_co2e_kg_mf": 0,
+      "carbon_a1a3": 0,
+      "density": 1.2,
+      "density_estimated": false,
+      "mass_per_piece": 0,
+      "mass_per_piece_estimated": true,
+      "mass_per_declared_unit": 0,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2025-12-07T06:23:48.456Z",
+      "updated": "2025-12-07T06:23:48.456Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=2076",
+      "calor_especifico": 1.005,
+      "condutividade_termica": 0.1071,
+      "espessura": 0.015,
+      "resistencia_termica": 0.14,
+      "fluxo_termico": "Ascendente"
+    },
+    {
+      "id": 2077,
+      "source_uuid": "camara-ar-5-1765088628457",
+      "material_name": "Câmara de ar (≥1 e ≤2)cm Fluxo Descendente",
+      "group_elements_nrm_1": [
+        "3 - Fachada e paredes externas",
+        "5 - Coberturas"
+      ],
+      "elements_nrm_1": [
+        "3.1 - Paredes externas",
+        "5.1 - Estrutura de cobertura"
+      ],
+      "product_type": "Câmara de ar",
+      "product_type_family": "Isolamento térmico",
+      "uniclass_systems": [
+        "(Ss_25_10) Sistemas de isolamento térmico"
+      ],
+      "uniclass_products": [
+        "(Pr_65_52_56) Câmaras de ar"
+      ],
+      "uniclass_materials": [
+        "(Ma_85_10_10) Ar"
+      ],
+      "material_type": "Materiais Gasosos",
+      "material_type_family": "Gases e Câmaras de Ar",
+      "data_source": "NBR 15220-2 (ABNT)",
+      "data_source_url": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/7431cee662f728fc50d8770d6e340d1a.jpg",
+      "data_source_year": 2024,
+      "data_source_country": "Brasil",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m²",
+      "total_co2e_kg_mf": 0,
+      "carbon_a1a3": 0,
+      "density": 1.2,
+      "density_estimated": false,
+      "mass_per_piece": 0,
+      "mass_per_piece_estimated": true,
+      "mass_per_declared_unit": 0,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2025-12-07T06:23:48.457Z",
+      "updated": "2025-12-07T06:23:48.457Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=2077",
+      "calor_especifico": 1.005,
+      "condutividade_termica": 0.0833,
+      "espessura": 0.015,
+      "resistencia_termica": 0.18,
+      "fluxo_termico": "Descendente"
+    },
+    {
+      "id": 2078,
+      "source_uuid": "camara-ar-6-1765088628457",
+      "material_name": "Câmara de ar (≥1 e ≤2)cm Fluxo Horizontal",
+      "group_elements_nrm_1": [
+        "3 - Fachada e paredes externas",
+        "5 - Coberturas"
+      ],
+      "elements_nrm_1": [
+        "3.1 - Paredes externas",
+        "5.1 - Estrutura de cobertura"
+      ],
+      "product_type": "Câmara de ar",
+      "product_type_family": "Isolamento térmico",
+      "uniclass_systems": [
+        "(Ss_25_10) Sistemas de isolamento térmico"
+      ],
+      "uniclass_products": [
+        "(Pr_65_52_56) Câmaras de ar"
+      ],
+      "uniclass_materials": [
+        "(Ma_85_10_10) Ar"
+      ],
+      "material_type": "Materiais Gasosos",
+      "material_type_family": "Gases e Câmaras de Ar",
+      "data_source": "NBR 15220-2 (ABNT)",
+      "data_source_url": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/7431cee662f728fc50d8770d6e340d1a.jpg",
+      "data_source_year": 2024,
+      "data_source_country": "Brasil",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m²",
+      "total_co2e_kg_mf": 0,
+      "carbon_a1a3": 0,
+      "density": 1.2,
+      "density_estimated": false,
+      "mass_per_piece": 0,
+      "mass_per_piece_estimated": true,
+      "mass_per_declared_unit": 0,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2025-12-07T06:23:48.457Z",
+      "updated": "2025-12-07T06:23:48.457Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=2078",
+      "calor_especifico": 1.005,
+      "condutividade_termica": 0.0938,
+      "espessura": 0.015,
+      "resistencia_termica": 0.16,
+      "fluxo_termico": "Horizontal"
+    },
+    {
+      "id": 2079,
+      "source_uuid": "camara-ar-7-1765088628457",
+      "material_name": "Câmara de ar > 5cm Fluxo Ascendente",
+      "group_elements_nrm_1": [
+        "3 - Fachada e paredes externas",
+        "5 - Coberturas"
+      ],
+      "elements_nrm_1": [
+        "3.1 - Paredes externas",
+        "5.1 - Estrutura de cobertura"
+      ],
+      "product_type": "Câmara de ar",
+      "product_type_family": "Isolamento térmico",
+      "uniclass_systems": [
+        "(Ss_25_10) Sistemas de isolamento térmico"
+      ],
+      "uniclass_products": [
+        "(Pr_65_52_56) Câmaras de ar"
+      ],
+      "uniclass_materials": [
+        "(Ma_85_10_10) Ar"
+      ],
+      "material_type": "Materiais Gasosos",
+      "material_type_family": "Gases e Câmaras de Ar",
+      "data_source": "NBR 15220-2 (ABNT)",
+      "data_source_url": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/7431cee662f728fc50d8770d6e340d1a.jpg",
+      "data_source_year": 2024,
+      "data_source_country": "Brasil",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m²",
+      "total_co2e_kg_mf": 0,
+      "carbon_a1a3": 0,
+      "density": 1.2,
+      "density_estimated": false,
+      "mass_per_piece": 0,
+      "mass_per_piece_estimated": true,
+      "mass_per_declared_unit": 0,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2025-12-07T06:23:48.457Z",
+      "updated": "2025-12-07T06:23:48.457Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=2079",
+      "calor_especifico": 1.005,
+      "condutividade_termica": 0.4118,
+      "espessura": 0.07,
+      "resistencia_termica": 0.17,
+      "fluxo_termico": "Ascendente"
+    },
+    {
+      "id": 2080,
+      "source_uuid": "camara-ar-8-1765088628458",
+      "material_name": "Câmara de ar > 5cm Fluxo Descendente",
+      "group_elements_nrm_1": [
+        "3 - Fachada e paredes externas",
+        "5 - Coberturas"
+      ],
+      "elements_nrm_1": [
+        "3.1 - Paredes externas",
+        "5.1 - Estrutura de cobertura"
+      ],
+      "product_type": "Câmara de ar",
+      "product_type_family": "Isolamento térmico",
+      "uniclass_systems": [
+        "(Ss_25_10) Sistemas de isolamento térmico"
+      ],
+      "uniclass_products": [
+        "(Pr_65_52_56) Câmaras de ar"
+      ],
+      "uniclass_materials": [
+        "(Ma_85_10_10) Ar"
+      ],
+      "material_type": "Materiais Gasosos",
+      "material_type_family": "Gases e Câmaras de Ar",
+      "data_source": "NBR 15220-2 (ABNT)",
+      "data_source_url": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/7431cee662f728fc50d8770d6e340d1a.jpg",
+      "data_source_year": 2024,
+      "data_source_country": "Brasil",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m²",
+      "total_co2e_kg_mf": 0,
+      "carbon_a1a3": 0,
+      "density": 1.2,
+      "density_estimated": false,
+      "mass_per_piece": 0,
+      "mass_per_piece_estimated": true,
+      "mass_per_declared_unit": 0,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2025-12-07T06:23:48.458Z",
+      "updated": "2025-12-07T06:23:48.458Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=2080",
+      "calor_especifico": 1.005,
+      "condutividade_termica": 0.3182,
+      "espessura": 0.07,
+      "resistencia_termica": 0.22,
+      "fluxo_termico": "Descendente"
+    },
+    {
+      "id": 2081,
+      "source_uuid": "camara-ar-9-1765088628458",
+      "material_name": "Câmara de ar > 5cm Fluxo Horizontal",
+      "group_elements_nrm_1": [
+        "3 - Fachada e paredes externas",
+        "5 - Coberturas"
+      ],
+      "elements_nrm_1": [
+        "3.1 - Paredes externas",
+        "5.1 - Estrutura de cobertura"
+      ],
+      "product_type": "Câmara de ar",
+      "product_type_family": "Isolamento térmico",
+      "uniclass_systems": [
+        "(Ss_25_10) Sistemas de isolamento térmico"
+      ],
+      "uniclass_products": [
+        "(Pr_65_52_56) Câmaras de ar"
+      ],
+      "uniclass_materials": [
+        "(Ma_85_10_10) Ar"
+      ],
+      "material_type": "Materiais Gasosos",
+      "material_type_family": "Gases e Câmaras de Ar",
+      "data_source": "NBR 15220-2 (ABNT)",
+      "data_source_url": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/7431cee662f728fc50d8770d6e340d1a.jpg",
+      "data_source_year": 2024,
+      "data_source_country": "Brasil",
+      "functional_unit_quantity": "1",
+      "functional_unit_unit": "m²",
+      "total_co2e_kg_mf": 0,
+      "carbon_a1a3": 0,
+      "density": 1.2,
+      "density_estimated": false,
+      "mass_per_piece": 0,
+      "mass_per_piece_estimated": true,
+      "mass_per_declared_unit": 0,
+      "mass_per_declared_unit_estimated": false,
+      "created": "2025-12-07T06:23:48.458Z",
+      "updated": "2025-12-07T06:23:48.458Z",
+      "generic_api_url": "https://app.2050-materials.com/developer/api/get_generic_materials?id=2081",
+      "calor_especifico": 1.005,
+      "condutividade_termica": 0.3684,
+      "espessura": 0.07,
+      "resistencia_termica": 0.19,
+      "fluxo_termico": "Horizontal"
     }
   ]
 }

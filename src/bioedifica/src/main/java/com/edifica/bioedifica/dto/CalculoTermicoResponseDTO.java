@@ -25,4 +25,41 @@ public class CalculoTermicoResponseDTO {
     
     // Detalhes dos materiais utilizados no cálculo
     private List<MaterialDetalhadoDTO> materiaisDetalhados;
+
+
+    public void setMateriaisDetalhados(List<MaterialDetalhadoDTO> materiaisDetalhados) {
+        this.materiaisDetalhados = materiaisDetalhados;
+    }
+    
+    public List<MaterialDetalhadoDTO> getMateriaisDetalhados() {
+        return materiaisDetalhados;
+    }
+
+    public Double getTransmitanciaTermica() {
+        return transmitanciaTermica;
+    }
+    public void setTransmitanciaTermica(Double transmitanciaTermica) {
+        this.transmitanciaTermica = transmitanciaTermica;
+    }
+
+    public Double getCapacidadeTermica() {
+        return capacidadeTermica;
+    }
+    public void setCapacidadeTermica(Double capacidadeTermica) {
+        this.capacidadeTermica = capacidadeTermica;
+    }
+
+    public Double getResistenciaTermicaTotal() {
+        return resistenciaTermicaTotal;
+    }
+    public void setResistenciaTermicaTotal(Double resistenciaTermicaTotal) {
+        this.resistenciaTermicaTotal = resistenciaTermicaTotal;
+    }
+
+    public Double getAtrasoTermico() {
+        return atrasoTermico;
+    }
+    public void setAtrasoTermico(Double atrasoTermico) {
+        this.atrasoTermico = atrasoTermico;
+    }
 }

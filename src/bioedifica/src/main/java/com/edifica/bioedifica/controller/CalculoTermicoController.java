@@ -1,5 +1,6 @@
 package com.edifica.bioedifica.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -24,7 +25,8 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class CalculoTermicoController {
 
-    private final ICalculoTermicoService calculoTermicoService;
+    @Autowired
+    private  ICalculoTermicoService calculoTermicoService;
 
     /**
      * Calcula propriedades térmicas com base em materiais do mock

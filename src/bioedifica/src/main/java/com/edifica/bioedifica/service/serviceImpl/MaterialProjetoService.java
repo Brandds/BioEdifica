@@ -3,17 +3,27 @@ package com.edifica.bioedifica.service.serviceImpl;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.edifica.bioedifica.dto.AdicionarMaterialSimplificadoDTO;
+import com.edifica.bioedifica.dto.CalculoTermicoRequestDTO;
+import com.edifica.bioedifica.dto.CalculoTermicoResponseDTO;
 import com.edifica.bioedifica.dto.MaterialCalculoDTO;
 import com.edifica.bioedifica.dto.MaterialProjetoDTO;
 import com.edifica.bioedifica.dto.material.MaterialDTO;
 import com.edifica.bioedifica.dto.material.MaterialVisualizacaoDTO;
+import com.edifica.bioedifica.model.CalculoTermico;
+import com.edifica.bioedifica.model.Camada;
+import com.edifica.bioedifica.model.Composicao;
 import com.edifica.bioedifica.model.MaterialProjeto;
 import com.edifica.bioedifica.model.Projeto;
+import com.edifica.bioedifica.model.TipoCamada;
+import com.edifica.bioedifica.repository.CamadaRepository;
+import com.edifica.bioedifica.repository.ComposicaoRepository;
 import com.edifica.bioedifica.repository.MaterialProjetoRepository;
 import com.edifica.bioedifica.repository.ProjetoRepository;
+import com.edifica.bioedifica.service.ICalculoTermicoService;
 import com.edifica.bioedifica.service.IMaterialProjetoService;
 
 import lombok.RequiredArgsConstructor;
@@ -22,10 +32,19 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class MaterialProjetoService implements IMaterialProjetoService {
 
-    private final MaterialProjetoRepository materialProjetoRepository;
-    private final ProjetoRepository projetoRepository;
-    private final MockMaterialService mockMaterialService;
-
+    @Autowired
+    private MaterialProjetoRepository materialProjetoRepository;
+    @Autowired
+    private ProjetoRepository projetoRepository;
+    @Autowired
+    private CamadaRepository camadaRepository;
+    @Autowired
+    private ComposicaoRepository composicaoRepository;
+    @Autowired
+    private MockMaterialService mockMaterialService;
+    @Autowired
+    private ICalculoTermicoService calculoTermicoService;
+    
     @Override
     public List<MaterialVisualizacaoDTO> buscarMateriaisPorProjeto(Long projetoId) {
         List<MaterialProjeto> materiais = materialProjetoRepository.findByProjetoId(projetoId);
@@ -55,38 +74,141 @@ public class MaterialProjetoService implements IMaterialProjetoService {
     }
 
     @Override
-    public List<MaterialProjetoDTO> adicionarMaterialDoMock(Long projetoId, AdicionarMaterialSimplificadoDTO materiais) {
-        Projeto projeto = projetoRepository.findById(projetoId)
-            .orElseThrow(() -> new RuntimeException("Projeto não encontrado"));
+    public List<MaterialProjetoDTO> adicionarMaterialDoMock(Long projetoId, AdicionarMaterialSimplificadoDTO dto) {
+        try {
+            System.out.println("=== MaterialProjetoService.adicionarMaterialDoMock ===");
+            System.out.println("ProjetoId: " + projetoId);
+            
+            Projeto projeto = projetoRepository.findById(projetoId)
+                .orElseThrow(() -> new RuntimeException("Projeto não encontrado"));
+            
+            System.out.println("Projeto encontrado: " + projeto.getId());
+            
+            // Criar a camada
+            System.out.println("Criando camada - TipoCamada: " + dto.getTipoCamada());
+            TipoCamada tipoCamada = TipoCamada.valueOf(dto.getTipoCamada());
+            String nomeCamada = dto.getNomeCamada() != null && !dto.getNomeCamada().isEmpty() 
+                ? dto.getNomeCamada() 
+                : "Camada " + dto.getTipoCamada();
+            
+            System.out.println("Nome da camada: " + nomeCamada);
+            
+            Camada camada = new Camada(nomeCamada, tipoCamada, projeto);
+            Camada camadaSalva = camadaRepository.save(camada);
+            
+            System.out.println("Camada salva com ID: " + camadaSalva.getId());
+            
+            // Criar os materiais associados à camada
+            System.out.println("Criando " + dto.getMateriais().size() + " materiais...");
+            List<MaterialProjeto> novosMateriais = dto.getMateriais().stream()
+                .map(material -> {
+                    System.out.println("Processando material ID: " + material.getIdMaterialMock() + ", espessura: " + material.getEspessura());
+                    return criarMaterialProjeto(projeto, camadaSalva, material, dto.getTipoCamada());
+                })
+                .collect(Collectors.toList());
+            
+            System.out.println("Salvando materiais no banco...");
+            List<MaterialProjeto> materiaisSalvos = materialProjetoRepository.saveAll(novosMateriais);
+            System.out.println("Materiais salvos: " + materiaisSalvos.size());
+            
+            // Criar as composições (ordem dos materiais na camada)
+            System.out.println("Criando composições...");
+            for (int i = 0; i < materiaisSalvos.size(); i++) {
+                MaterialProjeto materialProjeto = materiaisSalvos.get(i);
+                Integer ordem = dto.getMateriais().get(i).getOrdem() != null 
+                    ? dto.getMateriais().get(i).getOrdem() 
+                    : (i + 1);
+            Composicao composicao = new Composicao(camadaSalva, materialProjeto, ordem);
+            composicaoRepository.save(composicao);
+        }
         
-        List<MaterialProjeto> novosMateriais = materiais.getMateriais().stream()
-            .map(material -> criarMaterialProjeto(projeto, material, materiais.getTipoCamada()))
-            .collect(Collectors.toList());
+        // Calcular propriedades térmicas da camada
+        System.out.println("Calculando propriedades térmicas da camada...");
+        try {
+            CalculoTermicoRequestDTO calculoRequest = new CalculoTermicoRequestDTO();
+            calculoRequest.setTipoCamada(dto.getTipoCamada());
+            
+            List<com.edifica.bioedifica.dto.MaterialCalculoDTO> materiaisCalculo = dto.getMateriais();
+            calculoRequest.setMateriais(materiaisCalculo);
+            
+            CalculoTermicoResponseDTO calculoResponse = calculoTermicoService.calcularPropriedadesTermicas(calculoRequest);
+            
+            // Converter DTO para entidade (usando apenas os campos disponíveis)
+            CalculoTermico calculoTermico = new CalculoTermico();
+            calculoTermico.setTransmitanciaTermica(calculoResponse.getTransmitanciaTermica());
+            calculoTermico.setCapacidadeTermica(calculoResponse.getCapacidadeTermica());
+            calculoTermico.setAtrasoTermico(calculoResponse.getAtrasoTermico());
+            
+            camadaSalva.setCalculoTermico(calculoTermico);
+            camadaRepository.save(camadaSalva);
+            
+            System.out.println("Propriedades térmicas calculadas com sucesso!");
+            System.out.println("Transmitância: " + calculoTermico.getTransmitanciaTermica());
+            System.out.println("Capacidade Térmica: " + calculoTermico.getCapacidadeTermica());
+            System.out.println("Atraso Térmico: " + calculoTermico.getAtrasoTermico());
+        } catch (Exception e) {
+            System.err.println("Erro ao calcular propriedades térmicas: " + e.getMessage());
+            e.printStackTrace();
+            // Não falha a operação, apenas não salva o cálculo
+        }
         
-        List<MaterialProjeto> materiaisSalvos = materialProjetoRepository.saveAll(novosMateriais);
+        System.out.println("=== Processo concluído com sucesso ===");
         
         return materiaisSalvos.stream()
             .map(this::convertToDTO)
             .collect(Collectors.toList());
+                
+        } catch (Exception e) {
+            System.err.println("=== ERRO em MaterialProjetoService.adicionarMaterialDoMock ===");
+            System.err.println("Tipo de erro: " + e.getClass().getName());
+            System.err.println("Mensagem: " + e.getMessage());
+            System.err.println("Stack trace:");
+            e.printStackTrace();
+            throw e;
+        }
     }
     
-    private MaterialProjeto criarMaterialProjeto(Projeto projeto, MaterialCalculoDTO materialCalculo, String tipoCamada) {
-        MaterialDTO materialDTO = mockMaterialService.getMaterialById(materialCalculo.getIdMaterialMock());
-        
-        if (materialDTO == null) {
-            throw new RuntimeException("Material não encontrado: " + materialCalculo.getIdMaterialMock());
+    private MaterialProjeto criarMaterialProjeto(Projeto projeto, Camada camada, MaterialCalculoDTO materialCalculo, String tipoCamada) {
+        try {
+            System.out.println("Buscando material no mock com ID: " + materialCalculo.getIdMaterialMock());
+            
+            MaterialDTO materialDTO = mockMaterialService.getMaterialById(materialCalculo.getIdMaterialMock());
+            
+            if (materialDTO == null) {
+                System.err.println("Material não encontrado no mock: " + materialCalculo.getIdMaterialMock());
+                throw new RuntimeException("Material não encontrado: " + materialCalculo.getIdMaterialMock());
+            }
+            
+            System.out.println("Material encontrado: " + materialDTO.materialName());
+            System.out.println("Densidade: " + materialDTO.density());
+            System.out.println("Calor Específico: " + materialDTO.calorEspecifico());
+            System.out.println("Condutividade: " + materialDTO.condutividadeTermica());
+            
+            MaterialProjeto materialProjeto = new MaterialProjeto(
+                projeto,
+                materialCalculo.getIdMaterialMock(),
+                materialDTO.density(),
+                materialDTO.calorEspecifico(),
+                materialDTO.condutividadeTermica(),
+                materialCalculo.getEspessura(),
+                materialDTO.materialName(),
+                tipoCamada
+            );
+            
+            // Associar a camada ao material
+            materialProjeto.setCamada(camada);
+            
+            System.out.println("MaterialProjeto criado para: " + materialDTO.materialName());
+            
+            return materialProjeto;
+            
+        } catch (Exception e) {
+            System.err.println("=== ERRO em criarMaterialProjeto ===");
+            System.err.println("Material ID: " + materialCalculo.getIdMaterialMock());
+            System.err.println("Erro: " + e.getMessage());
+            e.printStackTrace();
+            throw e;
         }
-        
-        return new MaterialProjeto(
-            projeto,
-            materialCalculo.getIdMaterialMock(),
-            materialDTO.density(),
-            materialDTO.calorEspecifico(),
-            materialDTO.condutividadeTermica(),
-            materialCalculo.getEspessura(),
-            materialDTO.materialName(),
-            tipoCamada
-        );
     }
     
     @Override
