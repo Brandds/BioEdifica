@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import com.edifica.bioedifica.dto.UsuarioDTO;
 import com.edifica.bioedifica.dto.usuario.UsuarioCadastroDTO;
-import com.edifica.bioedifica.exception.EmailJaCadastradoException;
 import com.edifica.bioedifica.mapper.UsuarioMapper;
 import com.edifica.bioedifica.repository.UsuarioRepository;
 import com.edifica.bioedifica.service.IUsuarioService;
@@ -20,9 +19,9 @@ public class UsuarioService implements IUsuarioService {
 
     @Override
         public UsuarioDTO salvar(UsuarioCadastroDTO usuarioDTO) {
-            if(usuarioRepository.existsByEmail(usuarioDTO.email())) {
-                throw new EmailJaCadastradoException(usuarioDTO.email());
-            }
+            // if(usuarioRepository.existsByEmail(usuarioDTO.email())) {
+            //     throw new EmailJaCadastradoException(usuarioDTO.email());
+            // }
             var usuario = UsuarioMapper.toEntity(usuarioDTO);
             var salvo = usuarioRepository.save(usuario);
             return UsuarioMapper.toDTO(salvo);

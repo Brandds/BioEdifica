@@ -12,7 +12,7 @@
     {
       "id": 319,
       "source_uuid": "066e8bba-7cca-409e-a40c-32896173d18c",
-      "material_name": "Aço, Chapa (por kg)",
+      "material_name": "Aço, Chapa",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "2 - Superestrutura",
@@ -62,7 +62,7 @@
     {
       "id": 320,
       "source_uuid": "6db285f8-2ce3-4414-93b0-4bbd893bef76",
-      "material_name": "Aço, Perfil (por kg)",
+      "material_name": "Aço, Perfil",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "2 - Superestrutura",
@@ -113,7 +113,7 @@
     {
       "id": 321,
       "source_uuid": "fa718df1-717d-4125-adce-6c9360d948a5",
-      "material_name": "Aço, Folha de Flandres (por kg)",
+      "material_name": "Aço, Folha de Flandres",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "2 - Superestrutura",
@@ -164,7 +164,7 @@
     {
       "id": 322,
       "source_uuid": "48d3263f-c8c7-4cb0-a6fd-a0f260546663",
-      "material_name": "Telhado ou Claraboia, incluindo Estrutura (por m²)",
+      "material_name": "Telhado ou Claraboia, incluindo Estrutura",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "6 - Prefabricated buildings and building units"
@@ -213,7 +213,7 @@
     {
       "id": 323,
       "source_uuid": "8207d167-0d67-497a-bd0a-6ee66a959482",
-      "material_name": "Concreto GEN 2 com 25% GGBS cimento (por m³)",
+      "material_name": "Concreto GEN 2 com 25% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -270,7 +270,7 @@
     {
       "id": 324,
       "source_uuid": "2e68b7a7-4e1e-41c9-8b89-f3a3a58d8e80",
-      "material_name": "Concreto GEN 2 com 70% GGBS cimento (por m³)",
+      "material_name": "Concreto GEN 2 com 70% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -327,7 +327,7 @@
     {
       "id": 325,
       "source_uuid": "9b0e5e7a-c8b5-4756-9e1b-a37b4fe42a5b",
-      "material_name": "Concreto GEN 2 com média Reino Unido adições cimento (por m³)",
+      "material_name": "Concreto GEN 2 com média Reino Unido adições cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -384,7 +384,7 @@
     {
       "id": 326,
       "source_uuid": "55a81ca7-d0d9-49a6-b947-c6db3f990a5f",
-      "material_name": "Concreto GEN 3 com 25% GGBS cimento (por m³)",
+      "material_name": "Concreto GEN 3 com 25% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -441,7 +441,7 @@
     {
       "id": 327,
       "source_uuid": "39ddcf19-55dd-4502-a4ad-da3e7770fa73",
-      "material_name": "Concreto GEN 3 com 70% GGBS cimento (por m³)",
+      "material_name": "Concreto GEN 3 com 70% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -498,7 +498,7 @@
     {
       "id": 328,
       "source_uuid": "de20db9c-730a-4b92-ad08-0fb476f5b0d5",
-      "material_name": "Concreto GEN 3 com média Reino Unido adições cimento (por m³)",
+      "material_name": "Concreto GEN 3 com média Reino Unido adições cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -555,7 +555,7 @@
     {
       "id": 329,
       "source_uuid": "3adac904-8931-4cbe-815a-152c427743da",
-      "material_name": "Concreto GEN0 com média Reino Unido adições cimento (por m³)",
+      "material_name": "Concreto GEN0 com média Reino Unido adições cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -612,7 +612,7 @@
     {
       "id": 330,
       "source_uuid": "a3291faf-bf2a-48f5-9613-6c71be608c6e",
-      "material_name": "Concreto GEN1 com 25% GGBS cimento (por m³)",
+      "material_name": "Concreto GEN1 com 25% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -669,7 +669,7 @@
     {
       "id": 331,
       "source_uuid": "c4b56a54-c9c2-463c-8689-c5f3d4e6aa70",
-      "material_name": "Concreto GEN1 com 50% GGBS cimento (por m³)",
+      "material_name": "Concreto GEN1 com 50% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -726,7 +726,7 @@
     {
       "id": 332,
       "source_uuid": "da45f3a3-b499-443a-b634-693a9c1b5313",
-      "material_name": "Concreto GEN1 com 70% GGBS cimento (por m³)",
+      "material_name": "Concreto GEN1 com 70% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -783,7 +783,7 @@
     {
       "id": 333,
       "source_uuid": "5bd940fa-e317-4297-8e34-e8c7d0e44c13",
-      "material_name": "Concreto GEN1 com média Reino Unido adições cimento (por m³)",
+      "material_name": "Concreto GEN1 com média Reino Unido adições cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -840,7 +840,7 @@
     {
       "id": 334,
       "source_uuid": "0a20af51-ba0e-405c-a8f0-f178a5cc49cf",
-      "material_name": "Concreto PAV1 com 25% GGBS cimento (por m³)",
+      "material_name": "Concreto PAV1 com 25% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -897,7 +897,7 @@
     {
       "id": 335,
       "source_uuid": "6b27b0e1-4a16-4040-b8c6-5f7ad2da09ee",
-      "material_name": "Concreto PAV1 com 50% GGBS cimento (por m³)",
+      "material_name": "Concreto PAV1 com 50% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -954,7 +954,7 @@
     {
       "id": 336,
       "source_uuid": "0a3149bd-a742-44f0-9eb9-2826bcafb896",
-      "material_name": "Concreto PAV1 com 70% GGBS cimento (por m³)",
+      "material_name": "Concreto PAV1 com 70% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1011,7 +1011,7 @@
     {
       "id": 337,
       "source_uuid": "32417be6-49ab-46ac-bfd1-86a159ef6095",
-      "material_name": "Concreto PAV1 com média Reino Unido adições cimento (por m³)",
+      "material_name": "Concreto PAV1 com média Reino Unido adições cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1068,7 +1068,7 @@
     {
       "id": 338,
       "source_uuid": "c49ab074-5cca-4f2c-aacd-158b4b7cbcb0",
-      "material_name": "Concreto PAV2 com 25% GGBS cimento (por m³)",
+      "material_name": "Concreto PAV2 com 25% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1125,7 +1125,7 @@
     {
       "id": 339,
       "source_uuid": "0aba7254-f32b-430b-ab51-8f48005535df",
-      "material_name": "Concreto PAV2 com média Reino Unido adições cimento (por m³)",
+      "material_name": "Concreto PAV2 com média Reino Unido adições cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1182,7 +1182,7 @@
     {
       "id": 340,
       "source_uuid": "6bd8fc0c-9733-4dcd-91e0-ce5eb528ecf3",
-      "material_name": "Concreto RC20/25 com 25% GGBS cimento (por m³)",
+      "material_name": "Concreto RC20/25 com 25% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1239,7 +1239,7 @@
     {
       "id": 341,
       "source_uuid": "53c7cc2c-1f9a-491c-be9d-10fb5e3daee6",
-      "material_name": "Concreto RC20/25 com 50% GGBS cimento (por m³)",
+      "material_name": "Concreto RC20/25 com 50% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1296,7 +1296,7 @@
     {
       "id": 342,
       "source_uuid": "9bb4112f-72ec-4837-bd30-ebb1bade9827",
-      "material_name": "Concreto RC20/25 com 70% GGBS cimento (por m³)",
+      "material_name": "Concreto RC20/25 com 70% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1353,7 +1353,7 @@
     {
       "id": 343,
       "source_uuid": "146cd451-43cf-45d1-818b-8bf1cf9dd41a",
-      "material_name": "Concreto RC20/25 com média Reino Unido adições cimento (por m³)",
+      "material_name": "Concreto RC20/25 com média Reino Unido adições cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1410,7 +1410,7 @@
     {
       "id": 344,
       "source_uuid": "cc08491b-5c0b-4f14-bd28-4b653508322c",
-      "material_name": "Concreto RC25/30 com 25% GGBS cimento (por m³)",
+      "material_name": "Concreto RC25/30 com 25% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1467,7 +1467,7 @@
     {
       "id": 345,
       "source_uuid": "cdce592e-e917-45ca-9c17-d181628f36ab",
-      "material_name": "Concreto RC25/30 com 50% GGBS cimento (por m³)",
+      "material_name": "Concreto RC25/30 com 50% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1524,7 +1524,7 @@
     {
       "id": 346,
       "source_uuid": "9628c01a-8076-4471-8ade-f8b508e7af6a",
-      "material_name": "Concreto RC25/30 com 70% GGBS cimento (por m³)",
+      "material_name": "Concreto RC25/30 com 70% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1581,7 +1581,7 @@
     {
       "id": 347,
       "source_uuid": "0c8cd7f1-01a1-43f4-a6ee-1533859297db",
-      "material_name": "Concreto RC25/30 com média Reino Unido adições cimento (por m³)",
+      "material_name": "Concreto RC25/30 com média Reino Unido adições cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1638,7 +1638,7 @@
     {
       "id": 348,
       "source_uuid": "a663fdfc-88da-43d8-8ccf-ce132c44e5ba",
-      "material_name": "Concreto RC28/35 com 50% GGBS cimento (por m³)",
+      "material_name": "Concreto RC28/35 com 50% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1695,7 +1695,7 @@
     {
       "id": 349,
       "source_uuid": "598d7cf0-7eb3-418b-9cbb-ae6d9e0e0492",
-      "material_name": "Concreto RC28/35 com média Reino Unido adições cimento (por m³)",
+      "material_name": "Concreto RC28/35 com média Reino Unido adições cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1752,7 +1752,7 @@
     {
       "id": 350,
       "source_uuid": "aaa8e9fc-5732-48dc-b757-bd3303fb7392",
-      "material_name": "Concreto PAV2 com 50% GGBS cimento (por m³)",
+      "material_name": "Concreto PAV2 com 50% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1809,7 +1809,7 @@
     {
       "id": 351,
       "source_uuid": "27bd48ca-ac17-4281-8fe1-5da86f4e8fec",
-      "material_name": "Concreto RC32/40 com 25% GGBS cimento (por m³)",
+      "material_name": "Concreto RC32/40 com 25% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1866,7 +1866,7 @@
     {
       "id": 352,
       "source_uuid": "279dd3b7-a443-404e-9309-6fc5ca27d7f4",
-      "material_name": "Concreto RC32/40 com 50% GGBS cimento (por m³)",
+      "material_name": "Concreto RC32/40 com 50% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1923,7 +1923,7 @@
     {
       "id": 353,
       "source_uuid": "f0d4bbac-a2e2-4138-af35-cbd3ae4ae54b",
-      "material_name": "Concreto RC32/40 com 70% GGBS cimento (por m³)",
+      "material_name": "Concreto RC32/40 com 70% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -1980,7 +1980,7 @@
     {
       "id": 354,
       "source_uuid": "8c86cd4d-2a12-4d75-a3aa-7e3069d9b0d3",
-      "material_name": "Concreto RC32/40 com média Reino Unido adições cimento (por m³)",
+      "material_name": "Concreto RC32/40 com média Reino Unido adições cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -2037,7 +2037,7 @@
     {
       "id": 355,
       "source_uuid": "ecd9fa63-8081-40ed-911a-1b15043831b2",
-      "material_name": "Concreto RC35/45 com 25% GGBS cimento (por m³)",
+      "material_name": "Concreto RC35/45 com 25% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -2094,7 +2094,7 @@
     {
       "id": 356,
       "source_uuid": "97756df7-6bbb-492f-add2-0434f91099bf",
-      "material_name": "Concreto RC35/45 com 50% GGBS cimento (por m³)",
+      "material_name": "Concreto RC35/45 com 50% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -2151,7 +2151,7 @@
     {
       "id": 357,
       "source_uuid": "ffd3cb1a-c594-40c2-8264-a08097147e15",
-      "material_name": "Concreto RC35/45 com 70% GGBS cimento (por m³)",
+      "material_name": "Concreto RC35/45 com 70% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -2208,7 +2208,7 @@
     {
       "id": 358,
       "source_uuid": "4fab0a24-4d11-4b62-b542-b57e1a69dba1",
-      "material_name": "Concreto RC35/45 com média Reino Unido adições cimento (por m³)",
+      "material_name": "Concreto RC35/45 com média Reino Unido adições cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -2265,7 +2265,7 @@
     {
       "id": 359,
       "source_uuid": "2f422083-21ff-40b0-9015-7eca0f631328",
-      "material_name": "Concreto RC40/50 com 70% GGBS cimento (por m³)",
+      "material_name": "Concreto RC40/50 com 70% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -2322,7 +2322,7 @@
     {
       "id": 360,
       "source_uuid": "9b997728-8005-4a1f-a738-03663749a7f6",
-      "material_name": "Concreto RC40/50 com média Reino Unido adições cimento (por m³)",
+      "material_name": "Concreto RC40/50 com média Reino Unido adições cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -2378,7 +2378,7 @@
     },
     {
       "id": 364,
-      "material_name": "FF&E, Cozinha, (Piece), 1000mm Cozinha Parede Unidade (por peça)",
+      "material_name": "FF&E, Cozinha, (Piece), Cozinha Parede Unidade",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -2417,7 +2417,7 @@
     },
     {
       "id": 365,
-      "material_name": "FF&E, Cozinha, (Piece), 500mm Cozinha Parede Unidade (por peça)",
+      "material_name": "FF&E, Cozinha, (Piece), Cozinha Parede Unidade",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -2456,7 +2456,7 @@
     },
     {
       "id": 366,
-      "material_name": "FF&E, Cozinha, (Piece), 1000mm Gaveta linha Unidade (por peça)",
+      "material_name": "FF&E, Cozinha, (Piece), Gaveta linha Unidade",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -2494,7 +2494,7 @@
     },
     {
       "id": 367,
-      "material_name": "FF&E, Cozinha, (Piece), 500mm Gaveta linha Unidade (por peça)",
+      "material_name": "FF&E, Cozinha, (Piece), Gaveta linha Unidade",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -2533,7 +2533,7 @@
     },
     {
       "id": 368,
-      "material_name": "FF&E, Cozinha, (Piece), Altura total base Unidade (por peça)",
+      "material_name": "FF&E, Cozinha, (Piece), Altura total base Unidade",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -2572,7 +2572,7 @@
     },
     {
       "id": 369,
-      "material_name": "FF&E, Cozinha, (Piece), 1000mm Armazenamento Unidade (por peça)",
+      "material_name": "FF&E, Cozinha, (Piece), Armazenamento Unidade",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -2610,7 +2610,7 @@
     },
     {
       "id": 370,
-      "material_name": "FF&E, Cozinha, (Piece), 500mm Armazenamento Unidade (por peça)",
+      "material_name": "FF&E, Cozinha, (Piece), Armazenamento Unidade",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -2648,7 +2648,7 @@
     },
     {
       "id": 371,
-      "material_name": "FF&E, Cozinha, (Piece), Bancadas (por peça)",
+      "material_name": "FF&E, Cozinha, (Piece), Bancadas",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -2687,7 +2687,7 @@
     },
     {
       "id": 372,
-      "material_name": "FF&E, Cozinha, (Piece), EletBarraoméstico Gabinete (por peça)",
+      "material_name": "FF&E, Cozinha, (Piece), EletBarraoméstico Gabinete",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -2726,7 +2726,7 @@
     },
     {
       "id": 373,
-      "material_name": "FF&E, Cozinha, (Piece), Base sink Unidade (por peça)",
+      "material_name": "FF&E, Cozinha, (Piece), Base sink Unidade",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -2765,7 +2765,7 @@
     },
     {
       "id": 374,
-      "material_name": "FF&E, Bedding, (Piece), Double mattress (por peça)",
+      "material_name": "duplo",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -2803,7 +2803,7 @@
     },
     {
       "id": 375,
-      "material_name": "FF&E, Bedding, (Piece), Single divan (por peça)",
+      "material_name": "único",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -2842,7 +2842,7 @@
     },
     {
       "id": 376,
-      "material_name": "FF&E, Bedding, (Piece), Double divan (por peça)",
+      "material_name": "duplo",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -2881,7 +2881,7 @@
     },
     {
       "id": 377,
-      "material_name": "FF&E, Bedding, (Piece), Headboard (por peça)",
+      "material_name": "FF&E, Bedding, (Piece), Headboard",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -2920,7 +2920,7 @@
     },
     {
       "id": 378,
-      "material_name": "FF&E, Upholstery, (Piece), Sofa (por peça)",
+      "material_name": "FF&E, Upholstery, (Piece), Sofa",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment",
         "X - Additive Manufacturing"
@@ -2961,7 +2961,7 @@
     },
     {
       "id": 379,
-      "material_name": "FF&E, Upholstery, (Piece), Arm chair (por peça)",
+      "material_name": "FF&E, Upholstery, (Piece), Arm chair",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -2999,7 +2999,7 @@
     },
     {
       "id": 383,
-      "material_name": "FF&E, Upholstery, (Piece), Footstool (por peça)",
+      "material_name": "FF&E, Upholstery, (Piece), Footstool",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -3038,7 +3038,7 @@
     },
     {
       "id": 384,
-      "material_name": "FF&E, Upholstery, (Piece), Electric chair (por peça)",
+      "material_name": "FF&E, Upholstery, (Piece), Electric chair",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment",
         "X - Additive Manufacturing"
@@ -3079,7 +3079,7 @@
     },
     {
       "id": 386,
-      "material_name": "FF&E, Upholstery, (Piece), Sofa bed (por peça)",
+      "material_name": "FF&E, Upholstery, (Piece), Sofa bed",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment",
         "X - Additive Manufacturing"
@@ -3120,7 +3120,7 @@
     },
     {
       "id": 387,
-      "material_name": "FF&E, Office, (Piece), Task chair (por peça)",
+      "material_name": "escritório",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -3158,7 +3158,7 @@
     },
     {
       "id": 390,
-      "material_name": "FF&E, Office, (Piece), Visitor chair (por peça)",
+      "material_name": "escritório, ou",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -3196,7 +3196,7 @@
     },
     {
       "id": 391,
-      "material_name": "FF&E, Office Armazenamento, (Piece), Desk Alto pedestal (por peça)",
+      "material_name": "escritório, mesa",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -3235,7 +3235,7 @@
     },
     {
       "id": 393,
-      "material_name": "FF&E, Office Armazenamento, (Piece), Bookcase (por peça)",
+      "material_name": "escritório",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -3274,7 +3274,7 @@
     },
     {
       "id": 395,
-      "material_name": "FF&E, Office Armazenamento, (Piece), Madeiraen filing Armário (por peça)",
+      "material_name": "escritório",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -3312,7 +3312,7 @@
     },
     {
       "id": 397,
-      "material_name": "FF&E, Office Armazenamento, (Piece), Tambour (por peça)",
+      "material_name": "escritório",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -3350,7 +3350,7 @@
     },
     {
       "id": 398,
-      "material_name": "FF&E, Office Armazenamento, (Piece), Aço pedestal (por peça)",
+      "material_name": "escritório, borracha",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment",
         "3 - Internal finishes"
@@ -3385,7 +3385,7 @@
     },
     {
       "id": 399,
-      "material_name": "FF&E, Contract Furniture, (Piece), WaiEstanhog room Viga seaEstanhog (por peça)",
+      "material_name": "FF&E, Contract Furniture, (Piece), WaiEstanhog room Viga seaEstanhog",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -3423,7 +3423,7 @@
     },
     {
       "id": 400,
-      "material_name": "FF&E, Office Armazenamento, (Piece), Cupboard (por peça)",
+      "material_name": "escritório, placa",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -3462,7 +3462,7 @@
     },
     {
       "id": 401,
-      "material_name": "FF&E, Contract Furniture, (Piece), Dining chairs (por peça)",
+      "material_name": "FF&E, Contract Furniture, (Piece), Dining chairs",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -3501,7 +3501,7 @@
     },
     {
       "id": 402,
-      "material_name": "FF&E, Office Desks, (Piece), 1600mm x 1800mm rectangular desk (por peça)",
+      "material_name": "escritório mesas, azulejos retangular mesa",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -3539,7 +3539,7 @@
     },
     {
       "id": 403,
-      "material_name": "FF&E, Contract Furniture, (Piece), Dining table (por peça)",
+      "material_name": "FF&E, Contract Furniture, (Piece), Dining table",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -3578,7 +3578,7 @@
     },
     {
       "id": 404,
-      "material_name": "FF&E, Office Desks, (Piece), 6 people bench desk (por peça)",
+      "material_name": "escritório mesas, 6 mesa",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -3616,7 +3616,7 @@
     },
     {
       "id": 405,
-      "material_name": "FF&E, Office Desks, (Piece), 1600mm x 1200mm  work station (por peça)",
+      "material_name": "escritório mesas, azulejos trabalho estação",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -3654,7 +3654,7 @@
     },
     {
       "id": 406,
-      "material_name": "FF&E, Office Desks, (Piece), 1600mm x 800mm wave desk (por peça)",
+      "material_name": "escritório mesas, azulejos onda mesa",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -3692,7 +3692,7 @@
     },
     {
       "id": 412,
-      "material_name": "In situ Concreto (unArmado), Reino Unido C16/20 (25% GGBS) (por kg)",
+      "material_name": "In situ Concreto (unArmado), Reino Unido C16/20 (25% GGBS)",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -3745,7 +3745,7 @@
     },
     {
       "id": 413,
-      "material_name": "Pré-moldado Concreto Blocos - Reino Unido Lightpeso AAC Blocos for building envelope (600kg/m3 (por kg)",
+      "material_name": "perfil antigo leve AAC reforço",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -3792,7 +3792,7 @@
     },
     {
       "id": 414,
-      "material_name": "Tijolo Parede - Reino Unido Single skin Parede com Argamassa 1:4 CEM I cimento:Areia mix (por m²)",
+      "material_name": "único camada massa 14 CEM madeira cimento mistura",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -3843,7 +3843,7 @@
     },
     {
       "id": 415,
-      "material_name": "Manufactured Structural Madeira - Reino Unido e Europe CLT, 100% FSC/PEFC (por m³)",
+      "material_name": "Manufactured Structural Madeira - Reino Unido e Europe CLT, 100% FSC/PEFC",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "2 - Superestrutura",
@@ -3890,7 +3890,7 @@
     },
     {
       "id": 416,
-      "material_name": "Rebocoboard - Min. 60% Reciclado content (por kg)",
+      "material_name": "Rebocoboard - Min. 60% Reciclado content",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -3941,7 +3941,7 @@
     {
       "id": 954,
       "source_uuid": "0f39187d-ba00-451f-9016-2b0c271a407e",
-      "material_name": "Agregados e Areia, from Reciclado resources, com heat treatment, bulk, loose (por kg)",
+      "material_name": "Agregados e Areia, from Reciclado resources, com heat treatment, bulk, loose",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -3992,7 +3992,7 @@
     {
       "id": 955,
       "source_uuid": "1c959c4b-8356-4280-b3e1-5e5bc010781d",
-      "material_name": "Agregados e Areia, from Secundário resources, bulk, loose (por kg)",
+      "material_name": "Agregados e Areia, from Secundário resources, bulk, loose",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -4043,7 +4043,7 @@
     {
       "id": 956,
       "source_uuid": "238416cd-fce6-47b5-9c5a-4146d4067406",
-      "material_name": "Agregados e Areia, from Virgem land won resources, bulk, loose (por kg)",
+      "material_name": "Agregados e Areia, from Virgem land won resources, bulk, loose",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -4094,7 +4094,7 @@
     {
       "id": 957,
       "source_uuid": "2d8e1110-577f-4b24-9276-6a0b9140036a",
-      "material_name": "Agregados e Areia, from Reciclado resources, no heat treatment, bulk, loose (por kg)",
+      "material_name": "Agregados e Areia, from Reciclado resources, no heat treatment, bulk, loose",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -4145,7 +4145,7 @@
     {
       "id": 958,
       "source_uuid": "3cc7b47e-a0e6-44f2-ba7b-00a75117f13d",
-      "material_name": "Agregados,  expanded Espumaed Vidro, bulk, loose (por kg)",
+      "material_name": "Agregados, expanded Espumaed Vidro, bulk, loose",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -4196,7 +4196,7 @@
     {
       "id": 959,
       "source_uuid": "52bdfeb3-979f-4fcd-b4eb-6ffbda643c52",
-      "material_name": "Agregados e Areia, general Reino Unido, mixture of land won, marine, Secundário e Reciclado, bulk, loose (por kg)",
+      "material_name": "aço, aditivos telhado e, aço",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -4247,7 +4247,7 @@
     {
       "id": 960,
       "source_uuid": "64214af1-a2d1-4b7b-acf3-137de42de2b6",
-      "material_name": "Agregados e Areia, from Virgem marine resources, bulk, loose (por kg)",
+      "material_name": "Agregados e Areia, from Virgem marine resources, bulk, loose",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -4298,7 +4298,7 @@
     {
       "id": 961,
       "source_uuid": "a68a6a09-34a9-4dfa-8a42-aea458041948",
-      "material_name": "Agregados e Areia,  expanded Argila, bulk, loose (por kg)",
+      "material_name": "Agregados e Areia, expanded Argila, bulk, loose",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -4349,7 +4349,7 @@
     {
       "id": 962,
       "source_uuid": "c47ba144-190c-4ed7-84c1-423159f8af34",
-      "material_name": "Agregados e Areia, general, Virgem mixture of land won e marine, bulk, loose (por kg)",
+      "material_name": "aço, aditivos telhado e aço",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -4400,7 +4400,7 @@
     {
       "id": 963,
       "source_uuid": "e918d332-402f-453c-ad0b-e050f7d34d6a",
-      "material_name": "Agregados e Areia, mixture of Reciclado e Secundário resources, bulk, loose (por kg)",
+      "material_name": "Agregados e Areia, mixture of Reciclado e Secundário resources, bulk, loose",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -4451,7 +4451,7 @@
     {
       "id": 964,
       "source_uuid": "04d19365-41d3-45d4-a76b-5285a7236d62",
-      "material_name": "Alumínio, South Korea (por kg)",
+      "material_name": "Alumínio, South Korea",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -4497,7 +4497,7 @@
     {
       "id": 965,
       "source_uuid": "05d90509-833a-4812-80a6-d448a8f6fe37",
-      "material_name": "Alumínio cast, Worldwide (por kg)",
+      "material_name": "Alumínio cast, Worldwide",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -4543,7 +4543,7 @@
     {
       "id": 966,
       "source_uuid": "0caa909f-ee29-469c-a417-2f6650d75588",
-      "material_name": "Alumínio, Other Asia (por kg)",
+      "material_name": "Alumínio, Other Asia",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -4589,7 +4589,7 @@
     {
       "id": 967,
       "source_uuid": "3c7c1e9b-92f4-4eb1-aafc-6d6aadc0c0c8",
-      "material_name": "Alumínio foil, Worldwide (por kg)",
+      "material_name": "Alumínio foil, Worldwide",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -4635,7 +4635,7 @@
     {
       "id": 968,
       "source_uuid": "5aca9f53-a281-469b-9abb-8b1ec958a0a4",
-      "material_name": "Alumínio, Oceania (por kg)",
+      "material_name": "Alumínio, Oceania",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -4681,7 +4681,7 @@
     {
       "id": 969,
       "source_uuid": "6d8c426f-8a30-49d0-96a2-894330719948",
-      "material_name": "Alumínio, South America (por kg)",
+      "material_name": "Alumínio, South America",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -4727,7 +4727,7 @@
     {
       "id": 970,
       "source_uuid": "77191d2a-abe3-4987-8173-d61bf92990d5",
-      "material_name": "Alumínio, Russia (por kg)",
+      "material_name": "Alumínio, Russia",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -4773,7 +4773,7 @@
     {
       "id": 971,
       "source_uuid": "7c7cb7bb-2c99-45c1-9faf-b243fe91211d",
-      "material_name": "Alumínio Chapa, Worldwide (por kg)",
+      "material_name": "Alumínio Chapa, Worldwide",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -4819,7 +4819,7 @@
     {
       "id": 972,
       "source_uuid": "83145d5f-0190-4e79-8268-55261527f1be",
-      "material_name": "Alumínio extruded Perfil, Worldwide (por kg)",
+      "material_name": "Alumínio extruded Perfil, Worldwide",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -4865,7 +4865,7 @@
     {
       "id": 973,
       "source_uuid": "859888e6-4f40-4497-a928-6ff7f61f618a",
-      "material_name": "Alumínio foil, European Mix, Incluindo Imports (por kg)",
+      "material_name": "Alumínio foil, European Mix, Incluindo Imports",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -4911,7 +4911,7 @@
     {
       "id": 974,
       "source_uuid": "85b0fc69-c217-4206-a039-a02739e48f06",
-      "material_name": "Alumínio, Middle East (por kg)",
+      "material_name": "Alumínio, Middle East",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -4957,7 +4957,7 @@
     {
       "id": 975,
       "source_uuid": "a93ffedc-306b-4f93-896d-c82bd3509326",
-      "material_name": "Alumínio, North American (por kg)",
+      "material_name": "Alumínio, North American",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -5003,7 +5003,7 @@
     {
       "id": 976,
       "source_uuid": "ac6185c5-3cf9-4098-9ea3-b4495c2c4fc9",
-      "material_name": "Alumínio, pBarrauced in Europe (por kg)",
+      "material_name": "Alumínio, pBarrauced in Europe",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -5049,7 +5049,7 @@
     {
       "id": 977,
       "source_uuid": "baee69c9-da8e-40d6-91e3-1e21920eac57",
-      "material_name": "Alumínio General, European Mix, Incluindo Imports (por kg)",
+      "material_name": "alumínio General",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -5095,7 +5095,7 @@
     {
       "id": 978,
       "source_uuid": "d426cfaf-0b5e-4bd9-8521-8c517cad0d84",
-      "material_name": "Alumínio General, Worldwide (por kg)",
+      "material_name": "alumínio General",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -5141,7 +5141,7 @@
     {
       "id": 979,
       "source_uuid": "d43f6bad-166d-44e0-99db-1abcfc092b3b",
-      "material_name": "Alumínio Chapa, European Mix, Incluindo Imports (por kg)",
+      "material_name": "Alumínio Chapa, European Mix, Incluindo Imports",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -5187,7 +5187,7 @@
     {
       "id": 980,
       "source_uuid": "d659fa1d-56ed-472d-8614-3112403ee65f",
-      "material_name": "Alumínio, China (por kg)",
+      "material_name": "Alumínio, China",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -5233,7 +5233,7 @@
     {
       "id": 981,
       "source_uuid": "d7c5cddc-8a9f-4850-b67a-0d27faf20d6e",
-      "material_name": "Alumínio extruded Perfil, European Mix, Incluindo Imports (por kg)",
+      "material_name": "Alumínio extruded Perfil, European Mix, Incluindo Imports",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -5279,7 +5279,7 @@
     {
       "id": 982,
       "source_uuid": "d7c6a540-9c7c-4998-86f9-be4231e70272",
-      "material_name": "Alumínio, cast, European Mix, Incluindo Imports (por kg)",
+      "material_name": "Alumínio, cast, European Mix, Incluindo Imports",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -5325,7 +5325,7 @@
     {
       "id": 983,
       "source_uuid": "e017361b-9303-4cf3-bc0e-3e6899757314",
-      "material_name": "Alumínio, Japão (por kg)",
+      "material_name": "Alumínio, Japão",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -5371,7 +5371,7 @@
     {
       "id": 984,
       "source_uuid": "fd6c2a9c-5670-48ef-aebe-95dc1c4b66ee",
-      "material_name": "Alumínio, Africa (por kg)",
+      "material_name": "Alumínio, Africa",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -5417,7 +5417,7 @@
     {
       "id": 985,
       "source_uuid": "0717fee2-3a6a-4371-8bbd-34f628aabae6",
-      "material_name": "Asphalt, 7% binder content (por kg)",
+      "material_name": "Asphalt, 7% binder content",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -5470,7 +5470,7 @@
     {
       "id": 986,
       "source_uuid": "072ffa9d-d0b4-4e8c-b6ab-e70eff7867ad",
-      "material_name": "Road surface, asphalt, 3% (bitumen) binder content (by mass) (por m²)",
+      "material_name": "Road surface, asphalt, 3% (bitumen) binder content (by mass)",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -5521,7 +5521,7 @@
     {
       "id": 987,
       "source_uuid": "08563f44-9dcf-4de4-927e-12e141e63362",
-      "material_name": "Asphalt, 5.5% binder content (por kg)",
+      "material_name": "Asphalt, 5.5% binder content",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -5574,7 +5574,7 @@
     {
       "id": 988,
       "source_uuid": "0ac4e0db-0c89-4ddd-b125-6764d5644471",
-      "material_name": "Asphalt, 4% binder content (por kg)",
+      "material_name": "Asphalt, 4% binder content",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -5627,7 +5627,7 @@
     {
       "id": 989,
       "source_uuid": "11315520-7219-4f5e-b547-b6163702f5e5",
-      "material_name": "Asphalt, 3% (bitumen) binder content (by mass) (por kg)",
+      "material_name": "Asphalt, 3% (bitumen) binder content (by mass)",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -5680,7 +5680,7 @@
     {
       "id": 990,
       "source_uuid": "438ba4f4-b169-4bfa-8759-5b55cf8cb672",
-      "material_name": "Road surface, asphalt, 4.5% binder content (por m²)",
+      "material_name": "Road surface, asphalt, 4.5% binder content",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -5731,7 +5731,7 @@
     {
       "id": 991,
       "source_uuid": "457f6d07-c809-4faa-959a-c89528831b90",
-      "material_name": "Asphalt, 6% binder content (por kg)",
+      "material_name": "Asphalt, 6% binder content",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -5784,7 +5784,7 @@
     {
       "id": 992,
       "source_uuid": "4da2e83d-ada7-400e-8879-d19b54bd05d6",
-      "material_name": "Asphalt, 4.5% binder content (por kg)",
+      "material_name": "Asphalt, 4.5% binder content",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -5837,7 +5837,7 @@
     {
       "id": 993,
       "source_uuid": "52cca6c6-1786-4704-b343-97adc4c454d3",
-      "material_name": "Road surface, , asphalt, 6% binder content (por m²)",
+      "material_name": "Road surface, , asphalt, 6% binder content",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -5888,7 +5888,7 @@
     {
       "id": 994,
       "source_uuid": "7c04acf8-f8b0-4a4a-adb0-f8970c7e6917",
-      "material_name": "Road surface,  asphalt, 6.5% binder content (por m²)",
+      "material_name": "Road surface, asphalt, 6.5% binder content",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -5939,7 +5939,7 @@
     {
       "id": 995,
       "source_uuid": "8ef6b7d8-efee-4e4f-b7c0-47b931af0086",
-      "material_name": "Asphalt, 3.5% binder content (por kg)",
+      "material_name": "Asphalt, 3.5% binder content",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -5992,7 +5992,7 @@
     {
       "id": 996,
       "source_uuid": "99229e40-4e9c-497e-b6d6-6c165374f159",
-      "material_name": "Asphalt, 5% binder content (por kg)",
+      "material_name": "Asphalt, 5% binder content",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6045,7 +6045,7 @@
     {
       "id": 997,
       "source_uuid": "9df596d2-b212-4715-af17-2bd04fe807fa",
-      "material_name": "Road surface,  asphalt, 7% binder content (por m²)",
+      "material_name": "Road surface, asphalt, 7% binder content",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6096,7 +6096,7 @@
     {
       "id": 998,
       "source_uuid": "c5acffc1-f327-4120-a87c-323de7b2175c",
-      "material_name": "Road surface, asphalt, 3.5% binder content (por m²)",
+      "material_name": "Road surface, asphalt, 3.5% binder content",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6147,7 +6147,7 @@
     {
       "id": 999,
       "source_uuid": "ce09662d-e29c-4582-9353-3eda80df698f",
-      "material_name": "Road surface,  asphalt, 5.5% binder content (por m²)",
+      "material_name": "Road surface, asphalt, 5.5% binder content",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6198,7 +6198,7 @@
     {
       "id": 1000,
       "source_uuid": "cfa629b7-74fa-4586-9903-6ff1bc4171a9",
-      "material_name": "Road surface,  asphalt, 5% binder content (por m²)",
+      "material_name": "Road surface, asphalt, 5% binder content",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6249,7 +6249,7 @@
     {
       "id": 1001,
       "source_uuid": "df8f8a89-1cea-4293-a9bd-0961b6e563e2",
-      "material_name": "Asphalt, 6.5% binder content (por kg)",
+      "material_name": "Asphalt, 6.5% binder content",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6302,7 +6302,7 @@
     {
       "id": 1002,
       "source_uuid": "e0119c04-8f2e-4a0e-92d8-962f88476f0a",
-      "material_name": "Road surface, asphalt, 4% binder content (por m²)",
+      "material_name": "Road surface, asphalt, 4% binder content",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6353,7 +6353,7 @@
     {
       "id": 1003,
       "source_uuid": "048b3304-e2e0-46c8-b52a-46ea7f39d519",
-      "material_name": "Bitumen emulsion (por kg)",
+      "material_name": "Bitumen emulsion",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6410,7 +6410,7 @@
     {
       "id": 1004,
       "source_uuid": "3eef091e-85f8-4c2e-a1ff-feeaa68e1d70",
-      "material_name": "Polímero modified bitumen (PMB) (por kg)",
+      "material_name": "Polímero modified bitumen (PMB)",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6467,7 +6467,7 @@
     {
       "id": 1005,
       "source_uuid": "b1a650d5-eaf6-453d-ba08-8b22899ef1ba",
-      "material_name": "Straight-run bitumen (por kg)",
+      "material_name": "Straight-run bitumen",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6524,7 +6524,7 @@
     {
       "id": 1006,
       "source_uuid": "0764b064-f1e8-4209-a02b-4355d073685e",
-      "material_name": "Cimento CEM II/B-LL - 28% limePedra - Portland-limePedra cimento (por kg)",
+      "material_name": "cimento CEM II madeira parede 28% cal e cal cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6577,7 +6577,7 @@
     {
       "id": 1007,
       "source_uuid": "0b17ba55-59b2-4189-a8b6-c8ffe5095b16",
-      "material_name": "Argamassa ou screed (1:½:4½ Cimento:Lime:Areia mix) (Using média Reino Unido Cimento Mix) (por kg)",
+      "material_name": "massa cobertura 14 cimento mistura usando cimento mistura",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6630,7 +6630,7 @@
     {
       "id": 1008,
       "source_uuid": "153c6979-cfde-4a1a-a3c8-721414d5de17",
-      "material_name": "Argamassa (1:1:6 Cimento:Lime:Areia mix) (Using média Reino Unido Cimento Mix) (por kg)",
+      "material_name": "massa 116 cimento mistura usando cimento mistura",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6683,7 +6683,7 @@
     {
       "id": 1009,
       "source_uuid": "27281301-542a-4bce-a695-fec0822d33ac",
-      "material_name": "Concreto admixtures – Water ResisEstanhog Admixtures (por kg)",
+      "material_name": "aditivos água aditivos",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6736,7 +6736,7 @@
     {
       "id": 1010,
       "source_uuid": "28e8975a-ccf2-4a1f-aef1-4e3dafec75ad",
-      "material_name": "Cimento CEM II/B-M - 28% cimento replaCimento- Portland-composite cimento (por kg)",
+      "material_name": "Cimento CEM II/B-M - 28% cimento replaCimento- Portland-composite cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6789,7 +6789,7 @@
     {
       "id": 1011,
       "source_uuid": "2c1fa10f-84eb-45ff-8175-fd7dac28299c",
-      "material_name": "Cimento - Média Reino Unido adições (por kg)",
+      "material_name": "Cimento - Média Reino Unido adições",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6842,7 +6842,7 @@
     {
       "id": 1012,
       "source_uuid": "2e85b74e-c751-4a7a-919d-47b5dae484dd",
-      "material_name": "Argamassa ou screed (1:3 cimento:Areia mix) (Using CEM I cimento) (por kg)",
+      "material_name": "massa cobertura 13 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6899,7 +6899,7 @@
     {
       "id": 1013,
       "source_uuid": "3aab549a-1ad1-411a-9089-55850b0d3c93",
-      "material_name": "Cimento CEM V/B - 36% GGBS e 36% cimento replaCimento - Composite cimento (por kg)",
+      "material_name": "Cimento CEM V/B - 36% GGBS e 36% cimento replaCimento - Composite cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -6952,7 +6952,7 @@
     {
       "id": 1014,
       "source_uuid": "3c1c8487-e565-45d4-aded-8a0a37f5fdaf",
-      "material_name": "Cimento CEM II-A-S - 13% GGBs - Portland-slag cimento (por kg)",
+      "material_name": "Cimento CEM II-A-S - 13% GGBs - Portland-slag cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -7005,7 +7005,7 @@
     {
       "id": 1015,
       "source_uuid": "41cafa60-870d-4d40-9916-2acd69aa4c28",
-      "material_name": "Cimento CEM II/A-M - 16% cimento replaCimento - Portland-composite cimento (por kg)",
+      "material_name": "Cimento CEM II/A-M - 16% cimento replaCimento - Portland-composite cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -7058,7 +7058,7 @@
     {
       "id": 1016,
       "source_uuid": "460bb6d3-3527-47a1-9075-deb89a0639c1",
-      "material_name": "Argamassa (1:2:9 Cimento:Lime:Areia mix) (Using CEM I cimento) (por kg)",
+      "material_name": "massa 129 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -7103,7 +7103,7 @@
     {
       "id": 1017,
       "source_uuid": "4f029fb4-e328-4361-884a-a9b687ffc797",
-      "material_name": "Argamassa ou screed (1:6 cimento:Areia mix) (Using CEM I cimento) (por kg)",
+      "material_name": "massa cobertura 16 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -7148,7 +7148,7 @@
     {
       "id": 1018,
       "source_uuid": "56fa92b8-deff-4e85-82ad-ca28c5f1d4f5",
-      "material_name": "Argamassa ou screed (1:3 cimento:Areia mix) (Using média Reino Unido Cimento Mix) (por kg)",
+      "material_name": "massa cobertura 13 cimento mistura usando cimento mistura",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -7193,7 +7193,7 @@
     {
       "id": 1019,
       "source_uuid": "5ee6e3c8-a21c-4fde-b3c6-c3d0a71d4563",
-      "material_name": "Argamassa ou screed (1:6 cimento:Areia mix) (Using média Reino Unido Cimento Mix) (por kg)",
+      "material_name": "massa cobertura 16 cimento mistura usando cimento mistura",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -7238,7 +7238,7 @@
     {
       "id": 1020,
       "source_uuid": "6d25191d-f935-4b59-b200-710512df7b53",
-      "material_name": "Concreto admixtures – Set Accelerators (por kg)",
+      "material_name": "aditivos conjunto",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -7291,7 +7291,7 @@
     {
       "id": 1021,
       "source_uuid": "6f0484d0-d30d-4f96-aed8-bfdf53cfa820",
-      "material_name": "Cimento CEM II/B-W - 28% fly ash calcareous - Portland-fly ash cimento (por kg)",
+      "material_name": "Cimento CEM II/B-W - 28% fly ash calcareous - Portland-fly ash cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -7344,7 +7344,7 @@
     {
       "id": 1022,
       "source_uuid": "6fc325f3-78d3-4936-a70c-a98ca6415d04",
-      "material_name": "Argamassa ou screed (1:4 cimento:Areia mix) (Using média Reino Unido Cimento Mix) (por kg)",
+      "material_name": "massa cobertura 14 cimento mistura usando cimento mistura",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -7397,7 +7397,7 @@
     {
       "id": 1023,
       "source_uuid": "77e42bcb-25ab-4d3b-8a77-464b481f6529",
-      "material_name": "Argamassa ou screed (1:5 cimento:Areia mix) (Using média Reino Unido Cimento Mix) (por kg)",
+      "material_name": "massa cobertura 15 cimento mistura usando cimento mistura",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -7450,7 +7450,7 @@
     {
       "id": 1024,
       "source_uuid": "82d2c0b6-7b77-48f1-996b-80aea00c627b",
-      "material_name": "General Concreto admixtures – Média of data collected (por kg)",
+      "material_name": "General e",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -7503,7 +7503,7 @@
     {
       "id": 1025,
       "source_uuid": "926188fd-a472-4fdf-9d10-c3746487fee7",
-      "material_name": "Cimento CEM II/B-L- 28% limePedra - Portland-limePedra cimento (por kg)",
+      "material_name": "cimento CEM II madeira aço 28% cal e cal cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -7556,7 +7556,7 @@
     {
       "id": 1026,
       "source_uuid": "96ea969b-e10f-4a20-9597-d009a2cd92d1",
-      "material_name": "Cimento CEM II/A-P - 13% Natural pozzolanic ash - Portland-pozzolana cimento (por kg)",
+      "material_name": "Cimento CEM II/A-P - 13% Natural pozzolanic ash - Portland-pozzolana cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -7609,7 +7609,7 @@
     {
       "id": 1027,
       "source_uuid": "9cc5647d-c8b8-43b9-b260-abc27e28feac",
-      "material_name": "Concreto admixtures – Plásticoisers e\nSuperPlásticoisers (por kg)",
+      "material_name": "aditivos aço",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -7662,7 +7662,7 @@
     {
       "id": 1028,
       "source_uuid": "a3b1eee3-3587-4c25-ad1f-5eb16f3617f8",
-      "material_name": "Concreto admixtures – Retarders (por kg)",
+      "material_name": "aditivos",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -7715,7 +7715,7 @@
     {
       "id": 1029,
       "source_uuid": "a9588ccc-b304-43f0-b272-fe1ebbb6408f",
-      "material_name": "Cimento CEM V/A - 24% GGBS e 24% cimento replaCimento - Composite cimento (por kg)",
+      "material_name": "Cimento CEM V/A - 24% GGBS e 24% cimento replaCimento - Composite cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -7768,7 +7768,7 @@
     {
       "id": 1030,
       "source_uuid": "ae1aa263-dd95-4ca4-9587-6c2d217af7ec",
-      "material_name": "Argamassa (1:½:4½ Cimento:Lime:Areia mix) (Using CEM I cimento) (por kg)",
+      "material_name": "massa 14 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -7821,7 +7821,7 @@
     {
       "id": 1031,
       "source_uuid": "b090b64e-ec2a-41b6-bb56-2abe183194b0",
-      "material_name": "Cimento CEM III/A - 50.5% GGBS - Blast furnace cimento (por kg)",
+      "material_name": "Cimento CEM III/A - 50.5% GGBS - Blast furnace cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -7874,7 +7874,7 @@
     {
       "id": 1032,
       "source_uuid": "b1ff468c-bc89-49f9-b96e-485052171f2a",
-      "material_name": "Cimento CEM II/A-L - 13% limePedra - Portland-limePedra cimento (por kg)",
+      "material_name": "cimento CEM II vidro aço 13% cal e cal cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -7927,7 +7927,7 @@
     {
       "id": 1033,
       "source_uuid": "b32a8d61-3007-44eb-b222-63ac18b90a24",
-      "material_name": "Concreto admixtures – Hardening Accelerators (por kg)",
+      "material_name": "aditivos",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -7980,7 +7980,7 @@
     {
       "id": 1034,
       "source_uuid": "bd93c857-814e-4228-be3f-1c6b2f5769f1",
-      "material_name": "Concreto admixtures – Air entrainers, Europe (por kg)",
+      "material_name": "azulejo",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -8033,7 +8033,7 @@
     {
       "id": 1035,
       "source_uuid": "c3fdf942-1cea-4af8-ad33-647536bff638",
-      "material_name": "Cimento CEM II/B-P 28% Natural pozzolanic ash - Portland-pozzolana cimento (por kg)",
+      "material_name": "Cimento CEM II/B-P 28% Natural pozzolanic ash - Portland-pozzolana cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -8086,7 +8086,7 @@
     {
       "id": 1036,
       "source_uuid": "c88de8af-59d0-4d80-88e5-e46ae0948bd4",
-      "material_name": "Argamassa ou screed (1:4 cimento:Areia mix) (Using CEM I cimento) (por kg)",
+      "material_name": "massa cobertura 14 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -8139,7 +8139,7 @@
     {
       "id": 1037,
       "source_uuid": "d3797745-315a-4bda-89a4-fd2270bb8bb9",
-      "material_name": "Cimento CEM II/A-LL - 13% limePedra - Portland-limePedra cimento (por kg)",
+      "material_name": "cimento CEM II vidro parede 13% cal e cal cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -8192,7 +8192,7 @@
     {
       "id": 1038,
       "source_uuid": "da722652-b718-4747-92b1-851414ec60a8",
-      "material_name": "Cimento CEM II/A-V - 13% fly ash siliceous - Portland-fly ash cimento (por kg)",
+      "material_name": "Cimento CEM II/A-V - 13% fly ash siliceous - Portland-fly ash cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -8245,7 +8245,7 @@
     {
       "id": 1039,
       "source_uuid": "e474ecc8-00f2-480f-b286-58b4e67e196f",
-      "material_name": "Cimento CEM III/C - 88% GGBS - Blast furnace cimento (por kg)",
+      "material_name": "Cimento CEM III/C - 88% GGBS - Blast furnace cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -8298,7 +8298,7 @@
     {
       "id": 1040,
       "source_uuid": "e9440082-ff85-4d0d-9b95-db14725c4898",
-      "material_name": "Cimento CEM I - Portland cimento (por kg)",
+      "material_name": "Cimento CEM I - Portland cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -8351,7 +8351,7 @@
     {
       "id": 1041,
       "source_uuid": "ea432c2f-ec59-4844-9c5e-a39bab3db639",
-      "material_name": "Cimento CEM II/B-S - 28% GGBs - Portland-slag cimento (por kg)",
+      "material_name": "Cimento CEM II/B-S - 28% GGBs - Portland-slag cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -8404,7 +8404,7 @@
     {
       "id": 1042,
       "source_uuid": "ec97ba61-4a94-43c0-b7e1-b8d98dd67093",
-      "material_name": "Argamassa ou screed (1:5 cimento:Areia mix) (Using CEM I cimento) (por kg)",
+      "material_name": "massa cobertura 15 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -8457,7 +8457,7 @@
     {
       "id": 1043,
       "source_uuid": "f167e986-fa9f-42a2-b710-bf0b380296b2",
-      "material_name": "Cimento CEM II/A-W - 13% fly ash calcareous - Portland-fly ash cimento (por kg)",
+      "material_name": "Cimento CEM II/A-W - 13% fly ash calcareous - Portland-fly ash cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -8510,7 +8510,7 @@
     {
       "id": 1044,
       "source_uuid": "f93d6c99-6483-43e6-86b8-5c9cf6e29c77",
-      "material_name": "Cimento CEM II/B-V - 28% fly ash siliceous - Portland-fly ash cimento (por kg)",
+      "material_name": "Cimento CEM II/B-V - 28% fly ash siliceous - Portland-fly ash cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -8563,7 +8563,7 @@
     {
       "id": 1045,
       "source_uuid": "fa093a52-2c26-44c4-90dd-a6861c1a78f3",
-      "material_name": "Argamassa (1:2:9 Cimento:Lime:Areia mix) (Using média Reino Unido Cimento Mix) (por kg)",
+      "material_name": "massa 129 cimento mistura usando cimento mistura",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -8616,7 +8616,7 @@
     {
       "id": 1046,
       "source_uuid": "fe6a2d9f-a422-4b9b-876c-5bed1b47ddc3",
-      "material_name": "Cimento CEM IV/A - 23% cimento replaCimento - Pozzolanic cimento (por kg)",
+      "material_name": "Cimento CEM IV/A - 23% cimento replaCimento - Pozzolanic cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -8669,7 +8669,7 @@
     {
       "id": 1047,
       "source_uuid": "ff2520b9-3c4e-4aa0-8263-ce87b1ea02ac",
-      "material_name": "Cimento CEM III/B - 73% GGBS - Blast furnace cimento (por kg)",
+      "material_name": "Cimento CEM III/B - 73% GGBS - Blast furnace cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -8722,7 +8722,7 @@
     {
       "id": 1048,
       "source_uuid": "ffcc35f7-65fc-4892-a224-3ae22f9029b5",
-      "material_name": "Argamassa (1:1:6 Cimento:Lime:Areia mix) (Using CEM I cimento) (por kg)",
+      "material_name": "massa 116 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -8775,7 +8775,7 @@
     {
       "id": 1049,
       "source_uuid": "0fbf9c89-d7b9-4b91-ad88-cacf5f9b1405",
-      "material_name": "Madeira, Aglomerado - No Carbon Armazenamento (por kg)",
+      "material_name": "Madeira, Aglomerado - No Carbon Armazenamento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -8833,7 +8833,7 @@
     {
       "id": 1050,
       "source_uuid": "d15e4393-a81d-4a0f-a0ea-a44fac022a3e",
-      "material_name": "Madeira, Particle Placa - No Carbon Armazenamento (por kg)",
+      "material_name": "Madeira, Particle Placa - No Carbon Armazenamento",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -8880,7 +8880,7 @@
     {
       "id": 1051,
       "source_uuid": "0345ff22-b0a9-446f-9938-4a44c4070574",
-      "material_name": "Parede, Argila Tijolo, single skin, 102.5 mm com Argamassa 1:5 cimento:Areia mix (Using CEM I cimento) (por m²)",
+      "material_name": "único camada, massa 15 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -8928,7 +8928,7 @@
     {
       "id": 1052,
       "source_uuid": "2be0919f-ffa7-4e20-84d0-5b4152e5fdec",
-      "material_name": "Parede, Argila Tijolo, double skin, 215 mm com Argamassa 1:3 cimento:Areia mix (Using CEM I cimento) (por m²)",
+      "material_name": "duplo camada, massa 13 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -8976,7 +8976,7 @@
     {
       "id": 1053,
       "source_uuid": "383a564d-f14a-4f6d-acde-b80db27593bf",
-      "material_name": "Parede, Argila Tijolo, single skin, 102.5 mm com Argamassa 1:3 cimento:Areia mix (Using CEM I cimento) (por m²)",
+      "material_name": "único camada, massa 13 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -9024,7 +9024,7 @@
     {
       "id": 1054,
       "source_uuid": "39c51628-f3cb-417a-ab4d-9c97a8ff689f",
-      "material_name": "Parede, Argila Tijolo, single skin, 102.5 mm com Argamassa (1:½:4½ Cimento:Lime:Areia mix) (Using CEM I cimento) (por m²)",
+      "material_name": "único camada, massa 14 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -9072,7 +9072,7 @@
     {
       "id": 1055,
       "source_uuid": "3df4b077-fe5c-4aac-84cc-b034bc03fc22",
-      "material_name": "Parede, Argila Tijolo, single skin, 102.5 mm com Argamassa (1:1:6 Cimento:Lime:Areia mix) (Using CEM I cimento) (por m²)",
+      "material_name": "único camada, massa 116 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -9120,7 +9120,7 @@
     {
       "id": 1056,
       "source_uuid": "414e3790-9b5c-4ad7-a344-9d3c610614bd",
-      "material_name": "Parede, Argila Tijolo, double skin, 215 mm com Argamassa (1:2:9 Cimento:Lime:Areia mix) (Using CEM I cimento) (por m²)",
+      "material_name": "duplo camada, massa 129 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -9168,7 +9168,7 @@
     {
       "id": 1057,
       "source_uuid": "5e0c258e-e18c-4c6a-961a-9ead2651c76e",
-      "material_name": "Parede, Argila Tijolo, double skin, 215 mm com Argamassa (1:½:4½ Cimento:Lime:Areia mix) (Using CEM I cimento) (por m²)",
+      "material_name": "duplo camada, massa 14 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -9216,7 +9216,7 @@
     {
       "id": 1058,
       "source_uuid": "6ab355f4-7122-42a2-bc31-4c05e01f2b51",
-      "material_name": "Argila, Tijolo (por kg)",
+      "material_name": "Argila, Tijolo",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -9264,7 +9264,7 @@
     {
       "id": 1059,
       "source_uuid": "8a3ec0d4-00d0-4691-8413-6d26a0a2d2cd",
-      "material_name": "Parede, Argila Tijolo, single skin, 102.5 mm com Argamassa (1:2:9 Cimento:Lime:Areia mix) (Using CEM I cimento) (por m²)",
+      "material_name": "único camada, massa 129 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -9312,7 +9312,7 @@
     {
       "id": 1060,
       "source_uuid": "96775ad9-8a7c-47d2-8f8f-23b39e2f1456",
-      "material_name": "Parede, Argila Tijolo, double skin, 215 mm com Argamassa 1:6 cimento:Areia mix (Using CEM I cimento) (por m²)",
+      "material_name": "duplo camada, massa 16 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -9360,7 +9360,7 @@
     {
       "id": 1061,
       "source_uuid": "d3965503-3b0d-413f-83a8-dcdd01c2dd09",
-      "material_name": "Parede, Argila Tijolo, double skin, 215 mm com Argamassa 1:4 cimento:Areia mix (Using CEM I cimento) (por m²)",
+      "material_name": "duplo camada, massa 14 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -9408,7 +9408,7 @@
     {
       "id": 1062,
       "source_uuid": "efd7e483-458d-4a87-b9d7-4602249f75b4",
-      "material_name": "Parede, Argila Tijolo, single skin, 102.5 mm com Argamassa 1:4 cimento:Areia mix (Using CEM I cimento) (por m²)",
+      "material_name": "único camada, massa 14 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -9456,7 +9456,7 @@
     {
       "id": 1063,
       "source_uuid": "f81dbf9a-2117-4eb2-8de5-91483ea208c8",
-      "material_name": "Parede, Argila Tijolo, single skin, 102.5 mm com Argamassa 1:6 cimento:Areia mix (Using CEM I cimento) (por m²)",
+      "material_name": "único camada, massa 16 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -9504,7 +9504,7 @@
     {
       "id": 1064,
       "source_uuid": "fa43cb61-0533-4002-9d9a-60f73992ba45",
-      "material_name": "Parede, Argila Tijolo, double skin, 215 mm com Argamassa 1:5 cimento:Areia mix (Using CEM I cimento) (por m²)",
+      "material_name": "duplo camada, massa 15 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -9552,7 +9552,7 @@
     {
       "id": 1065,
       "source_uuid": "fbb1a5f1-8e9a-40b9-9e04-c9b4edc3671f",
-      "material_name": "Parede, Argila Tijolo, double skin, 215 mm com Argamassa (1:1:6 Cimento:Lime:Areia mix) (Using CEM I cimento) (por m²)",
+      "material_name": "duplo camada, massa 116 cimento mistura usando CEM madeira cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -9600,7 +9600,7 @@
     {
       "id": 1066,
       "source_uuid": "53dd4d1a-e80d-4052-9123-642085fdf1bb",
-      "material_name": "Madeira, CLT - No Carbon Armazenamento (por kg)",
+      "material_name": "Madeira, CLT - No Carbon Armazenamento",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -9644,7 +9644,7 @@
     {
       "id": 1067,
       "source_uuid": "9f307dc8-2e7d-45b9-8631-62a5fe5cadd7",
-      "material_name": "Madeira, Madeira-Plástico composite - No Carbon Armazenamento (por kg)",
+      "material_name": "Madeira, Madeira-Plástico composite - No Carbon Armazenamento",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -9685,7 +9685,7 @@
     {
       "id": 1068,
       "source_uuid": "c343a86d-f929-4ddb-b296-341cefb53e39",
-      "material_name": "Madeira, Madeira-Plástico composite - Incluindo Carbon Armazenamento (por kg)",
+      "material_name": "Madeira, Madeira-Plástico composite - Incluindo Carbon Armazenamento",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -9726,7 +9726,7 @@
     {
       "id": 1069,
       "source_uuid": "0028a50d-9c22-44c1-8f3d-bdbbe317ac1d",
-      "material_name": "Concreto GEN 2 com 50% GGBS cimento (por m³)",
+      "material_name": "Concreto GEN 2 com 50% GGBS cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -9783,7 +9783,7 @@
     {
       "id": 1070,
       "source_uuid": "01cb31d6-38a4-4105-9bdc-c099c14b02e2",
-      "material_name": "Concreto - 50% ggbs cimento replaCimento - com total Cimentoitious content of 440 kg por m³ of Concreto (por m³)",
+      "material_name": "Concreto - 50% ggbs cimento replaCimento - com total Cimentoitious content of 440 kg por m³ of Concreto",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -9836,7 +9836,7 @@
     {
       "id": 1071,
       "source_uuid": "02c04bd2-ec19-41b4-ba25-8dc9d2c88317",
-      "material_name": "Concreto RC35/45 com 14% limePedra cimento (por m³)",
+      "material_name": "e RC35 45 14% cal cimento",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -9893,7 +9893,7 @@
     {
       "id": 1072,
       "source_uuid": "038c52dd-18a8-44d4-8dbe-de88bd02ddbb",
-      "material_name": "1:2.5:5 cimento:Areia:Agregado com Ordinary Portland Cimento (OPC) - CEM I (por m³)",
+      "material_name": "1:2.5:5 cimento:Areia:Agregado com Ordinary Portland Cimento (OPC) - CEM I",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -9946,7 +9946,7 @@
     {
       "id": 1673,
       "source_uuid": "4.001",
-      "material_name": "Reboco/white cleaning (por kg)",
+      "material_name": "Reboco/white cleaning",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -9996,7 +9996,7 @@
     {
       "id": 1674,
       "source_uuid": "4.016",
-      "material_name": "Swamp Reboco (por kg)",
+      "material_name": "Swamp Reboco",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -10046,7 +10046,7 @@
     {
       "id": 1675,
       "source_uuid": "4.017",
-      "material_name": "GIPS limePedra Reboco (por kg)",
+      "material_name": "GIPS cal",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -10096,7 +10096,7 @@
     {
       "id": 1676,
       "source_uuid": "4.003",
-      "material_name": "Plástico Reboco (dispersion Reboco) (por kg)",
+      "material_name": "Plástico Reboco (dispersion Reboco)",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -10145,7 +10145,7 @@
     {
       "id": 1677,
       "source_uuid": "11.012",
-      "material_name": "Plástico Pedra Chapa cimento, 10 mm (por m²)",
+      "material_name": "Plástico Pedra Chapa cimento",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -10193,7 +10193,7 @@
     {
       "id": 1678,
       "source_uuid": "7.018",
-      "material_name": "PlyMadeira/multiplex, Pf-bound, wet área (por kg)",
+      "material_name": "ligado, tratado",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -10253,7 +10253,7 @@
     {
       "id": 1679,
       "source_uuid": "7.017",
-      "material_name": "PlyMadeira/multiplex, UF-bound, dry área (por kg)",
+      "material_name": "parede",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -10313,7 +10313,7 @@
     {
       "id": 1680,
       "source_uuid": "7.001",
-      "material_name": "3- e 5 layer Sólido Madeira Chapa (por kg)",
+      "material_name": "3- e 5 layer Sólido Madeira Chapa",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -10371,7 +10371,7 @@
     {
       "id": 1681,
       "source_uuid": "15.002",
-      "material_name": "Polyamide (PA) Vidro fiber Armado (por kg)",
+      "material_name": "Polyamide (PA) Vidro fiber Armado",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment",
         "2 - Superestrutura"
@@ -10428,7 +10428,7 @@
     {
       "id": 1682,
       "source_uuid": "15.003",
-      "material_name": "Polycarbonate (PC) (por kg)",
+      "material_name": "Polycarbonate (PC)",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -10480,7 +10480,7 @@
     {
       "id": 1683,
       "source_uuid": "15.004",
-      "material_name": "Polyester (up) fiber fiber Armado (por kg)",
+      "material_name": "Polyester (up) fiber fiber Armado",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -10535,7 +10535,7 @@
     {
       "id": 1684,
       "source_uuid": "9.008",
-      "material_name": "Polyethylene fleece (PE) (por kg)",
+      "material_name": "Polyethylene fleece (PE)",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -10589,7 +10589,7 @@
     {
       "id": 1685,
       "source_uuid": "9.002",
-      "material_name": "Steam brake polyethylene (PE) (por kg)",
+      "material_name": "Steam brake polyethylene (PE)",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -10640,7 +10640,7 @@
     {
       "id": 1686,
       "source_uuid": "9.007",
-      "material_name": "Polyethylene film (PE) (por kg)",
+      "material_name": "Polyethylene film (PE)",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -10693,7 +10693,7 @@
     {
       "id": 1687,
       "source_uuid": "13.002",
-      "material_name": "Polyethylene (PE) (por kg)",
+      "material_name": "Polyethylene (PE)",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -10752,7 +10752,7 @@
     {
       "id": 1688,
       "source_uuid": "13.003",
-      "material_name": "Polypropylene (PP) (por kg)",
+      "material_name": "Polypropylene (PP)",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -10807,7 +10807,7 @@
     {
       "id": 1689,
       "source_uuid": "10.006",
-      "material_name": "Poliuretano (PUR/PIR) (por kg)",
+      "material_name": "Poliuretano (PUR/PIR)",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -10862,7 +10862,7 @@
     {
       "id": 1690,
       "source_uuid": "10.006.01",
-      "material_name": "Poliuretano, Swisssporpir (por kg)",
+      "material_name": "Poliuretano, Swisssporpir",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -10917,7 +10917,7 @@
     {
       "id": 1691,
       "source_uuid": "13.004",
-      "material_name": "PolyVinil chloride (PVC) (por kg)",
+      "material_name": "PolyVinil chloride (PVC)",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -10972,7 +10972,7 @@
     {
       "id": 1692,
       "source_uuid": "11.021",
-      "material_name": "PVC homogeneous, 2 mm (por m²)",
+      "material_name": "PVC homogeneous",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -11021,7 +11021,7 @@
     {
       "id": 1693,
       "source_uuid": "5.026",
-      "material_name": "Estrutura extension, PVC (por m²)",
+      "material_name": "Estrutura extension, PVC",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -11074,7 +11074,7 @@
     {
       "id": 1694,
       "source_uuid": "21.007",
-      "material_name": "Bancada Natural Pedra (por m²)",
+      "material_name": "Bancada Natural Pedra",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -11126,7 +11126,7 @@
     {
       "id": 1695,
       "source_uuid": "8.003",
-      "material_name": "Rubber seal (por kg)",
+      "material_name": "Rubber seal",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -11175,7 +11175,7 @@
     {
       "id": 1696,
       "source_uuid": "11.003",
-      "material_name": "Rubber granulate sealed, 7.5 mm (por m²)",
+      "material_name": "Rubber granulate sealed",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -11224,7 +11224,7 @@
     {
       "id": 1697,
       "source_uuid": "11.007",
-      "material_name": "Rubber, 2 mm (por m²)",
+      "material_name": "Rubber",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -11273,7 +11273,7 @@
     {
       "id": 1698,
       "source_uuid": "07.009.01",
-      "material_name": "Sólido Madeira spruce / fir / larch, air -dried, rough, pBarrauction Suíça (por kg)",
+      "material_name": "Sólido Madeira spruce / fir / larch, air -dried, rough, pBarrauction Suíça",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "2 - Superestrutura",
@@ -11332,7 +11332,7 @@
     {
       "id": 1699,
       "source_uuid": "7.009",
-      "material_name": "Sólido Madeira spruce / fir / larch, air -dried, rough (por kg)",
+      "material_name": "Sólido Madeira spruce / fir / larch, air -dried, rough",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "2 - Superestrutura",
@@ -11390,7 +11390,7 @@
     {
       "id": 1700,
       "source_uuid": "21.002",
-      "material_name": "Bancada chrome Aço, Alto-end (por m²)",
+      "material_name": "Bancada chrome Aço, Alto-end",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -11438,7 +11438,7 @@
     {
       "id": 1701,
       "source_uuid": "21.003",
-      "material_name": "Bancada chrome Aço, Padrão (por m²)",
+      "material_name": "Bancada chrome Aço, Padrão",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -11488,7 +11488,7 @@
     {
       "id": 1702,
       "source_uuid": "6.004",
-      "material_name": "Chromnickel Aço Chapa 18/8 blank (por kg)",
+      "material_name": "Chromnickel Aço Chapa 18/8 blank",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment",
         "2 - Superestrutura"
@@ -11542,7 +11542,7 @@
     {
       "id": 1703,
       "source_uuid": "6.006",
-      "material_name": "Blank chrome Aço Chapa (por kg)",
+      "material_name": "Blank chrome Aço Chapa",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -11586,7 +11586,7 @@
     {
       "id": 1704,
       "source_uuid": "21.012",
-      "material_name": "Sink chrome Aço (por peça)",
+      "material_name": "Sink chrome Aço",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -11628,7 +11628,7 @@
     {
       "id": 1705,
       "source_uuid": "6.005",
-      "material_name": "Chromnickel Aço Chapa 18/8 Estanhoned (por kg)",
+      "material_name": "Chromnickel Aço Chapa 18/8 Estanhoned",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -11677,7 +11677,7 @@
     {
       "id": 1706,
       "source_uuid": "6.007",
-      "material_name": "Chrome Aço Chapa Estanhoned (por kg)",
+      "material_name": "Chrome Aço Chapa Estanhoned",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -11726,7 +11726,7 @@
     {
       "id": 1707,
       "source_uuid": "6.01",
-      "material_name": "Aço Chapa, Barrae (por kg)",
+      "material_name": "Aço Chapa, Barrae",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -11775,7 +11775,7 @@
     {
       "id": 1708,
       "source_uuid": "14.007",
-      "material_name": "Chrome, Aço (por m²)",
+      "material_name": "Chrome, Aço",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -11822,7 +11822,7 @@
     {
       "id": 1709,
       "source_uuid": "6.012",
-      "material_name": "Aço Perfil, blank (por kg)",
+      "material_name": "Aço Perfil, blank",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "2 - Superestrutura",
@@ -11876,7 +11876,7 @@
     {
       "id": 1710,
       "source_uuid": "3.009",
-      "material_name": "Hard AreiaPedra (por kg)",
+      "material_name": "Hard AreiaPedra",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -11930,7 +11930,7 @@
     {
       "id": 1711,
       "source_uuid": "11.015",
-      "material_name": "Natural Pedra Chapa Areiaed, 15 mm (por m²)",
+      "material_name": "Natural Pedra Chapa Areiaed",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -11981,7 +11981,7 @@
     {
       "id": 1712,
       "source_uuid": "11.016",
-      "material_name": "Natural Pedra Chapa cut, 15 mm (por m²)",
+      "material_name": "Natural Pedra Chapa cut",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -12032,7 +12032,7 @@
     {
       "id": 1713,
       "source_uuid": "11.017",
-      "material_name": "Natural Pedra Chapa polished, 15 mm (por m²)",
+      "material_name": "Natural Pedra Chapa polished",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -12084,7 +12084,7 @@
     {
       "id": 1714,
       "source_uuid": "11.015.01",
-      "material_name": "Natural Pedra Chapa Areiaed, Europe, 15 mm (por m²)",
+      "material_name": "Natural Pedra Chapa Areiaed, Europe",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -12135,7 +12135,7 @@
     {
       "id": 1715,
       "source_uuid": "11.015.02",
-      "material_name": "Natural Pedra Chapa Areiaed, Suíça, 15 mm (por m²)",
+      "material_name": "Natural Pedra Chapa Areiaed, Suíça",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -12187,7 +12187,7 @@
     {
       "id": 1716,
       "source_uuid": "11.015.03",
-      "material_name": "Natural Pedra Chapa Areiaed, overseas, 15 mm (por m²)",
+      "material_name": "Natural Pedra Chapa Areiaed, overseas",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -12239,7 +12239,7 @@
     {
       "id": 1717,
       "source_uuid": "10.015",
-      "material_name": "Straw bale Parede (por kg)",
+      "material_name": "Straw bale Parede",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -12291,7 +12291,7 @@
     {
       "id": 1718,
       "source_uuid": "11.024",
-      "material_name": "Carpet art fiber fragrant (por m²)",
+      "material_name": "Carpet art fiber fragrant",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -12345,7 +12345,7 @@
     {
       "id": 1719,
       "source_uuid": "11.001",
-      "material_name": "2K flowing industry (epoxy resin), 2.25 mm (por m²)",
+      "material_name": "2K flowing industry (epoxy resin)",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -12402,7 +12402,7 @@
     {
       "id": 1720,
       "source_uuid": "11.002",
-      "material_name": "2K flowing living/administration (epoxy resin, PU), 2 mm (por m²)",
+      "material_name": "2K flowing living/administration (epoxy resin, PU)",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -12459,7 +12459,7 @@
     {
       "id": 1721,
       "source_uuid": "11.023",
-      "material_name": "Synthetic thermoPlástico coverings (TPO), 2 mm (por m²)",
+      "material_name": "Synthetic thermoPlástico coverings (TPO)",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -12511,7 +12511,7 @@
     {
       "id": 1722,
       "source_uuid": "11.027",
-      "material_name": "Terrazzo sealed, 40 mm (por m²)",
+      "material_name": "Terrazzo sealed",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -12563,7 +12563,7 @@
     {
       "id": 1723,
       "source_uuid": "12.008",
-      "material_name": "Exteriors, Madeira (por m²)",
+      "material_name": "Exteriors, Madeira",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -12619,7 +12619,7 @@
     {
       "id": 1724,
       "source_uuid": "21.006",
-      "material_name": "Bancada Sólido Madeira (por m²)",
+      "material_name": "Bancada Sólido Madeira",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -12675,7 +12675,7 @@
     {
       "id": 1725,
       "source_uuid": "7.021",
-      "material_name": "Viga (por kg)",
+      "material_name": "Viga",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -12731,7 +12731,7 @@
     {
       "id": 1726,
       "source_uuid": "12.003",
-      "material_name": "Interior Porta, room Porta, Madeira, Madeiraen Estrutura (por m²)",
+      "material_name": "Interior Porta, room Porta, Madeira, Madeiraen Estrutura",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -12786,7 +12786,7 @@
     {
       "id": 1727,
       "source_uuid": "12.004",
-      "material_name": "Interior Porta, room Porta, Madeira, Vidro insert, Madeiraen Estrutura (por m²)",
+      "material_name": "Interior Porta, room Porta, Madeira, Vidro insert, Madeiraen Estrutura",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -12841,7 +12841,7 @@
     {
       "id": 1728,
       "source_uuid": "12.009",
-      "material_name": "Interior Porta, function Porta, Madeira, Madeiraen Estrutura (por m²)",
+      "material_name": "Interior Porta, function Porta, Madeira, Madeiraen Estrutura",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -12896,7 +12896,7 @@
     {
       "id": 1729,
       "source_uuid": "12.001",
-      "material_name": "Aussendue, Madeira, Alumínio plan (por m²)",
+      "material_name": "Aussendue, Madeira, Alumínio plan",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -12946,7 +12946,7 @@
     {
       "id": 1730,
       "source_uuid": "12.002",
-      "material_name": "Aussendue, Madeira, Vidro insert (por m²)",
+      "material_name": "Aussendue, Madeira, Vidro insert",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -12996,7 +12996,7 @@
     {
       "id": 1731,
       "source_uuid": "7.003",
-      "material_name": "LayerMadeira (por kg)",
+      "material_name": "LayerMadeira",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -13051,7 +13051,7 @@
     {
       "id": 1732,
       "source_uuid": "7.006",
-      "material_name": "Sólido Madeira beech / oak, air -dried, rough (por kg)",
+      "material_name": "Sólido Madeira beech / oak, air -dried, rough",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -13104,7 +13104,7 @@
     {
       "id": 1733,
       "source_uuid": "7.007",
-      "material_name": "Sólido Madeira beech / oak, chamber -dried, rough (por kg)",
+      "material_name": "Sólido Madeira beech / oak, chamber -dried, rough",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -13157,7 +13157,7 @@
     {
       "id": 1734,
       "source_uuid": "7.008",
-      "material_name": "Sólido Madeira beech / oak, chamber -dried, planed (por kg)",
+      "material_name": "Sólido Madeira beech / oak, chamber -dried, planed",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -13210,7 +13210,7 @@
     {
       "id": 1735,
       "source_uuid": "7.01",
-      "material_name": "Sólido Madeira spruce / fir / larch, air worn, planed (por kg)",
+      "material_name": "Sólido Madeira spruce / fir / larch, air worn, planed",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -13263,7 +13263,7 @@
     {
       "id": 1736,
       "source_uuid": "7.02",
-      "material_name": "BretEstanhog Madeira (por kg)",
+      "material_name": "BretEstanhog Madeira",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -13318,7 +13318,7 @@
     {
       "id": 1737,
       "source_uuid": "07.003.01",
-      "material_name": "LifterMadeira, Suíça pBarrauction (por kg)",
+      "material_name": "LifterMadeira, Suíça pBarrauction",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -13373,7 +13373,7 @@
     {
       "id": 1738,
       "source_uuid": "07.006.01",
-      "material_name": "Sólido Madeira beech / oak, air -dried, rough, pBarrauction Suíça (por kg)",
+      "material_name": "Sólido Madeira beech / oak, air -dried, rough, pBarrauction Suíça",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -13427,7 +13427,7 @@
     {
       "id": 1739,
       "source_uuid": "07.007.01",
-      "material_name": "Sólido Madeira beech / oak, chamber -dried, rough, Suíça pBarrauction (por kg)",
+      "material_name": "Sólido Madeira beech / oak, chamber -dried, rough, Suíça pBarrauction",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -13481,7 +13481,7 @@
     {
       "id": 1740,
       "source_uuid": "07.008.01",
-      "material_name": "Sólido Madeira beech / oak, chamber -dried, planed, pBarrauction Suíça (por kg)",
+      "material_name": "Sólido Madeira beech / oak, chamber -dried, planed, pBarrauction Suíça",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -13535,7 +13535,7 @@
     {
       "id": 1741,
       "source_uuid": "07.010.01",
-      "material_name": "Sólido Madeira spruce / fir / larch, air, planed, pBarrauction Suíça (por kg)",
+      "material_name": "Sólido Madeira spruce / fir / larch, air, planed, pBarrauction Suíça",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -13590,7 +13590,7 @@
     {
       "id": 1742,
       "source_uuid": "07.011.01",
-      "material_name": "Sólido Madeira spruce / fir / larch, chamber ged, planed, pBarrauction Suíça (por kg)",
+      "material_name": "Sólido Madeira spruce / fir / larch, chamber ged, planed, pBarrauction Suíça",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -13644,7 +13644,7 @@
     {
       "id": 1743,
       "source_uuid": "07.011.02",
-      "material_name": "Sólido Madeira spruce / fir, Kammergetr., Vollholzhaus Holzpur (por kg)",
+      "material_name": "Sólido Madeira spruce / fir, Kammergetr., Vollholzhaus Holzpur",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -13698,7 +13698,7 @@
     {
       "id": 1744,
       "source_uuid": "07.019.01",
-      "material_name": "Stab layer, beech, fagus (por kg)",
+      "material_name": "Stab layer, beech, fagus",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -13753,7 +13753,7 @@
     {
       "id": 1745,
       "source_uuid": "07.020.01",
-      "material_name": "BrettSperrholz, Suíça pBarrauction (por kg)",
+      "material_name": "BrettSperrholz, Suíça pBarrauction",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -13808,7 +13808,7 @@
     {
       "id": 1746,
       "source_uuid": "21.009",
-      "material_name": "Cozinha, Sólido Madeira, 16-part (por peça)",
+      "material_name": "Cozinha, Sólido Madeira, 16-part",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment",
         "X - Additive Manufacturing"
@@ -13866,7 +13866,7 @@
     {
       "id": 1747,
       "source_uuid": "7.011",
-      "material_name": "Sólido Madeira spruce / fir / larch, chamber ged., Planed (por kg)",
+      "material_name": "Sólido Madeira spruce / fir / larch, chamber ged., Planed",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "2 - Superestrutura",
@@ -13923,7 +13923,7 @@
     {
       "id": 1748,
       "source_uuid": "11.018",
-      "material_name": "Parquet 2 layer of work sealed, 11 mm (por m²)",
+      "material_name": "Parquet 2 layer of work sealed",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -13979,7 +13979,7 @@
     {
       "id": 1749,
       "source_uuid": "11.019",
-      "material_name": "Parquet 3 layer of work sealed, 15 mm (por m²)",
+      "material_name": "Parquet 3 layer of work sealed",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -14035,7 +14035,7 @@
     {
       "id": 1750,
       "source_uuid": "11.02",
-      "material_name": "Parquet mosaic sealed, 8 mm (por m²)",
+      "material_name": "Parquet mosaic sealed",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -14091,7 +14091,7 @@
     {
       "id": 1751,
       "source_uuid": "5.005",
-      "material_name": "Madeiraen Estrutura 2 (por m²)",
+      "material_name": "Madeiraen Estrutura",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -14144,7 +14144,7 @@
     {
       "id": 1752,
       "source_uuid": "5.006",
-      "material_name": "Madeiraen Estrutura Madeira metal 2 (por m²)",
+      "material_name": "Madeiraen Estrutura Madeira metal",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -14197,7 +14197,7 @@
     {
       "id": 1753,
       "source_uuid": "7.023",
-      "material_name": "Full Madeiraen (por kg)",
+      "material_name": "Full Madeiraen",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -14249,7 +14249,7 @@
     {
       "id": 1754,
       "source_uuid": "11.022",
-      "material_name": "Steinholz sealed, 16.5 mm (por m²)",
+      "material_name": "Steinholz sealed",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -14304,7 +14304,7 @@
     {
       "id": 1755,
       "source_uuid": "10.009",
-      "material_name": "Soft fiber Chapa (por kg)",
+      "material_name": "Soft fiber Chapa",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -14355,7 +14355,7 @@
     {
       "id": 1756,
       "source_uuid": "7.005",
-      "material_name": "Madeira wool Leve construction Chapa, cimento-bound (por kg)",
+      "material_name": "lã leve construção, ligado",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -14417,7 +14417,7 @@
     {
       "id": 1757,
       "source_uuid": "10.005",
-      "material_name": "Poliestireno extruded (XPS) (por kg)",
+      "material_name": "Poliestireno extruded (XPS)",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -14472,7 +14472,7 @@
     {
       "id": 1758,
       "source_uuid": "10.005.01",
-      "material_name": "Poliestireno extruded, swisssporxps (por kg)",
+      "material_name": "Poliestireno extruded, swisssporxps",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -14581,7 +14581,7 @@
     {
       "id": 1760,
       "source_uuid": "3.011",
-      "material_name": "Gravier concassé",
+      "material_name": "cascalho britado",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -14637,7 +14637,7 @@
     {
       "id": 1761,
       "source_uuid": "3.012",
-      "material_name": "Gravier rond",
+      "material_name": "cascalho redondo",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -14693,7 +14693,7 @@
     {
       "id": 1762,
       "source_uuid": "5.022",
-      "material_name": "Panneau de façade, en Alumínio, 4 mm",
+      "material_name": "painel fachada, cimento alumínio, 4 comum",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -14749,7 +14749,7 @@
     {
       "id": 1763,
       "source_uuid": "6.002",
-      "material_name": "Profil d'Alumínio, nu",
+      "material_name": "perfil alumínio, alumínio",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -14800,7 +14800,7 @@
     {
       "id": 1764,
       "source_uuid": "06.002.01",
-      "material_name": "Profil d'Alumínio, nu, WICONA, fabriqué avec Hydro CIRCAL 75R",
+      "material_name": "perfil alumínio, alumínio",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -14851,7 +14851,7 @@
     {
       "id": 1765,
       "source_uuid": "12.007",
-      "material_name": "Portes intérieures Alumínio, avec vitrage",
+      "material_name": "portas alumínio, vidro",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -14899,7 +14899,7 @@
     {
       "id": 1766,
       "source_uuid": "6.001",
-      "material_name": "Tôle d'Alumínio, nue",
+      "material_name": "alumínio",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -14945,7 +14945,7 @@
     {
       "id": 1767,
       "source_uuid": "12.005",
-      "material_name": "Portes extérieures Alumínio, avec vitrage",
+      "material_name": "portas alumínio, vidro",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -14990,7 +14990,7 @@
     {
       "id": 1768,
       "source_uuid": "12.006",
-      "material_name": "Portes extérieures Alumínio, avec panneau",
+      "material_name": "portas alumínio, painel",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -15078,7 +15078,7 @@
     {
       "id": 1770,
       "source_uuid": "11.004",
-      "material_name": "Asphalte coulé, 27,5 mm",
+      "material_name": "Asphalte coulé",
       "group_elements_nrm_1": [
         "X - Infraestrutura"
       ],
@@ -15291,7 +15291,7 @@
     {
       "id": 1774,
       "source_uuid": "8.002",
-      "material_name": "Masse bitumeuse, chaude",
+      "material_name": "massa",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -15527,7 +15527,7 @@
     {
       "id": 1778,
       "source_uuid": "6.009",
-      "material_name": "Tôle de laiton/Bronze de construction",
+      "material_name": "bronze",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -15669,7 +15669,7 @@
     {
       "id": 1781,
       "source_uuid": "10.007",
-      "material_name": "Verre cellulaire",
+      "material_name": "vidro celular",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -15723,7 +15723,7 @@
     {
       "id": 1782,
       "source_uuid": "10.013",
-      "material_name": "Gravier de verre cellulaire",
+      "material_name": "cascalho fachada vidro celular",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -15777,7 +15777,7 @@
     {
       "id": 1783,
       "source_uuid": "10.007.01",
-      "material_name": "Verre cellulaire, GLAPOR",
+      "material_name": "vidro celular, ou",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -15831,7 +15831,7 @@
     {
       "id": 1784,
       "source_uuid": "10.013.01",
-      "material_name": "Gravier de verre cellulaire, Misapor",
+      "material_name": "cascalho fachada vidro celular, ou",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -16038,7 +16038,7 @@
     {
       "id": 1788,
       "source_uuid": "2.004",
-      "material_name": "Pierre en béton léger: argile expansée",
+      "material_name": "cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -16089,7 +16089,7 @@
     {
       "id": 1789,
       "source_uuid": "2.005",
-      "material_name": "Pierre en béton léger: pierre ponce naturelle",
+      "material_name": "cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -16192,7 +16192,7 @@
     {
       "id": 1791,
       "source_uuid": "4.006",
-      "material_name": "Chape de ciment, 85 mm",
+      "material_name": "Chape de ciment",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -16338,7 +16338,7 @@
     {
       "id": 1794,
       "source_uuid": "3.01",
-      "material_name": "Dalle de céramique/grès",
+      "material_name": "laje fachada",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -16388,7 +16388,7 @@
     {
       "id": 1795,
       "source_uuid": "11.008",
-      "material_name": "Dalle en céramique/grès, 9 mm",
+      "material_name": "laje janela",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -16443,7 +16443,7 @@
     {
       "id": 1796,
       "source_uuid": "8.001",
-      "material_name": "Colle bicomposant",
+      "material_name": "cola",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -16597,7 +16597,7 @@
     {
       "id": 1799,
       "source_uuid": "8.004",
-      "material_name": "Masse de jointoiement en polysulfide",
+      "material_name": "massa fachada rejuntamento janela",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -16686,7 +16686,7 @@
     {
       "id": 1801,
       "source_uuid": "8.005",
-      "material_name": "Masse de jointoiement en silicone",
+      "material_name": "massa fachada rejuntamento janela",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -16775,7 +16775,7 @@
     {
       "id": 1803,
       "source_uuid": "7.015",
-      "material_name": "Panneau de particules, colle PF, zone humide",
+      "material_name": "painel fachada partículas, cola PF, zona úmida",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -16836,7 +16836,7 @@
     {
       "id": 1804,
       "source_uuid": "7.014",
-      "material_name": "Panneau de particules, colle UF, zone sèche",
+      "material_name": "painel fachada partículas, cola manufaturado, zona",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -16900,7 +16900,7 @@
     {
       "id": 1805,
       "source_uuid": "7.016",
-      "material_name": "Panneau de particules, colle UF, enduit, zone sèche",
+      "material_name": "painel fachada partículas, cola manufaturado, zona",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -17024,7 +17024,7 @@
     {
       "id": 1807,
       "source_uuid": "5.027",
-      "material_name": "Élargissement du cadre, panneau de particules",
+      "material_name": "painel fachada partículas",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -17079,7 +17079,7 @@
     {
       "id": 1808,
       "source_uuid": "4.002",
-      "material_name": "Colle de construction/mortier d'enrobage biologique",
+      "material_name": "cola fachada construção ou",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -17133,7 +17133,7 @@
     {
       "id": 1809,
       "source_uuid": "3.015",
-      "material_name": "Tuile en terre cuite",
+      "material_name": "telha janela",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -17185,7 +17185,7 @@
     {
       "id": 1810,
       "source_uuid": "2.001",
-      "material_name": "Brique en terre cuite",
+      "material_name": "tijolo janela",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -17238,7 +17238,7 @@
     {
       "id": 1811,
       "source_uuid": "2.003",
-      "material_name": "Brique en argile légère",
+      "material_name": "tijolo janela argila",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -17291,7 +17291,7 @@
     {
       "id": 1812,
       "source_uuid": "02.001.01",
-      "material_name": "Brique en terre cuite, remplie de perlite, zz wancor",
+      "material_name": "tijolo janela, fachada, ou",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -17441,7 +17441,7 @@
     {
       "id": 1815,
       "source_uuid": "5.017",
-      "material_name": "Protection solaire, stores vénitiens avec moteur 4",
+      "material_name": "proteção solar, o",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -17483,7 +17483,7 @@
     {
       "id": 1816,
       "source_uuid": "5.018",
-      "material_name": "Protection solaire, stores à projection avec moteur 4",
+      "material_name": "proteção solar, o",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -17526,7 +17526,7 @@
     {
       "id": 1817,
       "source_uuid": "5.019",
-      "material_name": "Protection solaire, contrevent sur enrouleur avec moteur 4",
+      "material_name": "proteção solar, com acabamento",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -17743,7 +17743,7 @@
     {
       "id": 1822,
       "source_uuid": "5.007",
-      "material_name": "Cadre en matière synthétique (PVC) 2",
+      "material_name": "Cadre en matière synthétique (PVC)",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -17786,7 +17786,7 @@
     {
       "id": 1823,
       "source_uuid": "05.004.01",
-      "material_name": "Cadre de fenêtre en Alumínio, WICLINE 75evo, fabriqué avec Hydro CIRCAL 75R 2",
+      "material_name": "fachada cimento alumínio",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -17828,7 +17828,7 @@
     {
       "id": 1824,
       "source_uuid": "05.005.01",
-      "material_name": "Cadre de fenêtre en bois, Saphir intégral 67/55, G. Baumgartner AG 2",
+      "material_name": "Cadre de fenêtre en bois, Saphir intégral 67/55, G. Baumgartner AG",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -17872,7 +17872,7 @@
     {
       "id": 1825,
       "source_uuid": "05.006.01",
-      "material_name": "Cadre de fenêtre bois-métal, Saphir intégral 55/55, G. Baumgartner AG 2",
+      "material_name": "Cadre de fenêtre bois-métal, Saphir intégral 55/55, G. Baumgartner AG",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -18032,7 +18032,7 @@
     {
       "id": 1828,
       "source_uuid": "2.006",
-      "material_name": "Béton cellulaire",
+      "material_name": "celular",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -18134,7 +18134,7 @@
     {
       "id": 1830,
       "source_uuid": "3.001",
-      "material_name": "Tuiles en béton",
+      "material_name": "telhas janela",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "1 - Subestrutura"
@@ -18301,7 +18301,7 @@
     {
       "id": 1833,
       "source_uuid": "11.005",
-      "material_name": "Béton dur, 1 couche, 27,5 mm",
+      "material_name": "Béton dur, 1 couche",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "2 - Superestrutura",
@@ -18359,7 +18359,7 @@
     {
       "id": 1834,
       "source_uuid": "11.006",
-      "material_name": "Béton dur, 2 couches, 35 mm",
+      "material_name": "Béton dur, 2 couches",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "2 - Superestrutura",
@@ -18417,7 +18417,7 @@
     {
       "id": 1835,
       "source_uuid": "6.008",
-      "material_name": "Tôle de cuivre, nue",
+      "material_name": "fachada",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -18470,7 +18470,7 @@
     {
       "id": 1836,
       "source_uuid": "10.002",
-      "material_name": "Panneau en liège",
+      "material_name": "painel cimento",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -18524,7 +18524,7 @@
     {
       "id": 1837,
       "source_uuid": "11.01",
-      "material_name": "Parquet en liège, revêtement PVC, 3,2 mm",
+      "material_name": "Parquet en liège, revêtement PVC",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -18578,7 +18578,7 @@
     {
       "id": 1838,
       "source_uuid": "11.011",
-      "material_name": "Parquet en liège, huilé et vitrifié, 5,3 mm",
+      "material_name": "Parquet en liège, huilé et vitrifié",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -18631,7 +18631,7 @@
     {
       "id": 1839,
       "source_uuid": "11.009",
-      "material_name": "Parquet préfabriqué en liège, 10,5 mm",
+      "material_name": "cimento, 5 comum",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -18804,7 +18804,7 @@
     {
       "id": 1842,
       "source_uuid": "9.004",
-      "material_name": "Lé d'étanchéité caoutchouc (EPDM)",
+      "material_name": "aço borracha EPDM",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -19073,7 +19073,7 @@
     {
       "id": 1847,
       "source_uuid": "3.003",
-      "material_name": "Dalle de fibrociment, grande",
+      "material_name": "laje fachada cimento, e",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -19124,7 +19124,7 @@
     {
       "id": 1848,
       "source_uuid": "7.004",
-      "material_name": "Panneau de particules dur",
+      "material_name": "painel fachada partículas",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -19268,7 +19268,7 @@
     {
       "id": 1851,
       "source_uuid": "5.024",
-      "material_name": "Panneau de façade, plastique à renfort de verre (PRV), 1,6 mm",
+      "material_name": "painel fachada, plástico reforço fachada vidro PRV, 6 comum",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -19377,7 +19377,7 @@
     {
       "id": 1853,
       "source_uuid": "10.001",
-      "material_name": "Laine de verre",
+      "material_name": "fachada vidro",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -19432,7 +19432,7 @@
     {
       "id": 1854,
       "source_uuid": "10.001.01",
-      "material_name": "Laine de verre, Isover, résine phénolique",
+      "material_name": "fachada vidro",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -19487,7 +19487,7 @@
     {
       "id": 1855,
       "source_uuid": "10.001.02",
-      "material_name": "Laine de verre, SUPAFIL",
+      "material_name": "fachada vidro",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -19542,7 +19542,7 @@
     {
       "id": 1856,
       "source_uuid": "10.001.03",
-      "material_name": "Laine de verre, Isover, liant végétal",
+      "material_name": "fachada vidro",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -19597,7 +19597,7 @@
     {
       "id": 1857,
       "source_uuid": "15.001",
-      "material_name": "Plexiglas (PMMA, verre acrylique)",
+      "material_name": "vidro PMMA, vidro",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -19793,7 +19793,7 @@
     {
       "id": 1861,
       "source_uuid": "5.009",
-      "material_name": "Double vitrage, U<1.1 W/m2K, épaisseur 18 mm 3",
+      "material_name": "vidro, madeira, 18 comum",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -19844,7 +19844,7 @@
     {
       "id": 1862,
       "source_uuid": "5.01",
-      "material_name": "Double vitrage, verre ESG, U<1.1 W/m2K 3",
+      "material_name": "vidro, vidro ESG, madeira",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -19895,7 +19895,7 @@
     {
       "id": 1863,
       "source_uuid": "5.011",
-      "material_name": "Double vitrage, verre ESG/VSG, U<1.1 W/m2K 3",
+      "material_name": "vidro, vidro ESG VSG, madeira",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -19946,7 +19946,7 @@
     {
       "id": 1864,
       "source_uuid": "3.005",
-      "material_name": "Verre plat, enduit",
+      "material_name": "vidro",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -20000,7 +20000,7 @@
     {
       "id": 1865,
       "source_uuid": "5.008",
-      "material_name": "Façade, à montants et traverses, Alu/Glas",
+      "material_name": "concreto, alumínio vidro",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -20054,7 +20054,7 @@
     {
       "id": 1866,
       "source_uuid": "3.006",
-      "material_name": "Verre plat, non enduit",
+      "material_name": "vidro, não durável",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -20107,7 +20107,7 @@
     {
       "id": 1867,
       "source_uuid": "5.012",
-      "material_name": "Triple vitrage, U<0.6 W/m2K, épaisseur 40 mm 3",
+      "material_name": "vidro, madeira, 40 comum",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -20160,7 +20160,7 @@
     {
       "id": 1868,
       "source_uuid": "5.013",
-      "material_name": "Triple vitrage, verre ESG/ESG, U<0.6 W/m2K 3",
+      "material_name": "vidro, vidro ESG ESG, madeira",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -20213,7 +20213,7 @@
     {
       "id": 1869,
       "source_uuid": "5.014",
-      "material_name": "Triple vitrage, verre ESG/ESG/ESG, U<0.6 W/m2K 3",
+      "material_name": "vidro, vidro ESG ESG ESG, madeira",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -20266,7 +20266,7 @@
     {
       "id": 1870,
       "source_uuid": "5.015",
-      "material_name": "Triple vitrage, verre VSG, U<0.6 W/m2K 3",
+      "material_name": "vidro, vidro VSG, madeira",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -20319,7 +20319,7 @@
     {
       "id": 1871,
       "source_uuid": "5.016",
-      "material_name": "Triple vitrage, verre ESG/VSG, U<0.6 W/m2K 3",
+      "material_name": "vidro, vidro ESG VSG, madeira",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -20372,7 +20372,7 @@
     {
       "id": 1872,
       "source_uuid": "5.001",
-      "material_name": "Double vitrage, U<1.1 W/m2K, épaisseur 24 mm 3",
+      "material_name": "vidro, madeira, 24 comum",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -20423,7 +20423,7 @@
     {
       "id": 1873,
       "source_uuid": "5.002",
-      "material_name": "Double vitrage, verre VSG, U<1.1 W/m2K 3",
+      "material_name": "vidro, vidro VSG, madeira",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -20474,7 +20474,7 @@
     {
       "id": 1874,
       "source_uuid": "5.003",
-      "material_name": "Triple vitrage, U<0.5 W/m2K, épaisseur 36 mm 3",
+      "material_name": "vidro, madeira, 36 comum",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -20641,7 +20641,7 @@
     {
       "id": 1877,
       "source_uuid": "5.02",
-      "material_name": "Panneau de support de crépis, liant en résine synthétique, 13 mm",
+      "material_name": "painel fachada suporte fachada, cimento, 13 comum",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -20699,7 +20699,7 @@
     {
       "id": 1878,
       "source_uuid": "5.021",
-      "material_name": "Panneau de support de crépis, liant en matière minérale, 12,5 mm",
+      "material_name": "painel fachada suporte fachada, cimento manta, 5 comum",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -20860,7 +20860,7 @@
     {
       "id": 1881,
       "source_uuid": "02.007.02",
-      "material_name": "Pierres de chanvre, Schönthaler AG",
+      "material_name": "pedra fachada, azulejo",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -20964,7 +20964,7 @@
     {
       "id": 1883,
       "source_uuid": "5.023",
-      "material_name": "Panneau de façade, stratifié (HPL), 8,1 mm",
+      "material_name": "painel fachada, estratificado HPL, 1 comum",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -21020,7 +21020,7 @@
     {
       "id": 1884,
       "source_uuid": "11.013",
-      "material_name": "Stratifiés, 8,5 mm",
+      "material_name": "Stratifiés",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -21126,7 +21126,7 @@
     {
       "id": 1886,
       "source_uuid": "5.025",
-      "material_name": "Panneau de façade, calcaire, 30 mm",
+      "material_name": "painel fachada, calcário, 30 comum",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -21333,7 +21333,7 @@
     {
       "id": 1890,
       "source_uuid": "3.017",
-      "material_name": "Plaque de calcaire dur",
+      "material_name": "fachada calcário",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -21382,7 +21382,7 @@
     {
       "id": 1891,
       "source_uuid": "11.014",
-      "material_name": "Linoléum, 2,5 mm",
+      "material_name": "Linoléum",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -21485,7 +21485,7 @@
     {
       "id": 1893,
       "source_uuid": "7.012",
-      "material_name": "Panneau de fibres à densité moyenne (MDF), colle UF",
+      "material_name": "painel fachada fibra média MDF, cola manufaturado",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -21547,7 +21547,7 @@
     {
       "id": 1894,
       "source_uuid": "6.013",
-      "material_name": "Tôle Zincoo-titane",
+      "material_name": "zinco",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -21857,7 +21857,7 @@
     {
       "id": 1900,
       "source_uuid": "4.008",
-      "material_name": "Colle de construction/mortier d'enrobage minéral(e)",
+      "material_name": "cola fachada construção ou",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -21973,7 +21973,7 @@
     {
       "id": 1902,
       "source_uuid": "4.01",
-      "material_name": "Colle de construction/mortier d'enrobage minéral(e) avec agrégats légers",
+      "material_name": "cola fachada construção ou",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "8 - External works",
@@ -22031,7 +22031,7 @@
     {
       "id": 1903,
       "source_uuid": "4.005",
-      "material_name": "Chape d'anhydrite, 60 mm",
+      "material_name": "Chape d'anhydrite",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -22119,7 +22119,7 @@
     {
       "id": 1905,
       "source_uuid": "12.011",
-      "material_name": "Porte intérieure, porte de chambre, bois, vitrage, huisserie en acier",
+      "material_name": "porta, porta fachada, vidro, cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -22329,7 +22329,7 @@
     {
       "id": 1910,
       "source_uuid": "7.024",
-      "material_name": "Panneau de particules tubulaire",
+      "material_name": "painel fachada partículas",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -22586,7 +22586,7 @@
     {
       "id": 1916,
       "source_uuid": "31.007",
-      "material_name": "Collecteurs solaires plan, eau chaude maison individuelle",
+      "material_name": "painel",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -22627,7 +22627,7 @@
     {
       "id": 1917,
       "source_uuid": "31.008",
-      "material_name": "Collecteurs solaires plan, chaleur et eau chaude  maison individuelle",
+      "material_name": "concreto painel",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -22668,7 +22668,7 @@
     {
       "id": 1918,
       "source_uuid": "31.009",
-      "material_name": "Collecteurs solaires plan, eau chaude immeuble locatif",
+      "material_name": "painel",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -22709,7 +22709,7 @@
     {
       "id": 1919,
       "source_uuid": "31.01",
-      "material_name": "Collecteurs solaires à Tubos, chaleur et eau chaude  maison individuelle",
+      "material_name": "concreto painel",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -22835,7 +22835,7 @@
     {
       "id": 1922,
       "source_uuid": "31.018",
-      "material_name": "Pompe à chaleur saumure-eau 7 kW",
+      "material_name": "Pompe à chaleur saumure-ea kW",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -22880,7 +22880,7 @@
     {
       "id": 1923,
       "source_uuid": "31.02",
-      "material_name": "Pompe à chaleur air-eau 7 kW",
+      "material_name": "Pompe à chaleur air-ea kW",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -23228,7 +23228,7 @@
     {
       "id": 1931,
       "source_uuid": "31.028",
-      "material_name": "Collecteur hybride pour toit incliné avec régénération par sonde géothermique",
+      "material_name": "derramado inclinado partículas",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -23269,7 +23269,7 @@
     {
       "id": 1932,
       "source_uuid": "31.029",
-      "material_name": "Collecteur hybride pour toit incliné avec accumulateur d'eau chaude",
+      "material_name": "derramado inclinado",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -23310,7 +23310,7 @@
     {
       "id": 1933,
       "source_uuid": "32.001",
-      "material_name": "Ventilation habitation, canaux en tôle, évacuation d'air (cuisine)",
+      "material_name": "ventilação, cimento, ar",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -23482,7 +23482,7 @@
     {
       "id": 1937,
       "source_uuid": "32.005",
-      "material_name": "Ventilation bureau, canaux en tôle, besoins en air  2 m3/hm2 SRE",
+      "material_name": "ventilação, cimento, cimento ar 2 SRE",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -23525,7 +23525,7 @@
     {
       "id": 1938,
       "source_uuid": "32.006",
-      "material_name": "Ventilation bureau, canaux en tôle, besoins en air 4 m3/hm2 SRE",
+      "material_name": "ventilação, cimento, cimento ar 4 SRE",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -23568,7 +23568,7 @@
     {
       "id": 1939,
       "source_uuid": "32.007",
-      "material_name": "Ventilation bureau, canaux en tôle, besoins en air 6 m3/hm2 SRE",
+      "material_name": "ventilação, cimento, cimento ar 6 SRE",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -23611,7 +23611,7 @@
     {
       "id": 1940,
       "source_uuid": "32.008",
-      "material_name": "Registre de terre court pour ventilation bureau (0.27 m/m2 SRE)",
+      "material_name": "Registre de terre court pour ventilation bureau ( /m2 SRE)",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -23654,7 +23654,7 @@
     {
       "id": 1941,
       "source_uuid": "32.009",
-      "material_name": "Registre de terre long pour ventilation bureau (0.67 m/m2 SRE)",
+      "material_name": "Registre de terre long pour ventilation bureau ( /m2 SRE)",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -23740,7 +23740,7 @@
     {
       "id": 1943,
       "source_uuid": "32.011",
-      "material_name": "Ventilation bureau, canaux en tôle, besoins en air 1 m3/hm2 EBF",
+      "material_name": "ventilação, cimento, cimento ar 1 EBF",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -23783,7 +23783,7 @@
     {
       "id": 1944,
       "source_uuid": "32.012",
-      "material_name": "Ventilation bureau, canaux en tôle, besoins en air 8 m3/hm2 SRE",
+      "material_name": "ventilação, cimento, cimento ar 8 SRE",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -24041,7 +24041,7 @@
     {
       "id": 1950,
       "source_uuid": "34.027.01",
-      "material_name": "Sous-construction de façade, intégrée, Eternit",
+      "material_name": "construção fachada",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -24083,7 +24083,7 @@
     {
       "id": 1951,
       "source_uuid": "34.027.02",
-      "material_name": "Sous-construction de façade, intégrée, StoVentec Artline inlay",
+      "material_name": "construção fachada",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -24126,7 +24126,7 @@
     {
       "id": 1952,
       "source_uuid": "34.027.03",
-      "material_name": "Sous-construction de façade, intégrée, StoVentec Artline invisible",
+      "material_name": "construção fachada",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -24169,7 +24169,7 @@
     {
       "id": 1953,
       "source_uuid": "34.027.04",
-      "material_name": "Sous-construction de façade, intégrée, format moyen, GFT",
+      "material_name": "construção fachada, ou médio",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -24212,7 +24212,7 @@
     {
       "id": 1954,
       "source_uuid": "34.027.05",
-      "material_name": "Sous-construction de façade, intégrée, Vogelsang",
+      "material_name": "construção fachada",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -24255,7 +24255,7 @@
     {
       "id": 1955,
       "source_uuid": "34.027.06",
-      "material_name": "Sous-construction de façade, intégrée, support en béton, Ecolite",
+      "material_name": "construção fachada, suporte cimento",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -24298,7 +24298,7 @@
     {
       "id": 1956,
       "source_uuid": "34.027.07",
-      "material_name": "Sous-construction de façade, intégrée, support en briques, Ecolite",
+      "material_name": "construção fachada, suporte cimento tijolos",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -24341,7 +24341,7 @@
     {
       "id": 1957,
       "source_uuid": "34.027.08",
-      "material_name": "Sous-construction de façade, intégrée, moyenne, Ecolite",
+      "material_name": "construção fachada, média",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -24384,7 +24384,7 @@
     {
       "id": 1958,
       "source_uuid": "34.027.09",
-      "material_name": "Panneau solaire, Mono-Si, Eternit Sunskin Facade, 18,0",
+      "material_name": "painel solar, compósito, fachada",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -24427,7 +24427,7 @@
     {
       "id": 1959,
       "source_uuid": "34.027.10",
-      "material_name": "Panneau solaire, Mono-Si, Kioto Solar PVP-GExxxM, 12,5 %",
+      "material_name": "painel solar, compósito",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -24470,7 +24470,7 @@
     {
       "id": 1960,
       "source_uuid": "34.027.11",
-      "material_name": "Panneau solaire, Mono-Si, Vogelsang-Kioto Solar, 9,1 %",
+      "material_name": "painel solar, compósito",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -24513,7 +24513,7 @@
     {
       "id": 1961,
       "source_uuid": "34.027.12",
-      "material_name": "Panneau solaire, CIS, StoVentec Artline inlay, 9,5 %",
+      "material_name": "painel solar, preciso",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -24556,7 +24556,7 @@
     {
       "id": 1962,
       "source_uuid": "34.027.13",
-      "material_name": "Panneau solaire, CIS, StoVentec Artline invisible, 9,5 %",
+      "material_name": "painel solar, preciso",
       "group_elements_nrm_1": [
         "5 - Services"
       ],
@@ -24651,7 +24651,7 @@
     {
       "id": 1964,
       "source_uuid": "11.026",
-      "material_name": "Moquette en fibres naturelles",
+      "material_name": "e janela",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -24919,7 +24919,7 @@
     {
       "id": 1969,
       "source_uuid": "10.003",
-      "material_name": "Résine phénolique  (PF)",
+      "material_name": "Résine phénolique (PF)",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -24969,7 +24969,7 @@
     {
       "id": 1970,
       "source_uuid": "7.013",
-      "material_name": "Panneau d'aggloméré type OSB, colle PF, zone humide",
+      "material_name": "painel tipo OSB, cola PF, zona úmida",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -25326,7 +25326,7 @@
     {
       "id": 1977,
       "source_uuid": "11.012",
-      "material_name": "Dalle en pierre artificielle, liée au ciment, 10 mm",
+      "material_name": "laje janela pedra, escada azulejo cimento",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -25374,7 +25374,7 @@
     {
       "id": 1978,
       "source_uuid": "7.018",
-      "material_name": "Bois lamellé / multiplex, colle PF, zone humide",
+      "material_name": "cola PF, zona úmida",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -25434,7 +25434,7 @@
     {
       "id": 1979,
       "source_uuid": "7.017",
-      "material_name": "Bois lamellé / multiplex, colle UF, zone sèche",
+      "material_name": "cola manufaturado, zona",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -25552,7 +25552,7 @@
     {
       "id": 1981,
       "source_uuid": "15.002",
-      "material_name": "Polyamide (PA) renforcé par des fibres de verre",
+      "material_name": "tinta renforcé partículas fibra fachada vidro",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment",
         "2 - Superestrutura"
@@ -25661,7 +25661,7 @@
     {
       "id": 1983,
       "source_uuid": "15.004",
-      "material_name": "Polyester (UP) renforcé par des fibres de verre",
+      "material_name": "poliéster suporte renforcé partículas fibra fachada vidro",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -26153,7 +26153,7 @@
     {
       "id": 1992,
       "source_uuid": "11.021",
-      "material_name": "PVC homogène, 2 mm",
+      "material_name": "PVC homogène",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -26255,7 +26255,7 @@
     {
       "id": 1994,
       "source_uuid": "21.007",
-      "material_name": "Plan de travail en pierre naturelle",
+      "material_name": "piso fachada janela pedra natural",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment"
       ],
@@ -26301,7 +26301,7 @@
     {
       "id": 1995,
       "source_uuid": "8.003",
-      "material_name": "Masse de jointoiement en caoutchouc",
+      "material_name": "massa fachada rejuntamento janela borracha",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -26350,7 +26350,7 @@
     {
       "id": 1996,
       "source_uuid": "11.003",
-      "material_name": "Caoutchouc granulé, vitrifié, 7,5 mm",
+      "material_name": "borracha",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -26399,7 +26399,7 @@
     {
       "id": 1997,
       "source_uuid": "11.007",
-      "material_name": "Caoutchouc, 2 mm",
+      "material_name": "borracha",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -26663,7 +26663,7 @@
     {
       "id": 2002,
       "source_uuid": "6.004",
-      "material_name": "Tôle d'acier nickel-chrome 18/8, nue",
+      "material_name": "cromado 18",
       "group_elements_nrm_1": [
         "4 - Fittings, furnishings and equipment",
         "2 - Superestrutura"
@@ -26717,7 +26717,7 @@
     {
       "id": 2003,
       "source_uuid": "6.006",
-      "material_name": "Tôle d'acier chromé, nue",
+      "material_name": "cromado",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -26803,7 +26803,7 @@
     {
       "id": 2005,
       "source_uuid": "6.005",
-      "material_name": "Tôle d'acier nickel-chrome étamée 18/8",
+      "material_name": "cromado 18",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -26852,7 +26852,7 @@
     {
       "id": 2006,
       "source_uuid": "6.007",
-      "material_name": "Tôle d'acier chromé, étamée",
+      "material_name": "cromado",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -26997,7 +26997,7 @@
     {
       "id": 2009,
       "source_uuid": "6.012",
-      "material_name": "Profil en acier, nu",
+      "material_name": "perfil cimento, alumínio",
       "group_elements_nrm_1": [
         "X - Infraestrutura",
         "2 - Superestrutura",
@@ -27105,7 +27105,7 @@
     {
       "id": 2011,
       "source_uuid": "11.015",
-      "material_name": "Dalle en pierre naturelle rectifiée, 15 mm",
+      "material_name": "laje janela pedra natural retificado",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -27156,7 +27156,7 @@
     {
       "id": 2012,
       "source_uuid": "11.016",
-      "material_name": "Dalle en pierre naturelle coupée, 15 mm",
+      "material_name": "laje janela pedra natural",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -27207,7 +27207,7 @@
     {
       "id": 2013,
       "source_uuid": "11.017",
-      "material_name": "Dalle en pierre naturelle polie, 15 mm",
+      "material_name": "laje janela pedra natural",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -27259,7 +27259,7 @@
     {
       "id": 2014,
       "source_uuid": "11.015.01",
-      "material_name": "Dalle en pierre naturelle rectifiée, Europe, 15 mm",
+      "material_name": "laje janela pedra natural retificado",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -27310,7 +27310,7 @@
     {
       "id": 2015,
       "source_uuid": "11.015.02",
-      "material_name": "Dalle en pierre naturelle rectifiée, Suisse, 15 mm",
+      "material_name": "laje janela pedra natural retificado",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -27362,7 +27362,7 @@
     {
       "id": 2016,
       "source_uuid": "11.015.03",
-      "material_name": "Dalle en pierre naturelle rectifiée, d'outre-mer, 15 mm",
+      "material_name": "laje janela pedra natural retificado",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -27414,7 +27414,7 @@
     {
       "id": 2017,
       "source_uuid": "10.015",
-      "material_name": "Botte de paille pour la construction",
+      "material_name": "fachada derramado vidro construção",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -27520,7 +27520,7 @@
     {
       "id": 2019,
       "source_uuid": "11.001",
-      "material_name": "Revêtement coulé à 2 comp., industrie (résine époxy), 2,25 mm",
+      "material_name": "Revêtement coulé à 2 comp., industrie (résine époxy)",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -27577,7 +27577,7 @@
     {
       "id": 2020,
       "source_uuid": "11.002",
-      "material_name": "Revêtement coulé à 2 comp., habitation/admin. (résine époxy PU), 2 mm",
+      "material_name": "Revêtement coulé à 2 comp., habitation/admin. (résine époxy PU)",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -27634,7 +27634,7 @@
     {
       "id": 2021,
       "source_uuid": "11.023",
-      "material_name": "Revêtements synthétiques, thermoplastiques (POT), 2 mm",
+      "material_name": "2 comum",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -27686,7 +27686,7 @@
     {
       "id": 2022,
       "source_uuid": "11.027",
-      "material_name": "Terrazzo vitrifié, 40 mm",
+      "material_name": "Terrazzo vitrifié",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -27738,7 +27738,7 @@
     {
       "id": 2023,
       "source_uuid": "12.008",
-      "material_name": "Portes extérieures bois",
+      "material_name": "portas",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -27961,7 +27961,7 @@
     {
       "id": 2027,
       "source_uuid": "12.004",
-      "material_name": "Porte intérieure, porte de chambre, bois, vitrage, cadre en bois",
+      "material_name": "porta, porta fachada, vidro, cimento",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -28071,7 +28071,7 @@
     {
       "id": 2029,
       "source_uuid": "12.001",
-      "material_name": "Portes extérieures bois, doublées alu",
+      "material_name": "portas, alumínio",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -28121,7 +28121,7 @@
     {
       "id": 2030,
       "source_uuid": "12.002",
-      "material_name": "Portes extérieures bois, avec vitrage",
+      "material_name": "portas, vidro",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -28493,7 +28493,7 @@
     {
       "id": 2037,
       "source_uuid": "07.002.01",
-      "material_name": "Bois lamellé-collé, colle UF, zone sèche, pBarrauction Suisse",
+      "material_name": "cola, cola manufaturado, zona",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -28548,7 +28548,7 @@
     {
       "id": 2038,
       "source_uuid": "07.003.01",
-      "material_name": "Bois lamellé-collé, colle MF, zone humide, pBarrauction Suisse",
+      "material_name": "cola, cola chanfrado, zona úmida",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -29153,7 +29153,7 @@
     {
       "id": 2049,
       "source_uuid": "11.018",
-      "material_name": "Parquet, 2 plis, vitrifié d'usine, 11 mm",
+      "material_name": "Parquet, 2 plis, vitrifié d'usine",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -29209,7 +29209,7 @@
     {
       "id": 2050,
       "source_uuid": "11.019",
-      "material_name": "Parquet, 3 plis, vitrifié d'usine, 15 mm",
+      "material_name": "Parquet, 3 plis, vitrifié d'usine",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -29265,7 +29265,7 @@
     {
       "id": 2051,
       "source_uuid": "11.02",
-      "material_name": "Parquet type mosaïque, vitrifié d'usine, 8 mm",
+      "material_name": "Parquet type mosaïque, vitrifié d'usine",
       "group_elements_nrm_1": [
         "3 - Internal finishes"
       ],
@@ -29427,7 +29427,7 @@
     {
       "id": 2054,
       "source_uuid": "7.023",
-      "material_name": "Bois massif de construction",
+      "material_name": "massa fachada construção",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -29479,7 +29479,7 @@
     {
       "id": 2055,
       "source_uuid": "11.022",
-      "material_name": "Xylolithe, vitrifié, 16.5 mm",
+      "material_name": "Xylolithe, vitrifié",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -29534,7 +29534,7 @@
     {
       "id": 2056,
       "source_uuid": "10.009",
-      "material_name": "Panneau de fibres mou",
+      "material_name": "painel fachada fibra moldura",
       "group_elements_nrm_1": [
         "X - Additive Manufacturing"
       ],
@@ -29585,7 +29585,7 @@
     {
       "id": 2057,
       "source_uuid": "7.005",
-      "material_name": "Panneau de bois léger à paille de bois liée par du ciment",
+      "material_name": "painel fachada fachada fornecido partículas",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -29979,7 +29979,7 @@
     {
       "id": 2064,
       "source_uuid": "5.022",
-      "material_name": "Fassadenplatte, Aluverbund, 4 mm",
+      "material_name": "Fassadenplatte, Aluverbund",
       "group_elements_nrm_1": [
         "2 - Superestrutura",
         "3 - Internal finishes"
@@ -30035,7 +30035,7 @@
     {
       "id": 2065,
       "source_uuid": "6.002",
-      "material_name": "Alumínioprofil, blank",
+      "material_name": "alumínio",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -30086,7 +30086,7 @@
     {
       "id": 2066,
       "source_uuid": "06.002.01",
-      "material_name": "Alumínioprofil blank, WICONA, hergestellt mit Hydro CIRCAL 75R",
+      "material_name": "alumínio",
       "group_elements_nrm_1": [
         "2 - Superestrutura"
       ],
@@ -30364,7 +30364,7 @@
     {
       "id": 2072,
       "source_uuid": "11.004",
-      "material_name": "Gussasphalt, 27.5 mm",
+      "material_name": "asfalto fundido, 275 comum",
       "group_elements_nrm_1": [
         "X - Infraestrutura"
       ],
@@ -30702,7 +30702,7 @@
     {
       "id": 2079,
       "source_uuid": "camara-ar-7-1765088628457",
-      "material_name": "Câmara de ar > 5cm Fluxo Ascendente",
+      "material_name": "Câmara de ar > Fluxo Ascendente",
       "group_elements_nrm_1": [
         "3 - Fachada e paredes externas",
         "5 - Coberturas"
@@ -30750,7 +30750,7 @@
     {
       "id": 2080,
       "source_uuid": "camara-ar-8-1765088628458",
-      "material_name": "Câmara de ar > 5cm Fluxo Descendente",
+      "material_name": "Câmara de ar > Fluxo Descendente",
       "group_elements_nrm_1": [
         "3 - Fachada e paredes externas",
         "5 - Coberturas"
@@ -30798,7 +30798,7 @@
     {
       "id": 2081,
       "source_uuid": "camara-ar-9-1765088628458",
-      "material_name": "Câmara de ar > 5cm Fluxo Horizontal",
+      "material_name": "Câmara de ar > Fluxo Horizontal",
       "group_elements_nrm_1": [
         "3 - Fachada e paredes externas",
         "5 - Coberturas"
